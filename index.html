@@ -1,213 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
-        <title>TechnoBoost</title>
-        <link rel="shortcut icon" href="../assets/img/technoboost_fav_icon.png">
-        <link rel="icon" sizes="16x16 32x32 64x64" href="../assets/img/technoboost_fav_icon.png">
-        <!-- Styles -->
-        <link href="../assets/css/page.min.css" rel="stylesheet">
-        <link href="../assets/css/home.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technoboost.com</title>
+        <!-- <link href="IMAGES/favicon.svg" rel="icon"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="CSS/index.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,700;0,800;0,900;1,200&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://kit.fontawesome.com/6c2754f92f.js" crossorigin="anonymous"></script>
     </head>
+
     <body>
-        <header class="header__container">
-            <div class="header__container--logo">
-                <a href="#">
-                    <!--span class="company__title">TechnoBoost</span><span>.in</span-->
-                    <img src="../assets/img/technoboost_logos/Color_Logo_with_White_background.png"/>
-                </a>
-            </div>
-            <ul class="header__container--nav">
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#services">Services</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </header>
-        <main class="main__container">
-            <section class="main__container--about">
-                <div class="about__content left--section">
-                    <h1>We give a <span class="content__highlight">Technical Boost</span> to your company's performance. You focus on Business, let us take care of your technology.</h1>
-                    <span>We specialize in.....</span>
-                    <ul>
-                        <li><!--span class="ti-check></span-->Start Up Support</li>
-                        <li><!--span class="ti-check></span-->Ecommerce Solution</li>
-                        <li><!--span class="ti-check></span-->Automation</li>
-                        <li><!--span class="ti-check></span-->Data Analytics</li>
-                        <li><!--span class="ti-check></span-->Custom Software Development</li>
+        <!-- ############################# NAVBAR #############################-->
+        <nav class="navbar navbar-expand-md bg-light py-0">
+            <div class=" container-fluid">
+                <a class="navbar-brand" href="#"><img src="IMAGES/logo.svg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 ps-3 mb-lg-0">
+                        <li class="nav-item me-3  dropdown">
+                            <a class="px-4 fWeight-500 nav-link dropdown-toggle text-dark " href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false"> Products</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="px-4 fWeight-500 dropdown-item" href="">Product</a></li>
+                                <li><a class="px-4 fWeight-500 dropdown-item" href="">Product</a></li>
+                                <li><a class="px-4 fWeight-500 dropdown-item" href="">Product</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item me-3  dropdown">
+                            <a class="px-4 fWeight-500 nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="px-4 fWeight-500 dropdown-item" href="">services</a></li>
+                                <li><a class="px-4 fWeight-500 dropdown-item" href="">services</a></li>
+                                <li><a class="px-4 fWeight-500 dropdown-item" href="">services</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-3 ">
+                            <a class="px-4 fWeight-500 nav-link text-dark" href="about us.html">About Us</a>
+                        </li>
+                        <li class="nav-item me-3 px-4">
+                            <button class="btn btn-warning fWeight-500">Contact Us</button>
+                        </li>
+
                     </ul>
                 </div>
-                <div class="about__graphic right--section">
-                    <img src="../assets/img/bg/home_img_new.png" alt="about">
-                </div>
-            </section>
-            <section id="services" class="main__container--services">
-                <h2>Our Services</h2>
-                <div class="services__info--container steps__service">
-                    <div class="service__content">
-                        <div class="service__content--section">
-                            <div class="service__number">
-                                01
+            </div>
+        </nav>
+        <div class="container-fluid ">
+            <!-- ########################################## Landing page####################### -->
+            <div class="landingPage bg-main py-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-12 py-5">
+                        <div class="ps-md-5 ps-3 d-flex flex-column">
+                            <div>
+                                <h1 class="grow mb-0 fWeight-800 colorchanging">Grow</h1>
+                                <h2 class="text-light mb-0 business fWeight-500">your business</h2>
+                                <h3 class="text-light withUs fWeight-500">with us</h3>
+                                <p class="text-light goal fWeight-500 pt-3 mb-md-5 mb-4">Our goal is to harness the
+                                    power of both
+                                    technology and our workforce to accelerate
+                                    progress.</p>
                             </div>
-                            <div class="service__section">
-                                <h2 class="service__title">Start Up Support</h2>
-                                <p class="service__desc">
-                                    You have an idea but do not have the right technology partner to implement it? Partner with us.
-                                    You focus on marketing your product, leave the technology implementation to us.
+                            <div class="d-flex align-items-center">
+                                <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact">Contact Us</button>
+                                <p class="text-light px-4 my-0 fWeight-600">Our Services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 py-md-5 py-0 text-center">
+                        <img src="IMAGES/man.svg" width="60%">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ##########################################  purpose ####################### -->
+
+            <div class="purpose my-5">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-12 d-flex justify-content-center">
+                        <img src="IMAGES/purpose.svg" class="ps-md-5 ps-0 purposeImg pb-md-0 pb-4" width="90%">
+                    </div>
+                    <div class="col-md-8 col-12">
+                        <div class="greyBox position-relative rounded pt-2 px-2">
+                            <img src="IMAGES/Vector.svg" class="position-absolute">
+                            <div class="pt-5 px-md-5 px-2">
+                                <p class=" fWeight-500 purposeText colorGrey pt-4">
+                                    Our mission is to provide you with innovative and reliable software services that
+                                    will
+                                    enable you to unlock your full potential and stay ahead of the competition. Thank
+                                    you for
+                                    entrusting us with your business, we are committed to delivering excellence every
+                                    step of the way.
+                                </p>
+                                <p class="ceo colorGrey text-end  py-4">Puneet Parekh, Founder / CEO, Technoboost</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## Services ####################### -->
+            <div class="services bg-main">
+
+                <div class="row pt-md-5 pt-0">
+                    <div class="col-md-4 col-12">
+                        <div class="servicesContent text-md-start text-center py-md-5 py-0  ps-md-5 ps-2">
+                            <h1 class="text-light our fWeight-700 pt-md-0 pt-5 mb-0">Our</h1>
+                            <h1 class="ColorServices fWeight-800 colorchanging">Services</h1>
+                            <p class="text-light fWeight-500 servicesP border-top border-white pt-md-0 pt-2">Our
+                                software services
+                                specializes in providing customized software solutions for businesses of all sizes.</p>
+                            <button class="btn btn-warning fWeight-700 px-4 rounded-0 viewAll">View All</button>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-12">
+                        <div class="text-end">
+                            <button class="btn btn-light rounded-circle">← </button>
+                            <button class="btn btn-light rounded-circle">→ </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## harness ####################### -->
+            <div class="harness bg-light py-md-5 py-0">
+                <div class="row py-4">
+                    <div class="col-md-8 col-12">
+                        <div class="py-5 ps-md-5 ps-2">
+                            <p class="colorGrey fWeight-700 mb-0">“To harness</p>
+                            <h1 class="power fWeight-800">the power of both </h1>
+                            <h2 class="colorGrey fWeight-700 technology mb-4">technology and our workforce”</h2>
+                            <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <img src="IMAGES/powerMan.svg" class="w-100">
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## Studies ####################### -->
+            <div class="Studies bg-main">
+                <div class="row pt-md-5 pt-0">
+                    <div class="col-md-4 col-12">
+                        <div class="studyContent text-md-start text-center py-md-5 py-0 ps-md-5 ps-2">
+                            <h1 class="text-light fWeight-800 colorchanging">Case</h1>
+                            <h1 class=" fWeight-800 colorchanging">Studies</h1>
+                            <p class="text-light fWeight-500 servicesP border-top border-white">We believe that sharing
+                                our success stories helps potential clients understand our expertise and experience in
+                                providing top-notch software solutions.
+                            </p>
+                            <button class="btn btn-warning fWeight-700 px-4 rounded-0">View All</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="text-end">
+                            <button class="btn btn-light rounded-circle">← </button>
+                            <button class="btn btn-light rounded-circle">→ </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## whatClientsSay ####################### -->
+            <h1 class="my-md-5 my-3  text-center fWeight-700 colorGrey what">What Clients Say About Us</h1>
+            <div class="whatClientsSay bg-main position-relative">
+                <div class="row  align-items-center  px-md-5 px-0 py-5 ">
+                    <div class="col-md-9 col-12 ">
+                        <div class=" rounded pt-2 px-2">
+                            <img src="IMAGES/Vector.svg" class="position-absolute clientVector">
+                            <div class="py-md-5 py-5 px-md-5 px-5">
+                                <p class=" fWeight-500 text-light text-justify clientAns pt-4">
+                                    Their team of experts provided us with an innovative solution that exceeded our
+                                    expectations. They were incredibly responsive throughout the project and delivered
+                                    it within the timeline and budget we agreed upon. What impressed me the most was
+                                    their attention to detail and commitment to quality.
                                 </p>
                             </div>
                         </div>
-                        <div class="service__steps">
+                    </div>
+                    <div class="col-md-3 col-12 pt-md-5 pt-0">
+                        <div class="d-flex flex-column align-items-center px-md-0 px-4">
+                            <img src="IMAGES/clientImg.svg" class="w-75">
                             <div>
-                                <div class="service__graphic">
-                                    <img src="../assets/img/bg/start-up-new01.png" alt="about">
+                                <p class="text-light fWeight-700 mb-0 text-center pt-3">Vikesh Kumar</p>
+                                <p class="text-center fWeight-600 mb-0 text-light">Senior Director, Finance Department,
+                                    Strides
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-md-end text-center pb-md-0 pb-4">
+                    <button class="btn btn-light rounded-circle">← </button>
+                    <button class="btn btn-light rounded-circle">→ </button>
+                </div>
+            </div>
+
+            <!-- ########################################## find ####################### -->
+            <div class="find my-5  px-md-5 px-0 py-md-5 py-0">
+                <div class="row align-items-center">
+                    <div class="col-md-8 col-12">
+                        <div class="px-4 px-md-0 py-4 py-md-0">
+                            <p class="text-dark fWeight-400 findP-1 mb-0">Join Us</p>
+                            <div class="d-flex flex-column">
+                                <h1 class="text-dark fWeight-800 mb-0 findh">Find your </h1>
+                                <h1 class=" text-dark fWeight-800 mb-0 findh">purpose</h1>
+                            </div>
+                            <p class="text-dark fWeight-400 border-top border-dark findP-2 mt-md-5 mt-4 py-3">Join the
+                                team of
+                                passion,
+                                commitment, a bit geeky, Together we create magic
+                            </p>
+                            <button class="btn btn-warning fWeight-700 px-4 rounded-0">Join Us</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 py-md-0 py-4 d-flex justify-content-center">
+                        <img src="IMAGES/four.svg" width="85%">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ########################################## clients ####################### -->
+            <div class="clients">
+                <h1 class=" text-center py-4 colorGrey fWeight-700">Clients</h1>
+                <div class="row row-cols-3 row-cols-md-5 align-items-center mb-md-5 mb-3">
+                    <div class="col-md col-4 text-center">
+                        <img src="IMAGES/download-(3).svg" class="w-100 py-2 px-2 ">
+                    </div>
+                    <div class="col-md col-4 text-center">
+                        <img src="IMAGES/download.svg" class="w-100 py-2 px-2 ">
+                    </div>
+                    <div class="col-md col-4 text-center">
+                        <img src="IMAGES/download-(2).svg" class="w-100 py-2 px-2 ">
+                    </div>
+                    <div class="col-md col-6 text-center">
+                        <img src="IMAGES/download-(1).svg" class="w-100 py-4 px-2 ">
+                    </div>
+                    <div class="col-md col-6 text-center">
+                        <img src="IMAGES/download-(5).svg" class="w-100 py-4 px-2 ">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ########################################## footer ####################### -->
+            <div class="footer bg-main px-4">
+                <div class="footerLogo text-center py-4">
+                    <img src="IMAGES/footerLogo.svg">
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <div class="d-flex flex-column px-md-5 px-0 text-md-start ">
+                            <div class="d-flex mb-2">
+                                <i class="me-4 fa-sharp footerIcon fa-solid fa-location-dot text-warning"></i>
+                                <div class="text-light d-flex flex-column">
+                                    <p> Techno Boost Services</p>
+                                    <p>2nd floor #23, Infiniminds Towers, </p>
+                                    <p>KPTCL Road, Kasavanahalli,</p>
+                                    <p>Sarjapura Road,</p>
+                                    <p>Bangalore 560035</p>
                                 </div>
                             </div>
-                            <ul class="stages">
-                                <li>
-                                    <div><span>1</span></div>
-                                    <div>
-                                        <h3>Discuss Idea</h3>
-                                        <p>
-                                            We sign the NDA, discuss your idea and help in deciding the right technology stack for the implementation.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div><span>2</span></div>
-                                    <div>
-                                        <h3>Most Viable Product (MVP)</h3>
-                                        <p>
-                                            We quickly develop the MVP for the product which will give you a <span class="content__highlight">Techno Boost</span> to your marketing effort.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div><span>3</span></div>
-                                    <div>
-                                        <h3>Product Development</h3>
-                                        <p>
-                                            Once we understand the market better, we quickly develop the actual product. Well we understand the product requirement would change over time, we are flexible!!
-                                        </p>
-                                        <p>
-                                            Contact us for the free initial consultation.
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
+                            <div class="d-flex mb-3">
+                                <i class="me-4 footerIcon fa-solid fa-phone text-warning"></i>
+                                <p class="text-light"> +91 9632968050</p>
+                            </div>
+                            <div class="d-flex ">
+                                <i class="me-4 h3 footerIcon fa-solid fa-envelope text-warning"></i>
+                                <p class="text-warning"> contactus@technoboost.in</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="services__info--container">
-                    <div class="service__content">
-                        <div class="service__content--section">
-                            <div class="service__number">
-                                02
-                            </div>
-                            <div class="service__section">
-                                <h2 class="service__title">Ecommerce Solution</h2>
-                                <p class="service__desc">
-                                    Create your brand by having your own custom ecommerce store. You take care of operations, we take care of technology.
-                                </p>
-                                <ul class="service__steps">
-                                    <li><span class="tick-mark"></span>Unlimited Catalogs</li>
-                                    <li><span class="tick-mark"></span>Unlimited Products</li>
-                                    <li><span class="tick-mark"></span>Payment Gateway Integration</li>
-                                    <li><span class="tick-mark"></span>Custom Reports</li>
+                    <div class="col-md-8 col-12 pt-5 pt-md-0">
+                        <div class="row">
+                            <div class="col-4 text-start">
+                                <h5 class="text-light fWeight-700">Company</h5>
+                                <ul class="ps-0 pt-md-3">
+                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
+                                            class="text-decoration-none text-light ">About</a></li>
+                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
+                                            class="text-decoration-none text-light ">Careers</a></li>
+                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
+                                            class="text-decoration-none text-light ">Services</a></li>
                                 </ul>
-                                <p>
-                                    and more...
-                                    <br/>
-                                    Reach out to us for a demo.
-                                </p>
                             </div>
-                        </div>
-                        <div class="service__graphic">
-                            <img src="../assets/img/bg/ecommerce_img_new.png" alt="about">
+                            <div class="col-4 text-start">
+                                <h5 class="text-light fWeight-700">Legal</h5>
+                                <ul class="ps-0 pt-md-3">
+                                    <li class="fWeight-400  list-unstyled py-2"><a href="cookies.html"
+                                            class="text-decoration-none text-light ">Cookies Policy</a></li>
+                                    <li class="fWeight-400  list-unstyled py-2"><a href="terms.html"
+                                            class="text-decoration-none text-light ">Terms of Service</a></li>
+                                    <li class="fWeight-400  list-unstyled py-2"><a href="policy.html"
+                                            class="text-decoration-none text-light ">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-4 text-start">
+                                <h5 class="text-light fWeight-700">Social</h5>
+                                <ul class="ps-0 pt-md-3">
+                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
+                                            class="text-decoration-none text-light ">LinkedIn</a></li>
+                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
+                                            class="text-decoration-none text-light ">Instagram</a></li>
+                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
+                                            class="text-decoration-none text-light ">Facebook</a></li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="services__info--container">
-                    <div class="service__content">
-                        <div class="service__graphic">
-                            <img src="../assets/img/bg/automation-img.png" alt="about">
-                        </div>
-                        <div class="service__content--section">
-                            <div class="service__number">
-                                03
-                            </div>
-                            <div class="service__section">
-                                <h2 class="service__title">Automation</h2>
-                                <p class="service__desc">
-                                    Automate your day to day operational tasks and free your team to focus on other core business activities. We develop custom automation tools as per your requirements.
-                                </p>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col py-4">
+                        <p class="mb-0 text-light text-center">Copyright © 2023 . Technoboost . all rights reserved</p>
                     </div>
                 </div>
-                <div class="services__info--container">
-                    <div class="service__content">
-                        <div class="service__content--section">
-                            <div class="service__number">
-                                04
-                            </div>
-                            <div class="service__section">
-                                <h2 class="service__title">Data Analytics/Reporting</h2>
-                                <p class="service__desc">
-                                    Have a lot of data? Let us help you get some meaningful insights from the data. We have experts who help you build powerful reports using microsoft excel and Tableau.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="service__graphic">
-                            <img src="../assets/img/bg/analytics_img_new.png" alt="about">
-                        </div>
-                    </div>
-                </div>
-                <div class="services__info--container">
-                    <div class="service__content">
-                        <div class="service__graphic">
-                            <img src="../assets/img/bg/software-development.png" alt="about">
-                        </div>
-                        <div class="service__content--section">
-                            <div class="service__number">
-                                05
-                            </div>
-                            <div class="service__section">
-                                <h2 class="service__title">Custom Software Development</h2>
-                                <p class="service__desc">
-                                    Need to have a software built as per your custom needs? Reach out to us. We have experienced developers who deliver a quality software product at a much faster pace.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="contact" class="main__container--contact">
-                <div class="contact__container">
-                    <div class="contact__address">
-                        <h2>Our Address</h2>
-                        <div class="company__name">Techno Boost Services</div>
-                        <div class="company__address">
-                            2nd floor #23, Infiniminds Towers<br/>
-                            KPTCL Road Kasavanahalli<br/>
-                            Sarjapura Road<br/>
-                            Bangalore 560035<br/>
-                        </div>
-                    </div>
-                    <div class="contact__form">
-                        <h2>Contact Us</h2>
-                        <div>Phone: +91 9632968050<br/>
-                            Email: contactus@technoboost.in</div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="footer__copyright--container">&#169; Copyright <a href="#"> TechnoBoost.in </a>  All Rights Reserved</div>
-        </footer>
+            </div>
+        </div>
     </body>
+
 </html>

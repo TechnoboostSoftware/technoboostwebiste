@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.fWeight-400 {
+    font-weight: 400;
+}
+
+.fWeight-500 {
+    font-weight: 500;
+}
+
+.fWeight-600 {
+    font-weight: 600;
+}
+
+.fWeight-700 {
+    font-weight: 700;
+}
+
+.fWeight-800 {
+    font-weight: 800;
+}
+
+.colorGrey {
+    color: #3D3D3D;
+}
+
+.colorchanging {
+    background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bg-main {
+    background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
+}
+
+.landingPage h1,
+.open h1 {
+    font-size: 4.5vw;
+    line-height: 72px;
+}
+
+.landingPage p {
+    font-size: 2.5vw;
+    line-height: 35px;
+}
+
+.workWithUsMan {
+    width: 20%;
+}
+
+.whyUs h1 {
+    font-size: 4.5vw;
+    line-height: 70px;
+}
+
+.withUsBox {
+    min-height: 315px;
+}
+
+.withUsBox h5 {
+    font-size: 2.7vw;
+    line-height: 40px;
+}
+
+.clients h1 {
+    font-size: 4vw;
+    line-height: 63px
+}
+.footerLogo img {
+    width: 25%;
+}
+
+.footer p,
+.footer a{
+    font-size: 1.4vw;
+}
+.footer i {
+    font-size: 2.2vw;
+}
+
+
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 767px) {
+
+    .landingPage h1 {
+        font-size: 10vw;
+    }
+
+    .landingPage p {
+        font-size: 5vw;
+    }
+
+    .workWithUsMan {
+        width: 50%;
+    }
+
+    .whyUs h1 {
+        font-size: 11vw;
+        line-height: 60px;
+    }
+    .withUsBox h5 {
+        font-size: 6vw;
+        line-height: 39px;
+    }
+    .clients h1 {
+        font-size: 11vw;
+        line-height: 50px;
+    }
+    .open h1 {
+        font-size: 12vw;
+        line-height: 60px;
+    }
+    .footerLogo img {
+        width: 100%;
+    }
+
+    .footer p,
+    .footer a {
+        font-size: 3.5vw;
+    }
+    .footer i {
+        font-size: 7vw;
+    }
+
+}
