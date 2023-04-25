@@ -4,27 +4,35 @@
     font-family: 'Raleway';
     font-style: normal;
 }
-.fs-16{
+
+.fs-16 {
     font-size: 16px;
 }
-.fs-20{
+
+.fs-20 {
     font-size: 20px;
 }
-.fs-1vw{
+
+.fs-1vw {
     font-size: 1.5vw;
 }
-.fs-30{
+
+.fs-30 {
     font-size: 30px;
 }
-.fs-2vw{
+
+.fs-2vw {
     font-size: 2vw;
 }
-.fs-40{
+
+.fs-40 {
     font-size: 40px;
 }
-.fs-3vw{
+
+.fs-3vw {
     font-size: 3vw;
 }
+
 .fWeight-400 {
     font-weight: 400;
 }
@@ -60,10 +68,55 @@
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
 
-.uiContent p {
-    font-size: 1.3vw;
+.clients h1 {
+    font-size: 4vw;
+    line-height: 63px
 }
+
 .footerLogo img {
     width: 25%;
 }
 
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 767px) {
+    .passionate {
+        font-size: 4vw;
+    }
+
+    .content p {
+        font-size: 4.5vw;
+    }
+
+    .content .first {
+        font-size: 7vw;
+    }
+
+    .bg-mainBox p {
+        font-size: 5vw;
+    }
+
+    .bg-mainBox button {
+        font-size: 5vw;
+    }
+
+    .clients h1 {
+        font-size: 11vw;
+        line-height: 50px;
+    }
+
+    .footerLogo img {
+        width: 100%;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+
+    .footer a {
+        font-size: 12px;
+    }
+
+    .footer i {
+        font-size: 7vw;
+    }
+}
