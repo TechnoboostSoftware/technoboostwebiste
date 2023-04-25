@@ -5,6 +5,37 @@
     font-style: normal;
 }
 
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-1vw {
+    font-size: 1.5vw;
+}
+
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-2vw {
+    font-size: 2vw;
+}
+
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-3vw {
+    font-size: 3vw;
+}
+
+
 .fWeight-400 {
     font-weight: 400;
 }
@@ -59,9 +90,9 @@
     line-height: 28px;
 }
 
-.contact {
+/* .contact {
     font-size: 1.3vw;
-}
+} */
 
 .greyBox {
     background: rgba(8, 26, 63, 0.04);
@@ -70,13 +101,13 @@
 
 
 .purposeText {
-    font-size: 2.5vw;
     text-align: justify;
 }
 
+/* 
 .ceo {
     font-size: 1.5vw;
-}
+} */
 
 .our {
     font-size: 4.2vw;
@@ -89,13 +120,13 @@
     line-height: 95px;
 }
 
-.servicesP {
+/* .servicesP {
     font-size: 1.6vw;
-}
+} */
 
-.viewAll {
+/* .viewAll {
     font-size: 1.2vw;
-}
+} */
 
 .harness p {
     font-size: 3vw;
@@ -150,19 +181,9 @@
     font-size: 4vw;
     line-height: 63px
 }
-.footerIcon{
-    font-size: 2vw;
-}
+
 .footerLogo img {
     width: 25%;
-}
-
-.footer p,
-.footer a{
-    font-size: 1.4vw;
-}
-.footer i {
-    font-size: 2.2vw;
 }
 
 /*  ############################# MOBILE ########################### */
@@ -195,7 +216,7 @@
     }
 
     .purposeText {
-        font-size: 5.5vw;
+        font-size: 5vw;
     }
 
     .ceo {
@@ -258,18 +279,24 @@
         font-size: 12vw;
         line-height: 50px;
     }
+
     .clients h1 {
         font-size: 11vw;
         line-height: 50px;
     }
+
     .footerLogo img {
         width: 100%;
     }
 
-    .footer p,
-    .footer a {
-        font-size: 3.5vw;
+    .footer p {
+        font-size: 15px;
     }
+
+    .footer a {
+        font-size: 12px;
+    }
+
     .footer i {
         font-size: 7vw;
     }

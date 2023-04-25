@@ -5,6 +5,27 @@
     font-style: normal;
 }
 
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-1vw{
+    font-size: 1.5vw;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-2vw{
+    font-size: 2vw;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-3vw{
+    font-size: 3vw;
+}
 .fWeight-400 {
     font-weight: 400;
 }
@@ -51,13 +72,7 @@ p.resume{
     width: 25%;
 }
 
-.footer p,
-.footer a{
-    font-size: 1.4vw;
-}
-.footer i {
-    font-size: 2.2vw;
-}
+
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 767px) {
@@ -65,9 +80,12 @@ p.resume{
         width: 100%;
     }
 
-    .footer p,
+        .footer p {
+        font-size: 15px;
+    }
+
     .footer a {
-        font-size: 3.5vw;
+        font-size: 12px;
     }
     .footer i {
         font-size: 7vw;

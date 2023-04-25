@@ -5,6 +5,27 @@
     font-style: normal;
 }
 
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-1vw{
+    font-size: 1.5vw;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-2vw{
+    font-size: 2vw;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-3vw{
+    font-size: 3vw;
+}
 .fWeight-400 {
     font-weight: 400;
 }
@@ -40,9 +61,6 @@
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
 
-.landingDiv p {
-    font-size: 1.5vw;
-}
 
 .CallWhite {
     width: 10%;
@@ -55,26 +73,26 @@
 .UnionBox {
     width: 7%;
 }
-
-.values {
+.togetherNoBox-p{
+    font-size: 1.2vw;
+}
+/* .values {
     font-size: 3vw;
-}
+} */
 
-.who-P {
+/* .who-P {
     font-size: 1.5vw;
-}
+} */
 
 .find {
     background: linear-gradient(83.18deg, rgba(224, 227, 223, 0.5) 2.38%, rgba(193, 223, 252, 0.5) 47.26%, rgba(149, 242, 255, 0.49) 100%);
 }
 
 .findP-1 {
-    font-size: 3vw;
     line-height: 70px;
 }
 
 .findP-2 {
-    font-size: 2.5vw;
     line-height: 40px;
 }
 
@@ -96,11 +114,7 @@
     width: 25%;
 }
 
-.footer p,
-.footer a {
-    font-size: 1.4vw;
-}
-
+ 
 .footer i {
     font-size: 2.2vw;
 }
@@ -110,7 +124,6 @@
     .landingDiv p {
         font-size: 3.5vw;
     }
-
     .CallWhite {
         width: 10%;
     }
@@ -150,9 +163,12 @@
         width: 100%;
     }
 
-    .footer p,
+        .footer p {
+        font-size: 15px;
+    }
+
     .footer a {
-        font-size: 3.5vw;
+        font-size: 12px;
     }
 
     .footer i {

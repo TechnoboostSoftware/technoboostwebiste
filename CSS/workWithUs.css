@@ -5,6 +5,34 @@
     font-style: normal;
 }
 
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-1vw {
+    font-size: 1.5vw;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-2vw {
+    font-size: 2vw;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-3vw {
+    font-size: 3vw;
+}
+
 .fWeight-400 {
     font-weight: 400;
 }
@@ -47,7 +75,6 @@
 }
 
 .landingPage p {
-    font-size: 2.5vw;
     line-height: 35px;
 }
 
@@ -65,7 +92,6 @@
 }
 
 .withUsBox h5 {
-    font-size: 2.7vw;
     line-height: 40px;
 }
 
@@ -73,17 +99,12 @@
     font-size: 4vw;
     line-height: 63px
 }
+
 .footerLogo img {
     width: 25%;
 }
 
-.footer p,
-.footer a{
-    font-size: 1.4vw;
-}
-.footer i {
-    font-size: 2.2vw;
-}
+
 
 
 /*  ############################# MOBILE ########################### */
@@ -97,6 +118,10 @@
         font-size: 5vw;
     }
 
+    .callMade {
+        width: 13%;
+    }
+
     .workWithUsMan {
         width: 50%;
     }
@@ -105,26 +130,53 @@
         font-size: 11vw;
         line-height: 60px;
     }
+
+    .withUsBox {
+        min-height: 225px;
+    }
+
     .withUsBox h5 {
         font-size: 6vw;
         line-height: 39px;
     }
+
     .clients h1 {
         font-size: 11vw;
         line-height: 50px;
     }
+
     .open h1 {
         font-size: 12vw;
         line-height: 60px;
     }
+
+    .openBox h3 {
+        font-size: 28px;
+    }
+
+    .openBox h5{
+        font-size: 15px;
+    }
+
+    .openBox p {
+        font-size: 13px;
+    }
+    .openBox .btn {
+        font-size: 15px;
+    }
+
     .footerLogo img {
         width: 100%;
     }
 
-    .footer p,
-    .footer a {
-        font-size: 3.5vw;
+        .footer p {
+        font-size: 15px;
     }
+
+    .footer a {
+        font-size: 12px;
+    }
+
     .footer i {
         font-size: 7vw;
     }
