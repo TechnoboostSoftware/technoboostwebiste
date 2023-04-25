@@ -71,6 +71,10 @@
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
 
+.bg-2 {
+    background: linear-gradient(83.18deg, #E0E3DF 2.38%, #C1DFFC 47.26%, #95F2FF 100%);
+}
+
 .grow {
     font-size: 12vw;
     line-height: 125px;
@@ -137,6 +141,16 @@
     font-size: 5vw;
     line-height: 65px;
     color: #2AB7CA;
+}
+
+.studyBgImg {
+    background-image: url("../IMAGES/Component16.svg");
+    height: 365px;
+}
+
+.studyBgImg-2 {
+    background-image: url("../IMAGES/Component17.svg");
+    height: 365px;
 }
 
 .technology {
