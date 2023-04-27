@@ -1,0 +1,326 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-1vw {
+    font-size: 1.5vw;
+}
+
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-2vw {
+    font-size: 2vw;
+}
+
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-3vw {
+    font-size: 3vw;
+}
+
+
+.fWeight-400 {
+    font-weight: 400;
+}
+
+.fWeight-500 {
+    font-weight: 500;
+}
+
+.fWeight-600 {
+    font-weight: 600;
+}
+
+.fWeight-700 {
+    font-weight: 700;
+}
+
+.fWeight-800 {
+    font-weight: 800;
+}
+
+.colorGrey {
+    color: #3D3D3D;
+}
+
+.colorchanging {
+    background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bg-main {
+    background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
+}
+
+.bg-2 {
+    background: linear-gradient(83.18deg, #E0E3DF 2.38%, #C1DFFC 47.26%, #95F2FF 100%);
+}
+
+.grow {
+    font-size: 12vw;
+    line-height: 125px;
+}
+
+.business {
+    font-size: 6vw;
+}
+
+.withUs {
+    font-size: 3.6vw;
+}
+
+.goal {
+    font-size: 1.7vw;
+    border-top: 2px solid #FFCD00;
+    line-height: 28px;
+}
+
+/* .contact {
+    font-size: 1.3vw;
+} */
+
+.greyBox {
+    background: rgba(8, 26, 63, 0.04);
+    backdrop-filter: blur(10.5px);
+}
+
+
+.purposeText {
+    text-align: justify;
+}
+
+/* 
+.ceo {
+    font-size: 1.5vw;
+} */
+
+.our {
+    font-size: 4.2vw;
+    line-height: 20px;
+    text-shadow: 0px 4.95522px 4.95522px rgba(0, 0, 0, 0.25);
+}
+
+.ColorServices {
+    font-size: 6vw;
+    line-height: 95px;
+}
+
+/* .servicesP {
+    font-size: 1.6vw;
+} */
+
+/* .viewAll {
+    font-size: 1.2vw;
+} */
+
+.harness p {
+    font-size: 3vw;
+    line-height: 40px;
+}
+
+.power {
+    font-size: 5vw;
+    line-height: 65px;
+    color: #2AB7CA;
+}
+.caseStudyImg{
+    overflow-x: hidden;
+}
+.studyBgImg {
+    background-image: url("../IMAGES/Component16.svg");
+    height: 365px;
+    width: 40%;
+}
+
+.studyBgImg-2 {
+    background-image: url("../IMAGES/Component17.svg");
+    height: 365px;
+    width: 40%;
+}
+.studyBgImg-3 {
+    background-image: url("../IMAGES/Component17.svg");
+    height: 365px;
+    width: 15%;
+}
+
+.technology {
+    font-size: 4vw;
+    line-height: 50px;
+}
+
+.clientVector {
+    top: 25px;
+    left: 25px;
+}
+
+.what {
+    font-size: 4vw;
+}
+
+.clientAns {
+    font-size: 2.6vw;
+    line-height: 159.5%;
+}
+
+.find {
+    background: linear-gradient(83.18deg, rgba(224, 227, 223, 0.5) 2.38%, rgba(193, 223, 252, 0.5) 47.26%, rgba(149, 242, 255, 0.49) 100%);
+}
+
+.findP-1 {
+    font-size: 3vw;
+    line-height: 70px;
+}
+
+.findP-2 {
+    font-size: 2.5vw;
+    line-height: 40px;
+}
+
+.findh {
+    font-size: 6.5vw;
+    line-height: 70px;
+}
+
+.clients h1 {
+    font-size: 4vw;
+    line-height: 63px
+}
+
+.footerLogo img {
+    width: 25%;
+}
+
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 767px) {
+    .grow {
+        font-size: 22vw;
+        line-height: 70px;
+    }
+
+    .business {
+        font-size: 12vw;
+    }
+
+    .withUs {
+        font-size: 8vw;
+    }
+
+    .goal {
+        font-size: 4vw;
+        line-height: 20px;
+    }
+
+    .contact {
+        font-size: 4vw;
+    }
+
+    .purposeImg {
+        width: 60%;
+        text-align: center;
+    }
+
+    .purposeText {
+        font-size: 5vw;
+    }
+
+    .ceo {
+        font-size: 3.5vw;
+    }
+
+    .our {
+        font-size: 9vw;
+        line-height: 20px;
+    }
+
+    .ColorServices {
+        font-size: 12vw;
+        line-height: 60px;
+    }
+
+    .servicesP {
+        font-size: 3vw;
+        text-align: start;
+    }
+
+    .viewAll {
+        font-size: 3.5vw;
+    }
+
+    .harness p {
+        font-size: 7vw;
+        line-height: 40px;
+    }
+
+    .power {
+        font-size: 10vw;
+        line-height: 35px;
+    }
+
+    .technology {
+        font-size: 8.5vw;
+        line-height: 35px;
+    }
+
+    .what {
+        font-size: 7vw;
+    }
+
+    .clientAns {
+        font-size: 4.5vw;
+    }
+
+    .findP-1 {
+        font-size: 7.5vw;
+        line-height: 45px;
+    }
+
+    .findP-2 {
+        font-size: 4.3vw;
+        line-height: 23px;
+    }
+
+    .findh {
+        font-size: 12vw;
+        line-height: 50px;
+    }
+
+    .clients h1 {
+        font-size: 11vw;
+        line-height: 50px;
+    }
+
+    .footerLogo img {
+        width: 100%;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+
+    .footer a {
+        font-size: 12px;
+    }
+
+    .footer i {
+        font-size: 7vw;
+    }
+}
