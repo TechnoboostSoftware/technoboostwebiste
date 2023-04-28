@@ -52,7 +52,6 @@
 .fWeight-800 {
     font-weight: 800;
 }
-
 .colorGrey {
     color: #3D3D3D;
 }
@@ -106,14 +105,12 @@
     line-height: 63px
 }
 
-.footerLogo img {
-    width: 25%;
-}
 
 
 
 
-/*  ############################# MOBILE ########################### */
+
+/*  ############################# TAB ########################### */
 @media only screen and (max-width: 767px) {
     .landingPage h1 {
         font-size: 7vw;
@@ -187,7 +184,12 @@
     .footer i {
         font-size: 7vw;
     }
-
+    .footer .Copyright{
+        font-size: 12px;
+    }
+    .footer .Copyright{
+        font-size: 12px;
+    }
 }
 
 /*  ############################# MOBILE ########################### */
@@ -228,5 +230,8 @@
 
     .openBox .btn {
         font-size: 4vw;
+    }
+    .Copyright{
+        font-size: 12px;
     }
 }

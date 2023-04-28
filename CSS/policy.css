@@ -68,13 +68,11 @@
 p.resume{
     font-size: 1.6vw;
 }
-.footerLogo img {
-    width: 25%;
-}
 
 
 
-/*  ############################# MOBILE ########################### */
+
+/*  ############################# TAB ########################### */
 @media only screen and (max-width: 767px) {
     .footerLogo img {
         width: 100%;
@@ -89,5 +87,8 @@ p.resume{
     }
     .footer i {
         font-size: 7vw;
+    }
+    .footer .Copyright{
+        font-size: 12px;
     }
 }

@@ -210,9 +210,7 @@
     font-size: 1.3vw;
 }
 
-.footerLogo img {
-    width: 25%;
-}
+
 
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
@@ -331,6 +329,9 @@
     .footer i {
         font-size: 7vw;
     }
+    .footer .Copyright{
+        font-size: 12px;
+    }
 }
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
@@ -380,5 +381,8 @@
     .findP-2 {
         font-size: 4.3vw;
         line-height: 3.5vh;
+    }
+    .Copyright{
+        font-size: 12px;
     }
 }
