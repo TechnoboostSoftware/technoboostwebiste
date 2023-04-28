@@ -75,11 +75,16 @@
 }
 
 .landingPage p {
+    font-size: 1.9vw;
     line-height: 35px;
 }
 
 .workWithUsMan {
     width: 20%;
+}
+
+.openBox {
+    border: 1px solid black;
 }
 
 .whyUs h1 {
@@ -88,11 +93,12 @@
 }
 
 .withUsBox {
-    min-height: 315px;
+    height: 38vh;
 }
 
 .withUsBox h5 {
-    line-height: 40px;
+    line-height: 6vh;
+    font-size: 2vw;
 }
 
 .clients h1 {
@@ -109,13 +115,13 @@
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 767px) {
-
     .landingPage h1 {
-        font-size: 10vw;
+        font-size: 7vw;
     }
 
     .landingPage p {
-        font-size: 5vw;
+        font-size: 3.5vw;
+        text-align: center;
     }
 
     .callMade {
@@ -127,17 +133,17 @@
     }
 
     .whyUs h1 {
-        font-size: 11vw;
-        line-height: 60px;
+        font-size: 9vw;
+        line-height: 6vh;
     }
 
     .withUsBox {
-        min-height: 225px;
+        height: 33vh;
     }
 
     .withUsBox h5 {
-        font-size: 6vw;
-        line-height: 39px;
+        font-size: 3vw;
+        line-height: 28px;
     }
 
     .clients h1 {
@@ -154,13 +160,14 @@
         font-size: 28px;
     }
 
-    .openBox h5{
+    .openBox h5 {
         font-size: 15px;
     }
 
     .openBox p {
         font-size: 13px;
     }
+
     .openBox .btn {
         font-size: 15px;
     }
@@ -169,7 +176,7 @@
         width: 100%;
     }
 
-        .footer p {
+    .footer p {
         font-size: 15px;
     }
 
@@ -181,4 +188,45 @@
         font-size: 7vw;
     }
 
+}
+
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 576px) {
+    .landingPage h1 {
+        font-size: 10vw;
+    }
+
+    .landingPage p {
+        font-size: 4vw;
+        line-height: 3vh;
+    }
+
+    .whyUs h1 {
+        font-size: 11vw;
+    }
+
+    .withUsBox {
+        height: 40vh;
+    }
+
+    .withUsBox h5 {
+        font-size: 7.5vw;
+        line-height: 7.5vh;
+    }
+
+    .openBox p {
+        font-size: 4vw;
+    }
+
+    .openBox h3 {
+        font-size: 7vw;
+    }
+
+    .openBox h5 {
+        font-size: 3.5vw;
+    }
+
+    .openBox .btn {
+        font-size: 4vw;
+    }
 }

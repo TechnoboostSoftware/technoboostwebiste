@@ -26,65 +26,68 @@
 
     <body>
         <!-- ############################# NAVBAR #############################-->
-        <nav class="navbar navbar-expand-md bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="IMAGES/logo.svg"></a>
-
+        <nav class="navbar navbar-expand-md bg-light py-0">
+            <div class=" container-fluid">
+                <a class="navbar-brand" href="#"><img src="IMAGES/logo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 ps-3 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 align-items-center ps-3 mb-lg-0">
                         <li class="nav-item me-3  dropdown">
-                            <a class="px-4 fWeight-500 nav-link dropdown-toggle text-dark " href="#" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false"> Products</a>
+                            <a class="px-4 fs-1vw fWeight-500 fs-1vw nav-link dropdown-toggle text-dark " href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">Product</a></li>
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">Product</a></li>
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">Product</a></li>
+                                <li><a class="px-4 fs-1vw fWeight-500 dropdown-item" href="">Product</a></li>
+                                <li><a class="px-4 fs-1vw fWeight-500 dropdown-item" href="">Product</a></li>
+                                <li><a class="px-4 fs-1vw fWeight-500 dropdown-item" href="">Product</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item me-3  dropdown">
-                            <a class="px-4 fWeight-500 nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="px-4 fs-1vw fWeight-500 nav-link dropdown-toggle text-dark" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">services</a></li>
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">services</a></li>
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">services</a></li>
+                                <li><a class="px-4 fs-1vw fWeight-500 dropdown-item" href="">services</a></li>
+                                <li><a class="px-4 fs-1vw fWeight-500 dropdown-item" href="">services</a></li>
+                                <li><a class="px-4 fs-1vw fWeight-500 dropdown-item" href="">services</a></li>
                             </ul>
                         </li>
                         <li class="nav-item me-3 ">
-                            <a class="px-4 fWeight-500 nav-link text-dark" href="">About Us</a>
+                            <a class="px-4 fs-1vw fWeight-500 nav-link text-dark" href="about us.html">About Us</a>
                         </li>
-                        <li class="nav-item me-3 px-4">
-                            <button class="btn btn-warning fWeight-500">Contact Us</button>
+                        <li class="nav-item me-3 px-4 fs-1vw">
+                            <button class="btn btn-warning fWeight-600 px-4 rounded-0 contact fs-16">Contact Us</button>
                         </li>
 
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="container-fluid ">
-            <!-- ############################# landingPage #############################-->
-            <div class="ui bg-main px-md-5 px-0 py-md-4 py-0">
-                <div class="position-relative d-flex">
-                    <img src="IMAGES/Union.svg" class="position-absolute top-0 end-0" width="10%">
-                    <div class="pt-md-5 pt-0">
-                        <h1 class="fWeight-800 text-light pt-4">Terms & Conditions</h1>
+        <!-- ############################# landingPage #############################-->
+        <main id="main">
+            <section id="hero" class="bg-main">
+                <div class="ui container-fluid py-md-4 py-0">
+                    <div class="position-relative d-flex">
+                        <img src="IMAGES/Union.svg" class="position-absolute top-0 end-0" width="10%">
+                        <div class="pt-md-5 pt-0">
+                            <h1 class="fWeight-800 text-light pt-4">Terms & Conditions</h1>
+                        </div>
                     </div>
                 </div>
-            </div>
-
+            </section>
             <!-- ############################# uiContent #############################-->
-
-            <div class="termsContent py-4 px-md-5 px-3">
-                <p class="fWeight-600 pt-3">Welcome to Technoboost, a software service company based in Bengaluru, India. Please read the
-                    following terms and conditions carefully before accessing or using our website or software services.
+            <section id="termsContent">
+            <div class="termsContent py-4 px-md-0 px-3">
+                <p class="fWeight-600 pt-3">Welcome to Technoboost, a software service company based in Bengaluru,
+                    India. Please read the
+                    following terms and conditions carefully before accessing or using our website or software
+                    services.
                 </p>
                 <h4 class="fWeight-600 py-3">1. Acceptance of Terms</h4>
                 <p>By accessing or using Technoboost's website and software services, you agree to be bound by these
@@ -94,21 +97,27 @@
 
                 <h4 class="fWeight-600 py-3">2. Use of Technoboost's Services</h4>
 
-                <p>You may use Technoboost's services only for lawful purposes and in accordance with these Terms and
+                <p>You may use Technoboost's services only for lawful purposes and in accordance with these Terms
+                    and
                     Conditions. You may not use our website or software in any way that could damage or impair the
                     performance, availability, or accessibility of our website or software.</p>
 
                 <h4 class="fWeight-600 py-3">3. Ownership and Intellectual Property Rights</h4>
 
-                <p> All content and materials provided on our website and software, including but not limited to text,
-                    graphics, logos, icons, images, and software, are owned or licensed by Technoboost and are protected
+                <p> All content and materials provided on our website and software, including but not limited to
+                    text,
+                    graphics, logos, icons, images, and software, are owned or licensed by Technoboost and are
+                    protected
                     by copyright, trademark, and other intellectual property laws.</p>
 
                 <h4 class="fWeight-600 py-3">4. User Accounts</h4>
 
-                <p> To access certain features of Technoboost's software, you may be required to create a user account.
-                    You are responsible for maintaining the confidentiality of your account information, including your
-                    username and password. You agree to notify Technoboost immediately of any unauthorized use of your
+                <p> To access certain features of Technoboost's software, you may be required to create a user
+                    account.
+                    You are responsible for maintaining the confidentiality of your account information, including
+                    your
+                    username and password. You agree to notify Technoboost immediately of any unauthorized use of
+                    your
                     account or any other breach of security.</p>
 
                 <h4 class="fWeight-600 py-3">5. Payment and Fees</h4>
@@ -119,30 +128,35 @@
                 <h4 class="fWeight-600 py-3">6. Limitation of Liability</h4>
 
                 <p> Technoboost is not liable for any damages, including but not limited to direct, indirect,
-                    incidental, punitive, and consequential damages, arising from your use of our website or software.
+                    incidental, punitive, and consequential damages, arising from your use of our website or
+                    software.
                 </p>
 
                 <h4 class="fWeight-600 py-3">7. Termination of Services</h4>
 
-                <p>Technoboost may terminate or suspend your access to our website and software services at any time,
+                <p>Technoboost may terminate or suspend your access to our website and software services at any
+                    time,
                     with or without cause, and with or without notice.</p>
 
                 <h4 class="fWeight-600 py-3">8. Modifications to Terms and Conditions</h4>
 
                 <p>Technoboost reserves the right to modify these Terms and Conditions at any time, with or without
-                    notice. Your continued use of our website and software services constitutes your acceptance of any
+                    notice. Your continued use of our website and software services constitutes your acceptance of
+                    any
                     modified terms.</p>
 
                 <h4 class="fWeight-600 py-3">9. Governing Law</h4>
 
-                <p>These Terms and Conditions shall be governed by and construed in accordance with the laws of India.</p>
+                <p>These Terms and Conditions shall be governed by and construed in accordance with the laws of
+                    India.
+                </p>
 
                 <p>Thank you for choosing Technoboost for your software service needs! If you have any questions or
                     concerns about these terms and conditions, please contact us at support@technoboost.com.</p>
             </div>
-
-            <!-- ########################################## footer ####################### -->
-             <footer class=" bg-main ">
+        </main>
+        <!-- ########################################## footer ####################### -->
+        <footer class=" bg-main ">
             <div class="footer container-fluid">
                 <div class="footerLogo text-center py-4">
                     <img src="IMAGES/footerLogo.svg">
@@ -187,11 +201,14 @@
                                 <h5 class="text-light fWeight-700">Legal</h5>
                                 <ul class="ps-0 pt-md-3">
                                     <li class="fWeight-400  list-unstyled py-2"><a href="cookies.html"
-                                            class="text-decoration-none fs-1vw text-light ">Cookies Policy</a></li>
+                                            class="text-decoration-none fs-1vw text-light ">Cookies Policy</a>
+                                    </li>
                                     <li class="fWeight-400  list-unstyled py-2"><a href="terms.html"
-                                            class="text-decoration-none fs-1vw text-light ">Terms of Service</a></li>
+                                            class="text-decoration-none fs-1vw text-light ">Terms of Service</a>
+                                    </li>
                                     <li class="fWeight-400  list-unstyled py-2"><a href="policy.html"
-                                            class="text-decoration-none fs-1vw text-light ">Privacy Policy</a></li>
+                                            class="text-decoration-none fs-1vw text-light ">Privacy Policy</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col-4 text-start">
@@ -211,7 +228,9 @@
                 </div>
                 <div class="row">
                     <div class="col py-4">
-                        <p class="mb-0 text-light text-center">Copyright © 2023 . Technoboost . all rights reserved</p>
+                        <p class="mb-0 text-light text-center">Copyright © 2023 . Technoboost . all rights
+                            reserved
+                        </p>
                     </div>
                 </div>
             </div>
