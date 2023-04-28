@@ -75,6 +75,10 @@
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
 
+.bg-gold {
+    background: linear-gradient(37.78deg, #FCC95C 22.68%, #FCCB47 32.35%, #FAE595 50.33%);
+}
+
 .bg-2 {
     background: linear-gradient(83.18deg, #E0E3DF 2.38%, #C1DFFC 47.26%, #95F2FF 100%);
 }
@@ -116,25 +120,9 @@
 .ceo {
     font-size: 1.5vw;
 } */
-
-.our {
-    font-size: 4.2vw;
-    line-height: 20px;
-    text-shadow: 0px 4.95522px 4.95522px rgba(0, 0, 0, 0.25);
+.goldenBox {
+    height: 60vh;
 }
-
-.ColorServices {
-    font-size: 6vw;
-    line-height: 95px;
-}
-
-/* .servicesP {
-    font-size: 1.6vw;
-} */
-
-/* .viewAll {
-    font-size: 1.2vw;
-} */
 
 .harness p {
     font-size: 3vw;
@@ -240,9 +228,11 @@
         width: 60%;
         text-align: center;
     }
+
     .purposeText {
         font-size: 4vw;
     }
+
     .ceo {
         font-size: 2.5vw;
     }
@@ -274,6 +264,7 @@
     .power {
         font-size: 7.5vw;
     }
+
     .technology {
         font-size: 6vw;
         line-height: 6vh;
@@ -291,12 +282,15 @@
     .vikesh {
         font-size: 4vw;
     }
+
     .director {
         font-size: 3vw;
     }
+
     .findP-1 {
         font-size: 5vw;
     }
+
     .findP-2 {
         font-size: 3.5vw;
         line-height: 4vh;
@@ -306,9 +300,11 @@
         font-size: 10vw;
         line-height: 8vh;
     }
+
     .four {
         width: 70%;
     }
+
     .clients h1 {
         font-size: 11vw;
         line-height: 50px;
@@ -329,10 +325,12 @@
     .footer i {
         font-size: 7vw;
     }
-    .footer .Copyright{
+
+    .footer .Copyright {
         font-size: 12px;
     }
 }
+
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
     .grow {
@@ -342,47 +340,59 @@
     .business {
         font-size: 12vw;
     }
+
     .goal {
         font-size: 3.7vw;
         line-height: 30px;
     }
+
     .purposeText {
         font-size: 5vw;
     }
+
     .ceo {
         font-size: 3.5vw;
     }
+
     .harness p {
         font-size: 7vw;
         line-height: 8vh;
     }
+
     .power {
         font-size: 10vw;
         line-height: 8vh;
     }
+
     .technology {
         font-size: 8vw;
         line-height: 6vh;
     }
+
     .clientAns {
         font-size: 4.8vw;
     }
+
     .director {
         font-size: 4vw;
     }
+
     .findP-1 {
         font-size: 7.5vw;
         line-height: 45px;
     }
+
     .findh {
         font-size: 12vw;
         line-height: 6vh;
     }
+
     .findP-2 {
         font-size: 4.3vw;
         line-height: 3.5vh;
     }
-    .Copyright{
+
+    .Copyright {
         font-size: 12px;
     }
 }
