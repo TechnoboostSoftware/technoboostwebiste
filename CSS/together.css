@@ -5,27 +5,34 @@
     font-style: normal;
 }
 
-.fs-16{
+.fs-16 {
     font-size: 16px;
 }
-.fs-20{
+
+.fs-20 {
     font-size: 20px;
 }
-.fs-1vw{
+
+.fs-1vw {
     font-size: 1.5vw;
 }
-.fs-30{
+
+.fs-30 {
     font-size: 30px;
 }
-.fs-2vw{
+
+.fs-2vw {
     font-size: 2vw;
 }
-.fs-40{
+
+.fs-40 {
     font-size: 40px;
 }
-.fs-3vw{
+
+.fs-3vw {
     font-size: 3vw;
 }
+
 .fWeight-400 {
     font-weight: 400;
 }
@@ -73,9 +80,11 @@
 .UnionBox {
     width: 7%;
 }
-.togetherNoBox-p{
+
+.togetherNoBox-p {
     font-size: 1.2vw;
 }
+
 /* .values {
     font-size: 3vw;
 } */
@@ -89,21 +98,26 @@
 }
 
 .findP-1 {
-    line-height: 70px;
-}
-
-.findP-2 {
-    line-height: 40px;
+    line-height: 11vh;
 }
 
 .findh {
-    font-size: 6.5vw;
-    line-height: 70px;
+    font-size: 6vw;
+    line-height: 11vh;
+}
+
+.findP-2 {
+    font-size: 2vw;
+    line-height: 5vh;
 }
 
 .clients h1 {
     font-size: 4vw;
     line-height: 63px
+}
+
+.address {
+    font-size: 1.3vw;
 }
 
 .footerIcon {
@@ -113,40 +127,52 @@
 .footer i {
     font-size: 2.2vw;
 }
+.Copyright {
+    font-size: 1vw;
+}
 
 /*  ############################# TAB ########################### */
 @media only screen and (max-width: 767px) {
     .landingDiv p {
         font-size: 3.5vw;
     }
+
     .CallWhite {
         width: 10%;
     }
+
     .UnionBox {
         width: 11%;
     }
+
     .values {
         font-size: 9vw;
     }
+
     .who-P {
         font-size: 3.4vw;
     }
-    .togetherNoBox-p{
+
+    .togetherNoBox-p {
         font-size: 3.5vw;
     }
+
     .findP-1 {
-        font-size: 7.5vw;
-        line-height: 45px;
+        font-size: 5vw;
     }
 
     .findP-2 {
-        font-size: 4.3vw;
-        line-height: 23px;
+        font-size: 3.5vw;
+        line-height: 4vh;
     }
 
     .findh {
-        font-size: 15vw;
-        line-height: 50px;
+        font-size: 10vw;
+        line-height: 8vh;
+    }
+
+    .four {
+        width: 70%;
     }
 
     .clients h1 {
@@ -158,7 +184,7 @@
         width: 100%;
     }
 
-        .footer p {
+    .footer p {
         font-size: 15px;
     }
 
@@ -169,7 +195,19 @@
     .footer i {
         font-size: 7vw;
     }
-    .footer .Copyright{
+
+    .Copyright {
+        font-size: 2.5vw;
+    }
+    
+}
+
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 576px) {
+    .footerLogo img {
+        width: 70%;
+    }
+    .Copyright {
         font-size: 12px;
     }
 }

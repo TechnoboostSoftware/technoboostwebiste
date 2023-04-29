@@ -5,27 +5,34 @@
     font-style: normal;
 }
 
-.fs-16{
+.fs-16 {
     font-size: 16px;
 }
-.fs-20{
+
+.fs-20 {
     font-size: 20px;
 }
-.fs-1vw{
+
+.fs-1vw {
     font-size: 1.5vw;
 }
-.fs-30{
+
+.fs-30 {
     font-size: 30px;
 }
-.fs-2vw{
+
+.fs-2vw {
     font-size: 2vw;
 }
-.fs-40{
+
+.fs-40 {
     font-size: 40px;
 }
-.fs-3vw{
+
+.fs-3vw {
     font-size: 3vw;
 }
+
 .fWeight-400 {
     font-weight: 400;
 }
@@ -65,28 +72,53 @@
     font-size: 1.7vw;
     line-height: 48px;
 }
-p.resume{
+
+p.resume {
     font-size: 1.6vw;
 }
 
+.footerIcon {
+    font-size: 2vw;
+}
 
+.footer i {
+    font-size: 2.2vw;
+}
+.Copyright {
+    font-size: 1vw;
+}
+.address {
+    font-size: 1.3vw;
+}
 /*  ############################# TAB ########################### */
 @media only screen and (max-width: 767px) {
     .footerLogo img {
         width: 100%;
     }
 
-        .footer p {
+    .footer p {
         font-size: 15px;
     }
 
     .footer a {
         font-size: 12px;
     }
+
     .footer i {
         font-size: 7vw;
     }
-    .footer .Copyright{
+
+    .Copyright {
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footerLogo img {
+        width: 70%;
+    }
+    .Copyright {
         font-size: 12px;
     }
+
 }
