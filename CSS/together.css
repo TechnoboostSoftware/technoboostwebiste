@@ -84,6 +84,21 @@
 .togetherNoBox-p {
     font-size: 1.2vw;
 }
+.teamContent h4 {
+    font-size: 4vw;
+}
+.teamContent img {
+    top: 0px;
+    left: 138px;
+    width: 60%;
+}
+.teamContent h1 {
+    font-size: 10vw;
+    line-height: 140px;
+}
+.teamContent p {
+    font-size: 1.7vw;
+}
 
 /* .values {
     font-size: 3vw;
@@ -127,6 +142,7 @@
 .footer i {
     font-size: 2.2vw;
 }
+
 .Copyright {
     font-size: 1vw;
 }
@@ -149,6 +165,10 @@
         font-size: 9vw;
     }
 
+    .teamContent p {
+        font-size: 2.5vw;
+    }
+
     .who-P {
         font-size: 3.4vw;
     }
@@ -156,7 +176,31 @@
     .togetherNoBox-p {
         font-size: 3.5vw;
     }
-
+    .teamContent h4 {
+        font-size: 4vw;
+    }
+    .teamContent img {
+        top: 0px;
+        left: 62px;
+        width: 60%;
+    }
+    .teamContent h1 {
+        font-size: 10vw;
+        line-height: 45px;
+    }
+    .teamContent p {
+        font-size: 2.2vw;
+    }
+    .name{
+        font-size: 7vw;
+    }
+    .title{
+        font-size: 6vw;
+    }
+    .whoText{
+        font-size: 2.5vw;
+        text-align: justify;
+    }
     .findP-1 {
         font-size: 5vw;
     }
@@ -200,14 +244,31 @@
     .Copyright {
         font-size: 2.5vw;
     }
-    
+
 }
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
+    .teamContent h4 {
+        font-size: 6vw;
+    }
+    .teamContent img {
+        top: 0px;
+        left: 45px;
+        width: 60%;
+    }
+    .teamContent h1 {
+        font-size: 11vw;
+        line-height: 25px;
+    }
+    .teamContent p {
+        font-size: 4vw;
+    }
+
     .footerLogo img {
         width: 70%;
     }
+
     .Copyright {
         font-size: 12px;
     }
