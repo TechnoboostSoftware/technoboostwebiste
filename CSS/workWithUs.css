@@ -97,7 +97,7 @@
 }
 
 .withUsBox h5 {
-    line-height: 6vh;
+    line-height: 5vh;
     font-size: 2vw;
 }
 
@@ -160,7 +160,7 @@
     }
 
     .open h1 {
-        font-size: 12vw;
+        font-size: 9vw;
         line-height: 60px;
     }
 
@@ -184,8 +184,9 @@
         width: 100%;
     }
 
+
     .footer p {
-        font-size: 15px;
+        font-size: 3vw;
     }
 
     .footer a {
