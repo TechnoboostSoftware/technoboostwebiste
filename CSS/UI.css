@@ -96,12 +96,15 @@
         width: 100%;
     }
 
+    .footer h5 {
+        font-size: 4vw;
+    }
     .footer p {
         font-size: 3.7vw;
     }
 
     .footer a {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .footer i {
@@ -128,6 +131,9 @@
     }
     .footerLogo img {
         width: 70%;
+    }
+    .footer a {
+        font-size: 13px;
     }
     .Copyright {
         font-size: 12px;

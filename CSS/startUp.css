@@ -67,7 +67,9 @@
 .bg-main {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
-
+.bg-mainBox p{
+ text-align: justify;
+}
 .clients h1 {
     font-size: 4vw;
     line-height: 63px
@@ -117,14 +119,15 @@
     .footerLogo img {
         width: 100%;
     }
-
-
+    .footer h5 {
+        font-size: 4vw;
+    }
     .footer p {
         font-size: 3.7vw;
     }
 
     .footer a {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .footer i {
@@ -137,8 +140,20 @@
 }
 
 @media only screen and (max-width: 576px) {
+    .passionate {
+        font-size: 4vw;
+    }
+    .content p {
+        font-size: 3.5vw;
+    }
+    .bg-mainBox p {
+        font-size: 4vw;
+    }
     .footerLogo img {
         width: 70%;
+    }
+    .footer a {
+        font-size: 13px;
     }
     .Copyright {
         font-size: 12px;
