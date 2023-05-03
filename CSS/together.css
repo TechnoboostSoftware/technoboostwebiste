@@ -78,24 +78,28 @@
 }
 
 .UnionBox {
-    width: 7%;
+    width: 5%;
 }
 
 .togetherNoBox-p {
     font-size: 1.2vw;
 }
+
 .teamContent h4 {
     font-size: 4vw;
 }
+
 .teamContent img {
     top: 0px;
     left: 138px;
     width: 60%;
 }
+
 .teamContent h1 {
     font-size: 10vw;
     line-height: 140px;
 }
+
 .teamContent p {
     font-size: 1.7vw;
 }
@@ -157,10 +161,6 @@
         width: 10%;
     }
 
-    .UnionBox {
-        width: 11%;
-    }
-
     .values {
         font-size: 9vw;
     }
@@ -176,31 +176,39 @@
     .togetherNoBox-p {
         font-size: 3.5vw;
     }
+
     .teamContent h4 {
         font-size: 4vw;
     }
+
     .teamContent img {
         top: 0px;
         left: 62px;
         width: 60%;
     }
+
     .teamContent h1 {
         font-size: 10vw;
         line-height: 45px;
     }
+
     .teamContent p {
         font-size: 2.2vw;
     }
-    .name{
+
+    .name {
         font-size: 7vw;
     }
-    .title{
+
+    .title {
         font-size: 6vw;
     }
-    .whoText{
+
+    .whoText {
         font-size: 2.5vw;
         text-align: justify;
     }
+
     .findP-1 {
         font-size: 5vw;
     }
@@ -232,6 +240,7 @@
     .footer h5 {
         font-size: 4vw;
     }
+
     .footer p {
         font-size: 3.7vw;
     }
@@ -255,25 +264,53 @@
     .teamContent h4 {
         font-size: 6vw;
     }
+
     .teamContent img {
         top: 0px;
         left: 45px;
         width: 60%;
     }
+
     .teamContent h1 {
         font-size: 11vw;
         line-height: 25px;
     }
+
     .teamContent p {
         font-size: 4vw;
+    }
+
+    .UnionBox {
+        width: 8%;
+    }
+
+    .values {
+        width: 20px;
+    }
+
+    .findP-1 {
+        font-size: 7.5vw;
+        line-height: 45px;
+    }
+
+    .findh {
+        font-size: 12vw;
+        line-height: 6vh;
+    }
+
+    .findP-2 {
+        font-size: 4.3vw;
+        line-height: 3.5vh;
     }
 
     .footerLogo img {
         width: 70%;
     }
+
     .footer a {
         font-size: 13px;
     }
+
     .Copyright {
         font-size: 12px;
     }

@@ -56,7 +56,9 @@
 .colorGrey {
     color: #3D3D3D;
 }
-
+.text-justify{
+    text-align: justify;
+}
 .colorchanging {
     background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
     -webkit-background-clip: text;
@@ -67,8 +69,9 @@
 .bg-main {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
-.uiText{
-    font-size: 4vw;
+
+.uiText {
+    font-size: 35px;
 }
 
 .footerIcon {
@@ -78,9 +81,11 @@
 .footer i {
     font-size: 2.2vw;
 }
+
 .Copyright {
     font-size: 1vw;
 }
+
 .address {
     font-size: 1.3vw;
 }
@@ -95,6 +100,7 @@
     .footer h5 {
         font-size: 4vw;
     }
+
     .footer p {
         font-size: 3.7vw;
     }
@@ -113,24 +119,18 @@
 }
 
 @media only screen and (max-width: 576px) {
-    .uiText{
-        font-size: 10vw;
-    }
-    .posted{
-        font-size: 5vw;
-    }
-    .uiContent h4{
-        font-size: 5vw;
-    }
     .listContent {
         line-height: 30px;
     }
+
     .footerLogo img {
         width: 70%;
     }
+
     .footer a {
         font-size: 13px;
     }
+
     .Copyright {
         font-size: 12px;
     }
