@@ -52,7 +52,9 @@
 .fWeight-800 {
     font-weight: 800;
 }
-
+.text-jusify{
+    text-align: justify;
+}
 .colorGrey {
     color: #3D3D3D;
 }
