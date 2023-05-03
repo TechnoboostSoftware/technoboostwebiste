@@ -68,37 +68,66 @@
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
 
-.landingPage h1,
-.open h1 {
-    font-size: 4.5vw;
-    line-height: 72px;
+
+.CallWhite {
+    width: 10%;
 }
 
-.landingPage p {
-    font-size: 1.9vw;
-    line-height: 35px;
+.landingBox {
+    background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
 
-.workWithUsMan {
-    width: 20%;
+.UnionBox {
+    width: 5%;
 }
 
-.openBox {
-    border: 1px solid black;
+.togetherNoBox-p {
+    font-size: 1.2vw;
 }
 
-.whyUs h1 {
-    font-size: 4.5vw;
-    line-height: 70px;
+.teamContent h4 {
+    font-size: 4vw;
 }
 
-.withUsBox {
-    height: 38vh;
+.teamContent img {
+    top: 0px;
+    left: 138px;
+    width: 60%;
 }
 
-.withUsBox h5 {
-    line-height: 5vh;
+.teamContent h1 {
+    font-size: 10vw;
+    line-height: 140px;
+}
+
+.teamContent p {
+    font-size: 1.7vw;
+}
+
+/* .values {
+    font-size: 3vw;
+} */
+
+/* .who-P {
+    font-size: 1.5vw;
+} */
+
+.find {
+    background: linear-gradient(83.18deg, rgba(224, 227, 223, 0.5) 2.38%, rgba(193, 223, 252, 0.5) 47.26%, rgba(149, 242, 255, 0.49) 100%);
+}
+
+.findP-1 {
+    line-height: 11vh;
+}
+
+.findh {
+    font-size: 6vw;
+    line-height: 11vh;
+}
+
+.findP-2 {
     font-size: 2vw;
+    line-height: 5vh;
 }
 
 .clients h1 {
@@ -117,67 +146,90 @@
 .footer i {
     font-size: 2.2vw;
 }
+
 .Copyright {
     font-size: 1vw;
 }
 
 /*  ############################# TAB ########################### */
 @media only screen and (max-width: 767px) {
-    .landingPage h1 {
+    .landingDiv p {
+        font-size: 3.5vw;
+    }
+
+    .CallWhite {
+        width: 10%;
+    }
+
+    .values {
+        font-size: 9vw;
+    }
+
+    .teamContent p {
+        font-size: 2.5vw;
+    }
+
+    .who-P {
+        font-size: 3.4vw;
+    }
+
+    .togetherNoBox-p {
+        font-size: 3.5vw;
+    }
+
+    .teamContent h4 {
+        font-size: 4vw;
+    }
+
+    .teamContent img {
+        top: 0px;
+        left: 62px;
+        width: 60%;
+    }
+
+    .teamContent h1 {
+        font-size: 10vw;
+        line-height: 45px;
+    }
+
+    .teamContent p {
+        font-size: 2.2vw;
+    }
+
+    .name {
         font-size: 7vw;
     }
 
-    .landingPage p {
+    .title {
+        font-size: 6vw;
+    }
+
+    .whoText {
+        font-size: 2.5vw;
+        text-align: justify;
+    }
+
+    .findP-1 {
+        font-size: 5vw;
+    }
+
+    .findP-2 {
         font-size: 3.5vw;
-        text-align: center;
+        line-height: 4vh;
     }
 
-    .callMade {
-        width: 13%;
+    .findh {
+        font-size: 10vw;
+        line-height: 8vh;
     }
 
-    .workWithUsMan {
-        width: 50%;
-    }
-
-    .whyUs h1 {
-        font-size: 9vw;
-        line-height: 6vh;
-    }
-
-    .withUsBox {
-        height: 33vh;
-    }
-
-    .withUsBox h5 {
-        font-size: 3vw;
-        line-height: 28px;
+    .four {
+        width: 70%;
     }
 
     .clients h1 {
         font-size: 11vw;
         line-height: 50px;
-    }
-
-    .open h1 {
-        font-size: 9vw;
-        line-height: 60px;
-    }
-
-    .openBox h3 {
-        font-size: 28px;
-    }
-
-    .openBox h5 {
-        font-size: 15px;
-    }
-
-    .openBox p {
-        font-size: 13px;
-    }
-
-    .openBox .btn {
-        font-size: 15px;
     }
 
     .footerLogo img {
@@ -188,6 +240,7 @@
     .footer h5 {
         font-size: 4vw;
     }
+
     .footer p {
         font-size: 3.7vw;
     }
@@ -203,53 +256,61 @@
     .footer .Copyright {
         font-size: 2.5vw;
     }
+
 }
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
-    .landingPage h1 {
-        font-size: 10vw;
+    .teamContent h4 {
+        font-size: 6vw;
     }
 
-    .landingPage p {
-        font-size: 4vw;
-        line-height: 3vh;
+    .teamContent img {
+        top: 0px;
+        left: 45px;
+        width: 60%;
     }
 
-    .whyUs h1 {
+    .teamContent h1 {
         font-size: 11vw;
+        line-height: 25px;
     }
 
-    .withUsBox {
-        height: 40vh;
+    .teamContent p {
+        font-size: 4vw;
     }
 
-    .withUsBox h5 {
+    .UnionBox {
+        width: 8%;
+    }
+
+    .values {
+        width: 20px;
+    }
+
+    .findP-1 {
         font-size: 7.5vw;
-        line-height: 7.5vh;
+        line-height: 45px;
     }
 
-    .openBox p {
-        font-size: 4vw;
+    .findh {
+        font-size: 12vw;
+        line-height: 6vh;
     }
 
-    .openBox h3 {
-        font-size: 7vw;
+    .findP-2 {
+        font-size: 4.3vw;
+        line-height: 3.5vh;
     }
 
-    .openBox h5 {
-        font-size: 3.5vw;
-    }
-
-    .openBox .btn {
-        font-size: 4vw;
-    }
     .footerLogo img {
         width: 70%;
     }
+
     .footer a {
         font-size: 13px;
     }
+
     .Copyright {
         font-size: 12px;
     }
