@@ -231,6 +231,9 @@
     color: white;
     opacity: .35;
 }
+.slick-list {
+    padding:0 20% 0 0 !important;
+}
 
 
 /*  #############################  TAB ########################### */
