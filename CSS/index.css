@@ -199,7 +199,38 @@
 .address {
     font-size: 1.3vw;
 }
-
+.slider-text{
+    background-image: url("../IMAGES/shadow.svg");
+    background-repeat: no-repeat;
+    bottom: 0px;  
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.sliderImgDiv{
+    background-color: #FFCD00;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+.sliderImgDiv img{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.slick-dots li.slick-active button:before{
+    color: white;
+    opacity: 1;
+}
+.slick-dots li button:before{
+    color: white;
+    opacity: .35;
+}
 
 
 /*  #############################  TAB ########################### */
