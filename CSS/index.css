@@ -213,8 +213,7 @@
 }
 .sliderImgDiv{
     background-color: #FFCD00;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
    
 }
 .sliderImgDiv img{
@@ -223,14 +222,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.slick-dots li.slick-active button:before{
-    color: white;
-    opacity: 1;
-}
-.slick-dots li button:before{
-    color: white;
-    opacity: .35;
-}
+
 
 
 /*  #############################  TAB ########################### */
