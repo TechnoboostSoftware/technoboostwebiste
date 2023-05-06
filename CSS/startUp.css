@@ -52,9 +52,11 @@
 .fWeight-800 {
     font-weight: 800;
 }
-.text-jusify{
+
+.text-jusify {
     text-align: justify;
 }
+
 .colorGrey {
     color: #3D3D3D;
 }
@@ -69,9 +71,26 @@
 .bg-main {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
-.bg-mainBox p{
- text-align: justify;
+
+.bg-mainBox p {
+    text-align: justify;
 }
+
+.bg-startUpBox {
+    background: #FED631;
+    border: 1px solid #757575;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* height: 70vh; */
+}
+
+.innerStartupBox {
+    background: #ffff;
+    border-radius: 15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
 .clients h1 {
     font-size: 4vw;
     line-height: 63px
@@ -88,22 +107,24 @@
 .footer i {
     font-size: 2.2vw;
 }
+
 .Copyright {
     font-size: 1vw;
 }
+
 /*  ############################# TAB ########################### */
 @media only screen and (max-width: 767px) {
     .passionate {
         font-size: 4vw;
     }
 
-.content p {
-    font-size: 3vw;
-}
+    .content p {
+        font-size: 3vw;
+    }
 
-.content .first {
-    font-size: 6vw;
-}
+    .content .first {
+        font-size: 6vw;
+    }
 
     .bg-mainBox p {
         font-size: 4.5vw;
@@ -121,6 +142,7 @@
     .footerLogo img {
         width: 100%;
     }
+
     .footer h5 {
         font-size: 4vw;
     }
@@ -143,18 +165,23 @@
     .passionate {
         font-size: 4vw;
     }
+
     .content p {
         font-size: 3.5vw;
     }
+
     .bg-mainBox p {
         font-size: 4vw;
     }
+
     .footerLogo img {
         width: 70%;
     }
+
     .footer a {
         font-size: 13px;
     }
+
     .Copyright {
         font-size: 12px;
     }

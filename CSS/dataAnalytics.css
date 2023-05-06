@@ -52,9 +52,11 @@
 .fWeight-800 {
     font-weight: 800;
 }
-.text-jusify{
+
+.text-jusify {
     text-align: justify;
 }
+
 .colorGrey {
     color: #3D3D3D;
 }
@@ -72,6 +74,21 @@
 
 .bg-mainBox p {
     text-align: justify;
+}
+
+.bg-startUpBox {
+    background: #FED631;
+    border: 1px solid #757575;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* height: 70vh; */
+}
+
+.innerStartupBox {
+    background: #ffff;
+    border-radius: 15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 #ourWork h4 {

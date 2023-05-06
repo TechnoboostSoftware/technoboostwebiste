@@ -8,9 +8,11 @@
 .fs-16 {
     font-size: 16px;
 }
-.fs-25{
+
+.fs-25 {
     font-size: 25px;
 }
+
 .fs-20 {
     font-size: 20px;
 }
@@ -55,9 +57,11 @@
 .fWeight-800 {
     font-weight: 800;
 }
-.text-justify{
+
+.text-justify {
     text-align: justify;
 }
+
 .w-60 {
     width: 60%;
 }
@@ -77,8 +81,8 @@
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
 
-.bg-gold {
-    background: linear-gradient(37.78deg, #FCC95C 22.68%, #FCCB47 32.35%, #FAE595 50.33%);
+.bg-services {
+    background: #2AB7CA;
 }
 
 .bg-2 {
@@ -122,9 +126,6 @@
 .ceo {
     font-size: 1.5vw;
 } */
-.goldenBox {
-    height: 60vh;
-}
 
 .harness p {
     font-size: 3vw;
@@ -159,11 +160,18 @@
     width: 15%;
 }
 
-.technology {
-    font-size: 3.5vw;
-    line-height: 9.5vh;
+.Products p,
+.services p {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
-
+.bg-services p{
+    border: none;
+    line-height: 25px;
+}
+.innerServiceBox{
+    background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
+    border-radius: 30px;
+}
 .clientVector {
     top: 25px;
     left: 25px;
@@ -199,24 +207,27 @@
 .address {
     font-size: 1.3vw;
 }
-.slider-text{
+
+.slider-text {
     background-image: url("../IMAGES/shadow.svg");
     background-repeat: no-repeat;
-    bottom: 0px;  
+    bottom: 0px;
     color: white;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     text-align: center;
     font-weight: 600;
     font-size: 20px;
-    
+
 }
-.sliderImgDiv{
+
+.sliderImgDiv {
     background-color: #FFCD00;
     border-radius: 10px;
-   
+
 }
-.sliderImgDiv img{
+
+.sliderImgDiv img {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 10px;
@@ -338,9 +349,11 @@
     .footerLogo img {
         width: 100%;
     }
+
     .footer h5 {
         font-size: 4vw;
     }
+
     .footer p {
         font-size: 3.7vw;
     }
@@ -381,6 +394,11 @@
         font-size: 3.5vw;
     }
 
+    .Products p,
+    .services p {
+        font-size: 12px;
+    }
+
     .harness p {
         font-size: 7vw;
         line-height: 8vh;
@@ -413,6 +431,7 @@
         font-size: 12vw;
         line-height: 6vh;
     }
+
     .findP-2 {
         font-size: 4.3vw;
         line-height: 3.5vh;
@@ -421,9 +440,11 @@
     .footerLogo img {
         width: 70%;
     }
+
     .footer a {
         font-size: 12px;
     }
+
     .Copyright {
         font-size: 12px;
     }
