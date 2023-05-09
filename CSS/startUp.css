@@ -148,7 +148,7 @@
     }
 
 
-    .footer a {
+    .footerLink a {
         font-size: 15px;
     }
 
@@ -180,9 +180,7 @@
         width: 70%;
     }
 
-    .footer a {
-        font-size: 13px;
-    }
+
 
     .Copyright {
         font-size: 12px;

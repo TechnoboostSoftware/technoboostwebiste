@@ -101,7 +101,7 @@ p.resume {
     }
 
 
-    .footer a {
+    .footerLink a {
         font-size: 15px;
     }
 
@@ -118,9 +118,7 @@ p.resume {
     .footerLogo img {
         width: 70%;
     }
-    .footer a {
-        font-size: 13px;
-    }
+
     .Copyright {
         font-size: 12px;
     }

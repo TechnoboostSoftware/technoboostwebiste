@@ -167,9 +167,7 @@
         font-size: 4vw;
     }
 
-
-
-    .footer a {
+    .footerLink a {
         font-size: 15px;
     }
 
@@ -211,10 +209,6 @@
 
     .footerLogo img {
         width: 70%;
-    }
-
-    .footer a {
-        font-size: 13px;
     }
 
     .Copyright {
