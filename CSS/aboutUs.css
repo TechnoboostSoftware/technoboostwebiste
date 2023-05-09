@@ -100,10 +100,6 @@
     line-height: 140px;
 }
 
-.teamContent p {
-    font-size: 1.7vw;
-}
-
 /* .values {
     font-size: 3vw;
 } */
@@ -154,7 +150,7 @@
 /*  ############################# TAB ########################### */
 @media only screen and (max-width: 767px) {
     .landingDiv p {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     .CallWhite {
@@ -170,7 +166,7 @@
     }
 
     .who-P {
-        font-size: 3.4vw;
+        font-size: 3vw;
     }
 
     .togetherNoBox-p {
@@ -205,7 +201,7 @@
     }
 
     .whoText {
-        font-size: 2.5vw;
+        font-size: 3vw;
         text-align: justify;
     }
 
@@ -241,8 +237,6 @@
         font-size: 4vw;
     }
 
-
-
     .footer a {
         font-size: 15px;
     }
@@ -259,6 +253,10 @@
 
 /*  ############################# MOBILE ########################### */
 @media only screen and (max-width: 576px) {
+    .landingDiv p {
+        font-size: 4vw;
+    }
+
     .teamContent h4 {
         font-size: 6vw;
     }
@@ -286,6 +284,10 @@
         width: 20px;
     }
 
+    .whoText {
+        font-size: 4vw;
+        text-align: justify;
+    }
     .findP-1 {
         font-size: 7.5vw;
         line-height: 45px;

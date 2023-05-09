@@ -130,8 +130,8 @@
         font-size: 4.5vw;
     }
 
-    .bg-mainBox button {
-        font-size: 5vw;
+    .contact {
+        font-size: 4vw;
     }
 
     .clients h1 {
@@ -173,7 +173,9 @@
     .bg-mainBox p {
         font-size: 4vw;
     }
-
+    /* .bg-mainBox button {
+        font-size: 5vw;
+    } */
     .footerLogo img {
         width: 70%;
     }
