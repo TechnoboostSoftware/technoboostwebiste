@@ -164,6 +164,10 @@
     width: 40%;
 }
 
+.contactBg {
+    background-image: url("../IMAGES/contactBg.svg");
+    height: 650px;
+}
 .studyBgImg-2 {
     background-image: url("../IMAGES/Component17.svg");
     height: 365px;
@@ -224,7 +228,12 @@
     font-size: 4vw;
     line-height: 63px
 }
-
+.contactUnion{
+    top: 133px;
+    right: 0px;
+    z-index: -1;
+    width: 45%;
+}
 .address {
     font-size: 1.3vw;
 }
