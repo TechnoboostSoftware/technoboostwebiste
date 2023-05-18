@@ -36,11 +36,12 @@
 .fs-2vw {
     font-size: 2vw;
 }
+
 .fs-2-7vw {
     font-size: 2.7vw;
     line-height: 53px;
 }
-}
+
 
 .fs-40 {
     font-size: 40px;
@@ -77,6 +78,7 @@
 .fWeight-800 {
     font-weight: 800;
 }
+
 .text-jusify {
     text-align: justify;
 }
@@ -199,9 +201,10 @@
 }
 
 @media only screen and (max-width: 576px) {
-    .servicesHeading{
+    .servicesHeading {
         width: 15%;
     }
+
     .passionate {
         font-size: 4vw;
     }
@@ -213,20 +216,23 @@
     .bg-mainBox p {
         font-size: 4vw;
     }
+
     /* .bg-mainBox button {
         font-size: 5vw;
     } */
     .contactMobileUnion {
-        z-index: -1;
+        z-index: 0;
         top: 100px;
         width: 100%;
+    }
+
+    .textIndex {
+        z-index: 1;
     }
 
     .footerLogo img {
         width: 70%;
     }
-
-
 
     .Copyright {
         font-size: 12px;

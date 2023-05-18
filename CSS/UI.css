@@ -157,9 +157,12 @@
     }
 
     .contactMobileUnion {
-        z-index: -1;
+        z-index: 0;
         top: 100px;
         width: 100%;
+    }
+    .textIndex{
+        z-index: 1;
     }
 
     .footerLogo img {
