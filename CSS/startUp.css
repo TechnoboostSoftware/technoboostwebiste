@@ -5,11 +5,20 @@
     font-style: normal;
 }
 
+.fs-13 {
+    font-size: 13px;
+}
+
 .fs-16 {
     font-size: 16px;
 }
+
 .fs-18 {
     font-size: 18px;
+}
+
+.fs-25 {
+    font-size: 25px;
 }
 
 .fs-20 {
@@ -32,8 +41,16 @@
     font-size: 40px;
 }
 
+.fs-50 {
+    font-size: 50px;
+}
+
 .fs-3vw {
     font-size: 3vw;
+}
+
+.fs-4vw {
+    font-size: 4vw;
 }
 
 .fWeight-400 {
@@ -55,7 +72,6 @@
 .fWeight-800 {
     font-weight: 800;
 }
-
 .text-jusify {
     text-align: justify;
 }
@@ -97,6 +113,18 @@
 .clients h1 {
     font-size: 4vw;
     line-height: 63px
+}
+
+.contactUnion {
+    top: 133px;
+    right: 0px;
+    z-index: -1;
+    width: 45%;
+}
+
+.contactBg {
+    background-image: url("../IMAGES/contactBg.svg");
+    height: 650px;
 }
 
 .address {
@@ -182,6 +210,12 @@
     /* .bg-mainBox button {
         font-size: 5vw;
     } */
+    .contactMobileUnion {
+        z-index: -1;
+        top: 100px;
+        width: 100%;
+    }
+
     .footerLogo img {
         width: 70%;
     }

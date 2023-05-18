@@ -5,9 +5,14 @@
     font-style: normal;
 }
 
+.fs-13 {
+    font-size: 13px;
+}
+
 .fs-16 {
     font-size: 16px;
 }
+
 .fs-18 {
     font-size: 18px;
 }
@@ -47,7 +52,6 @@
 .fs-4vw {
     font-size: 4vw;
 }
-
 
 .fWeight-400 {
     font-weight: 400;
@@ -151,9 +155,11 @@
     line-height: 8.5vh;
     color: #2AB7CA;
 }
-.technology{
+
+.technology {
     font-size: 4vw;
 }
+
 .caseStudyImg {
     overflow-x: hidden;
 }
@@ -168,6 +174,7 @@
     background-image: url("../IMAGES/contactBg.svg");
     height: 650px;
 }
+
 .studyBgImg-2 {
     background-image: url("../IMAGES/Component17.svg");
     height: 365px;
@@ -194,9 +201,11 @@
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
     border-radius: 30px;
 }
+
 .technoText p {
     line-height: 30px;
 }
+
 .clientVector {
     top: 25px;
     left: 25px;
@@ -228,12 +237,14 @@
     font-size: 4vw;
     line-height: 63px
 }
-.contactUnion{
+
+.contactUnion {
     top: 133px;
     right: 0px;
     z-index: -1;
     width: 45%;
 }
+
 .address {
     font-size: 1.3vw;
 }
@@ -312,6 +323,7 @@
         font-size: 12vw;
         line-height: 60px;
     }
+
     .Products p,
     .services p {
         font-size: 14px;
@@ -329,6 +341,7 @@
     p.innerServiceBox-2 {
         font-size: 6vw;
     }
+
     .bg-services p {
         line-height: 40px;
     }
@@ -488,6 +501,18 @@
     .findP-2 {
         font-size: 4.3vw;
         line-height: 3.5vh;
+    }
+
+    .contactMobileUnion {
+        z-index: -1;
+        top: 100px;
+        width: 100%;
+    }
+
+    .contactMobileUnion {
+        z-index: -1;
+        top: 100px;
+        width: 100%;
     }
 
     .footerLogo img {
