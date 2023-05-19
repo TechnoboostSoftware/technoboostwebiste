@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-1vw {
+    font-size: 1.5vw;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-2vw {
+    font-size: 2vw;
+}
+.fs-2-7vw {
+    font-size: 2.7vw;
+    line-height: 53px;
+}
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-3vw {
+    font-size: 3vw;
+}
+
+.fs-4vw {
+    font-size: 4vw;
+}
+
+.fWeight-400 {
+    font-weight: 400;
+}
+
+.fWeight-500 {
+    font-weight: 500;
+}
+
+.fWeight-600 {
+    font-weight: 600;
+}
+
+.fWeight-700 {
+    font-weight: 700;
+}
+
+.fWeight-800 {
+    font-weight: 800;
+}
+.text-jusify {
+    text-align: justify;
+}
+
+.colorGrey {
+    color: #3D3D3D;
+}
+
+.colorchanging {
+    background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bg-main {
+    background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
+}
+
+.bg-mainBox p {
+    text-align: justify;
+}
+
+.bg-startUpBox {
+    background: #FED631;
+    border: 1px solid #757575;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* height: 70vh; */
+}
+
+.innerStartupBox {
+    background: #ffff;
+    border-radius: 15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#ourWork h4 {
+    font-size: 4vw;
+}
+
+#ourWork img {
+    top: -4px;
+    left: 19vw;
+    width: 6%;
+}
+
+.clients h1 {
+    font-size: 4vw;
+    line-height: 63px
+}
+
+.contactUnion {
+    top: 133px;
+    right: 0px;
+    z-index: -1;
+    width: 45%;
+}
+
+.contactBg {
+    background-image: url("../IMAGES/contactBg.svg");
+    height: 650px;
+    background-repeat: no-repeat;
+}
+
+.address {
+    font-size: 1.3vw;
+}
+
+.footerIcon {
+    font-size: 2vw;
+}
+
+.footer i {
+    font-size: 2.2vw;
+}
+
+.Copyright {
+    font-size: 1vw;
+}
+
+/*  ############################# TAB ########################### */
+@media only screen and (max-width: 767px) {
+    .passionate {
+        font-size: 4vw;
+    }
+
+    .content p {
+        font-size: 3vw;
+    }
+
+    .content .first {
+        font-size: 6vw;
+    }
+
+    .bg-mainBox p {
+        font-size: 4.5vw;
+    }
+
+    .bg-mainBox button {
+        font-size: 5vw;
+    }
+
+    #ourWork h4 {
+        font-size: 4vw;
+    }
+
+    #ourWork img {
+        top: -7px;
+        left: 19vw;
+        width: 7%;
+    }
+
+    .clients h1 {
+        font-size: 11vw;
+        line-height: 50px;
+    }
+
+    .footerLogo img {
+        width: 100%;
+    }
+
+    .footer h5 {
+        font-size: 4vw;
+    }
+
+    .footerLink a {
+        font-size: 15px;
+    }
+
+    .footer i {
+        font-size: 7vw;
+    }
+
+    .footer .Copyright {
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .servicesHeading{
+        width: 15%;
+    }
+    .passionate {
+        font-size: 4vw;
+    }
+
+    .content p {
+        font-size: 3.5vw;
+    }
+
+    .bg-mainBox p {
+        font-size: 4vw;
+    }
+
+    #ourWork h4 {
+        font-size: 6vw;
+    }
+
+    #ourWork img {
+        top: 0px;
+        left: 29vw;
+        width: 7%;
+    }
+
+    #ourWork p {
+        font-size: 3.5vw;
+    }
+
+    .contactMobileUnion {
+        z-index: 0;
+        top: 100px;
+        width: 100%;
+    }
+    .textIndex{
+        z-index: 1;
+    }
+
+    .footerLogo img {
+        width: 70%;
+    }
+
+    .Copyright {
+        font-size: 12px;
+    }
+}

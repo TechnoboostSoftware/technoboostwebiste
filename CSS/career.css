@@ -1,0 +1,300 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-1vw {
+    font-size: 1.5vw;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-2vw {
+    font-size: 2vw;
+}
+.fs-2-7vw {
+    font-size: 2.7vw;
+    line-height: 53px;
+}
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-3vw {
+    font-size: 3vw;
+}
+
+.fs-4vw {
+    font-size: 4vw;
+}
+
+.fWeight-400 {
+    font-weight: 400;
+}
+
+.fWeight-500 {
+    font-weight: 500;
+}
+
+.fWeight-600 {
+    font-weight: 600;
+}
+
+.fWeight-700 {
+    font-weight: 700;
+}
+
+.fWeight-800 {
+    font-weight: 800;
+}
+.colorGrey {
+    color: #3D3D3D;
+}
+
+.colorchanging {
+    background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bg-main {
+    background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
+}
+
+.landingPage h1,
+.open h1 {
+    font-size: 4.5vw;
+    line-height: 72px;
+}
+
+.landingPage p {
+    font-size: 1.9vw;
+    line-height: 35px;
+}
+
+.workWithUsMan {
+    width: 20%;
+}
+
+.openBox {
+    border: 1px solid black;
+}
+
+.whyUs h1 {
+    font-size: 4.5vw;
+    line-height: 70px;
+}
+.careerBoxBg{
+    background-image: url("../IMAGES/careerBoxBg.svg");
+}
+/* .withUsBox {
+    height: 38vh;
+} */
+
+.withUsBox h5 {
+    line-height: 5vh;
+    font-size: 2vw;
+}
+
+.clients h1 {
+    font-size: 4vw;
+    line-height: 63px
+}
+
+.contactUnion {
+    top: 133px;
+    right: 0px;
+    z-index: -1;
+    width: 45%;
+}
+
+.contactBg {
+    background-image: url("../IMAGES/contactBg.svg");
+    height: 650px;
+    background-repeat: no-repeat;
+}
+
+.address {
+    font-size: 1.3vw;
+}
+
+.footerIcon {
+    font-size: 2vw;
+}
+
+.footer i {
+    font-size: 2.2vw;
+}
+.Copyright {
+    font-size: 1vw;
+}
+
+/*  ############################# TAB ########################### */
+@media only screen and (max-width: 767px) {
+    .landingPage h1 {
+        font-size: 7vw;
+    }
+
+    .landingPage p {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .callMade {
+        width: 13%;
+    }
+
+    .workWithUsMan {
+        width: 50%;
+    }
+
+    .whyUs h1 {
+        font-size: 9vw;
+        line-height: 6vh;
+    }
+
+    .withUsBox {
+        height: 33vh;
+    }
+
+    .withUsBox h5 {
+        font-size: 3vw;
+        line-height: 28px;
+    }
+
+    .clients h1 {
+        font-size: 11vw;
+        line-height: 50px;
+    }
+
+    /* .open h1 {
+        font-size: 9vw;
+        line-height: 60px;
+    }
+
+    .openBox h3 {
+        font-size: 28px;
+    }
+
+    .openBox h5 {
+        font-size: 15px;
+    }
+
+    .openBox p {
+        font-size: 13px;
+    } */
+
+    .openBox .btn {
+        font-size: 15px;
+    }
+
+    .footerLogo img {
+        width: 100%;
+    }
+
+
+    .footer h5 {
+        font-size: 4vw;
+    }
+
+
+    .footerLink a {
+        font-size: 15px;
+    }
+
+    .footer i {
+        font-size: 7vw;
+    }
+
+    .footer .Copyright {
+        font-size: 2.5vw;
+    }
+}
+
+/*  ############################# MOBILE ########################### */
+@media only screen and (max-width: 576px) {
+    .landingPage h1 {
+        font-size: 10vw;
+    }
+
+    .landingPage p {
+        font-size: 4vw;
+        line-height: 3vh;
+    }
+
+    .whyUs h1 {
+        font-size: 11vw;
+    }
+
+    .withUsBox {
+        height: 40vh;
+    }
+
+    .withUsBox h5 {
+        font-size: 7.5vw;
+        line-height: 7.5vh;
+    }
+/* 
+    .openBox p {
+        font-size: 4vw;
+    }
+
+    .openBox h3 {
+        font-size: 7vw;
+    }
+
+    .openBox h5 {
+        font-size: 3.5vw;
+    } */
+
+    .openBox .btn {
+        font-size: 4vw;
+    }
+    .contactMobileUnion {
+        z-index: 0;
+        top: 100px;
+        width: 100%;
+    }
+    .textIndex{
+        z-index: 1;
+    }
+
+    .footerLogo img {
+        width: 70%;
+    }
+
+    .Copyright {
+        font-size: 12px;
+    }
+}

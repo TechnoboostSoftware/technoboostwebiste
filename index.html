@@ -5,8 +5,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Technoboost.com</title>
-        <!-- <link href="IMAGES/favicon.svg" rel="icon"> -->
+        <title>Technoboost.in</title>
+        <link href="IMAGES/favicon.svg" rel="icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -22,370 +22,685 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://kit.fontawesome.com/6c2754f92f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     </head>
+    <style>
+        .slick-dots li.slick-active button:before {
+            color: white;
+            opacity: 1;
+        }
+
+        .slick-dots li button:before {
+            color: white;
+            opacity: .35;
+            font-size: 10px;
+        }
+
+        .slick-list {
+            padding: 0 20% 0 0 !important;
+        }
+    </style>
 
     <body>
         <!-- ############################# NAVBAR #############################-->
         <nav class="navbar navbar-expand-md bg-light py-0">
             <div class=" container-fluid">
-                <a class="navbar-brand" href="#"><img src="IMAGES/logo.svg"></a>
+                <a class="navbar-brand" href="index.html"><img src="IMAGES/logo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 ps-3 mb-lg-0">
-                        <li class="nav-item me-3  dropdown">
-                            <a class="px-4 fWeight-500 nav-link dropdown-toggle text-dark " href="#" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false"> Products</a>
+                    <ul class="navbar-nav ms-auto mb-2 align-items-md-center align-items-start  ps-3 mb-lg-0">
+                        <!-- <li class="nav-item me-3  dropdown">
+                            <a class="px-4 fs-20 fWeight-500  nav-link dropdown-toggle text-dark " href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">Product</a></li>
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">Product</a></li>
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">Product</a></li>
+                                <li><a class="px-4 fs-20 fWeight-500 dropdown-item" href="">Product</a></li>
+                                <li><a class="px-4 fs-20 fWeight-500 dropdown-item" href="">Product</a></li>
+                                <li><a class="px-4 fs-20 fWeight-500 dropdown-item" href="">Product</a></li>
                             </ul>
-                        </li>
+                        </li> -->
 
                         <li class="nav-item me-3  dropdown">
-                            <a class="px-4 fWeight-500 nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="px-4 fs-18 fWeight-500 nav-link dropdown-toggle text-dark" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">services</a></li>
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">services</a></li>
-                                <li><a class="px-4 fWeight-500 dropdown-item" href="">services</a></li>
+                                <li><a class="px-4 fs-16 fWeight-500 dropdown-item" href="startUp.html">Startup
+                                        Support</a></li>
+                                <li><a class="px-4 fs-16 fWeight-500 dropdown-item" href="development.html">Custom
+                                        Development</a></li>
+                                <li><a class="px-4 fs-16 fWeight-500 dropdown-item" href="ux.html">UX Designing</a></li>
+                                <li><a class="px-4 fs-16 fWeight-500 dropdown-item" href="dataAnalytics.html">Data
+                                        Analytics & Reporting</a></li>
                             </ul>
                         </li>
                         <li class="nav-item me-3 ">
-                            <a class="px-4 fWeight-500 nav-link text-dark" href="about us.html">About Us</a>
+                            <a class="px-4 fs-18 fWeight-500 nav-link text-dark" href="aboutUs.html">About Us</a>
                         </li>
                         <li class="nav-item me-3 px-4">
-                            <button class="btn btn-warning fWeight-500 fs-1vw">Contact Us</button>
+                            <a href="#contact" class="text-decoration-none">
+                                <button class="btn btn-warning fWeight-600 px-4 rounded-0 contact fs-16">Contact
+                                    Us</button></a>
                         </li>
 
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="container-fluid ">
-            <!-- ########################################## Landing page####################### -->
-            <div class="landingPage bg-main py-5">
-                <div class="row align-items-center">
-                    <div class="col-md-6 col-12 py-5">
-                        <div class="ps-md-5 ps-3 d-flex flex-column">
-                            <div>
-                                <h1 class="grow mb-0 fWeight-800 colorchanging">Grow</h1>
-                                <h2 class="text-light mb-0 business fWeight-500">your business</h2>
-                                <h3 class="text-light withUs fWeight-500">with us</h3>
-                                <p class="text-light goal fWeight-500 pt-3 mb-md-5 mb-4">Our goal is to harness the
-                                    power of both
-                                    technology and our workforce to accelerate
-                                    progress.</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact fs-1vw">Contact
-                                    Us</button>
-                                <p class="text-light px-4 my-0 fWeight-600">Our Services</p>
+
+        <!-- ########################################## Landing page####################### -->
+        <main id="main">
+            <section id="hero" class="bg-main">
+                <div class="landingPage container">
+                    <div class="row align-items-center pb-5 px-md-0 px-3">
+                        <div class="col-md-6 col-12 px-0 pt-5">
+                            <div class="d-flex flex-column pt-md-2 pt-0">
+                                <div>
+                                    <h1 class="grow mb-0 fWeight-800 colorchanging">Grow</h1>
+                                    <h2 class="text-light mb-0 business fWeight-500">your <span
+                                            class="businessSpan fWeight-700">business</span></h2>
+                                    <h3 class="text-light withUs fWeight-500">with us</h3>
+                                    <p class="text-light goal fWeight-500 pt-3 mb-md-5 mb-4">Our goal is to harness the
+                                        power of both technology and our workforce to accelerate
+                                        progress.</p>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <a href="#contact" class="text-decoration-none">
+                                        <button
+                                            class="btn btn-warning fWeight-700 px-4 rounded-0 contact fs-1vw">Contact
+                                            Us</button></a>
+                                    <a href="#services" class="text-decoration-none">
+                                        <p class="text-light px-4 my-0 fWeight-600">Our Services</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-12 py-md-5 py-0 text-center">
-                        <img src="IMAGES/man.svg" width="60%">
+                        <div class="col-md-6 col-12 py-md-5 pt-5 text-center">
+                            <img src="IMAGES/man.svg" width="80%">
+                        </div>
                     </div>
                 </div>
-            </div>
-
+            </section>
             <!-- ##########################################  purpose ####################### -->
-
-            <div class="purpose my-5">
-                <div class="row align-items-center">
-                    <div class="col-md-4 col-12 d-flex justify-content-center">
-                        <img src="IMAGES/purpose.svg" class="ps-md-5 ps-0 purposeImg pb-md-0 pb-4" width="90%">
-                    </div>
-                    <div class="col-md-8 col-12">
-                        <div class="greyBox position-relative rounded pt-2 px-2">
-                            <img src="IMAGES/Vector.svg" class="position-absolute">
-                            <div class="pt-5 px-md-5 px-2">
-                                <p class=" fWeight-500 purposeText fs-2vw colorGrey pt-4">
-                                    Our mission is to provide you with innovative and reliable software services that
-                                    will
-                                    enable you to unlock your full potential and stay ahead of the competition. Thank
-                                    you for
-                                    entrusting us with your business, we are committed to delivering excellence every
-                                    step of the way.
-                                </p>
-                                <p class="ceo colorGrey text-end fs-1vw py-4">Puneet Parekh, Founder / CEO, Technoboost
-                                </p>
+            <section id="purpose">
+                <div class="purpose my-5 container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 col-12 d-flex justify-content-center justify-content-md-start">
+                            <img src="IMAGES/purpose.svg" class=" purposeImg pb-md-0 pb-4" width="90%">
+                        </div>
+                        <div class="col-md-8 col-12">
+                            <div class="greyBox position-relative rounded pt-2 px-2">
+                                <img src="IMAGES/Vector.svg" class="position-absolute">
+                                <div class="pt-5 px-md-5 px-4">
+                                    <p class=" fWeight-500 purposeText fs-2vw colorGrey pt-4">
+                                        Our mission is to provide you with innovative and reliable software services
+                                        that
+                                        will
+                                        enable you to unlock your full potential and stay ahead of the competition.
+                                        Thank
+                                        you for
+                                        entrusting us with your business, we are committed to delivering excellence
+                                        every
+                                        step of the way.
+                                    </p>
+                                    <p class="ceo colorGrey text-end fs-1vw py-4 m-0">Puneet Parekh, Founder / CEO,
+                                        Technoboost
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- ########################################## Services ####################### -->
-            <div class="services bg-main">
-                <div class="text-end pt-3 pe-3">
-                    <button class="btn btn-light rounded-circle ">← </button>
-                    <button class="btn btn-light rounded-circle">→ </button>
-                </div>
-                <div class="row py-md-5 py-0">
-                    <div class="col-md-4 col-12">
-                        <div class="servicesContent text-md-start text-center py-md-5 py-0  ps-md-5 ps-2">
-                            <h1 class="text-light our fWeight-700 pt-md-0 pt-5 mb-0">Our</h1>
-                            <h1 class="ColorServices fWeight-800 colorchanging">Services</h1>
-                            <p class="text-light fWeight-500 servicesP border-top border-white pt-md-0 pt-2 fs-1vw">Our
-                                software services
-                                specializes in providing customized software solutions for businesses of all sizes.</p>
-                            <button class="btn btn-warning fWeight-700 px-4 rounded-0 viewAll fs-1vw">View All</button>
+            <section id="services" class="bg-main">
+                <div class="container">
+                    <div class="services pt-5">
+                        <div>
+                            <h1 class="text-center text-light fWeight-800">Our <span class="color">Services</span></h1>
+                            <p class="text-center text-light fWeight-500 fs-20 mx-5  mb-0 pb-4">Our software services
+                                specializes in providing
+                                customized software solutions for businesses of all sizes.
+                            </p>
                         </div>
-                    </div>
-                    <div class="col-md-8 col-12">
-                        <div class="scroll d-flex ">
-                            <div class="scrollBox bg-2 position-relative mx-3">
-                                <div>
-                                    <img src="IMAGES/scrollNo1.svg" class="position-absolute top-0 start-0">
-                                    <img src="IMAGES/scrollBox.svg" class="position-absolute top-0 end-0">
-                                </div>
-                                <div class="pt-4">
-                                    <h5 class="fs-2vw fWeight-700 pt-5">Startup</h5>
-                                    <h5 class="fs-3vw fWeight-700">Support</h5>
-                                    <p class="fs-1vw fWeight-500 border-top pt-3">You have an idea but do not have the
-                                        right
-                                        technology partner to implement it? Partner with us. You focus on marketing your
-                                        product....
-                                    </p>
-                                    <div class="text-end"><button class="btn btn-light rounded-circle ">→ </button>
-                                    </div>
-                                </div>
+                        <div class="row pt-4 px-md-0 px-5">
+                            <div class=" col-lg-3 col-md-6 col-12 py-md-4 py-4">
+                                <div class="bg-services">
+                                    <div class="d-flex flex-column align-items-center innerServiceBox px-4 py-4">
+                                        <img src="IMAGES/Rocket.svg">
+                                        <div class="pt-3">
+                                            <p class="fs-1vw text-center m-0 fWeight-700 text-light innerServiceBox-1">
+                                                Startup</p>
+                                            <p class=" fs-2vw fWeight-700 text-center text-light innerServiceBox-2 ">
+                                                Support</p>
+                                        </div>
+                                        <div class="border p-1">
+                                            <a href="startUp.html"
+                                                class="text-decoration-none text-end fs-16 text-light">Learn
+                                                More
+                                                <img src="IMAGES/arrow-up.svg"></a>
+                                        </div>
 
-                            </div>
-                            <div class="scrollBox bg-2 position-relative mx-3">
-                                <div>
-                                    <img src="IMAGES/scrollNo2.svg" class="position-absolute top-0 start-0">
-                                    <img src="IMAGES/scrollBox-2.svg" class="position-absolute top-0 end-0">
+
+                                    </div>
                                 </div>
-                                <div class="pt-4">
-                                    <h5 class="fs-2vw fWeight-700 pt-5">Startup</h5>
-                                    <h5 class="fs-3vw fWeight-700">Support</h5>
-                                    <p class="fs-1vw fWeight-500 border-top pt-3">You have an idea but do not have the
-                                        right
-                                        technology partner to implement it? Partner with us. You focus on marketing your
-                                        product....
-                                    </p>
-                                    <div class="text-end"><button class="btn btn-light rounded-circle ">→ </button>
+                            </div>
+                            <div class=" col-lg-3 col-md-6 col-12 py-md-4 py-4">
+                                <div class="bg-services">
+                                    <div class="d-flex flex-column align-items-center innerServiceBox px-4 py-4">
+                                        <img src="IMAGES/development.svg">
+                                        <div class="pt-3">
+                                            <p class="fs-1vw text-center m-0 fWeight-700 text-light innerServiceBox-1">
+                                                Custom</p>
+                                            <p class=" fs-2vw fWeight-700 text-center text-light innerServiceBox-2">
+                                                Development</p>
+                                        </div>
+                                        <div class="border p-1">
+                                            <a href="development.html"
+                                                class="text-decoration-none text-end fs-16 text-light">Learn
+                                                More
+                                                <img src="IMAGES/arrow-up.svg"></a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-6 col-12 py-md-4 py-4">
+                                <div class="bg-services">
+                                    <div class="d-flex flex-column align-items-center innerServiceBox px-4 py-4">
+                                        <img src="IMAGES/ux.svg">
+                                        <div class="pt-3">
+                                            <p class="fs-1vw text-center m-0 fWeight-700 text-light innerServiceBox-1">
+                                                UX</p>
+                                            <p class=" fs-2vw fWeight-700 text-center text-light innerServiceBox-2">
+                                                Designing</p>
+                                        </div>
+                                        <div class="border p-1">
+                                            <a href="ux.html"
+                                                class="text-decoration-none text-end fs-16 text-light">Learn
+                                                More
+                                                <img src="IMAGES/arrow-up.svg"></a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-6 col-12 py-md-4 py-4">
+                                <div class="bg-services">
+                                    <div class="d-flex flex-column align-items-center innerServiceBox px-4 py-4">
+                                        <img src="IMAGES/bro.svg">
+                                        <div class="pt-3">
+                                            <p class="fs-1vw text-center m-0 fWeight-700 text-light innerServiceBox-1">
+                                                Data Analytics</p>
+                                            <p class=" fs-2vw fWeight-700 text-center text-light innerServiceBox-2">&
+                                                Reporting</p>
+                                        </div>
+                                        <div class="border p-1">
+                                            <a href="dataAnalytics.html"
+                                                class="text-decoration-none text-end fs-16 text-light">Learn
+                                                More
+                                                <img src="IMAGES/arrow-up.svg"></a>
+                                        </div>
+
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- <div class="Products pt-4">
+                        <div>
+                            <h1 class="text-center text-light fWeight-800">Our Products</h1>
+                            <p class="text-center text-light fWeight-500 fs-20 mx-5  mb-0 pb-4">We take pride in
+                                delivering high-quality
+                                software solutions that are
+                                reliable, scalable, and user-friendly.</p>
+                        </div>
+                        <div class="row py-4">
+                            <div class="col-md-3 col-12 py-md-4 py-3">
+                                <img src="IMAGES/products-1.svg" class="w-100 px-md-0 px-5">
+                            </div>
+                            <div class="col-md-3 col-12 py-md-4 py-3">
+                                <img src="IMAGES/products-2.svg" class="w-100 px-md-0 px-5">
+                            </div>
+                            <div class="col-md-3 col-12 py-md-4 py-3">
+                                <img src="IMAGES/products-3.svg" class="w-100 px-md-0 px-5">
+                            </div>
+                            <div class="col-md-3 col-12 py-md-4 py-3">
+                                <img src="IMAGES/products-4.svg" class="w-100 px-md-0 px-5">
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
-            </div>
+            </section>
             <!-- ########################################## harness ####################### -->
-            <div class="harness bg-light py-md-5 py-0">
-                <div class="row py-4">
-                    <div class="col-md-8 col-12">
-                        <div class="py-5 ps-md-5 ps-2">
-                            <p class="colorGrey fWeight-700 mb-0">“To harness</p>
-                            <h1 class="power fWeight-800">the power of both </h1>
-                            <h2 class="colorGrey fWeight-700 technology mb-4">technology and our workforce”</h2>
-                            <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact fs-1vw">Contact
-                                Us</button>
+            <section id="harness bg-light">
+                <div class="harness container  pt-md-5 py-0">
+                    <div class="row">
+                        <div class="col-md-8 col-12">
+                            <div class="py-md-5 py-3 ps-md-0 ps-3">
+                                <p class="colorGrey fWeight-700 mb-0">“To harness</p>
+                                <h1 class="power fWeight-800 m-0">the power of both </h1>
+                                <h2 class="colorGrey fWeight-700 technology mb-4">technology and our workforce”</h2>
+                                <a href="#contact" class="text-decoration-none">
+                                    <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact fs-1vw">Contact
+                                        Us</button></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <img src="IMAGES/powerMan.svg" class="w-100">
                         </div>
                     </div>
-                    <div class="col-md-4 col-12">
-                        <img src="IMAGES/powerMan.svg" class="w-100">
-                    </div>
                 </div>
-            </div>
+            </section>
             <!-- ########################################## Studies ####################### -->
-            <div class="Studies bg-main">
-                <div class="text-end pt-3 pe-3">
-                    <button class="btn btn-light rounded-circle ">← </button>
-                    <button class="btn btn-light rounded-circle">→ </button>
-                </div>
-                <div class="row pt-md-5 pt-0">
-                    <div class="col-md-4 col-12">
-                        <div class="studyContent text-md-start text-center py-md-5 py-0 ps-md-5 ps-2">
-                            <h1 class="text-light fWeight-800 colorchanging">Case</h1>
-                            <h1 class=" fWeight-800 colorchanging">Studies</h1>
-                            <p class="text-light fWeight-500 servicesP border-top border-white fs-1vw">We believe that
-                                sharing
-                                our success stories helps potential clients understand our expertise and experience in
-                                providing top-notch software solutions.
-                            </p>
-                            <button class="btn btn-warning fWeight-700 px-4 rounded-0 fs-1vw">Contact Us</button>
+            <section id="Studies" class="bg-main">
+                <div class="Studies container ">
+                    <div class="text-end py-3 slick-controls">
+                        <button class="btn btn-light rounded-circle p-2  me-4 previousBtn"><img
+                                src="IMAGES/arrow-down.svg"></button>
+                        <button class="btn btn-light rounded-circle p-2 nextBtn"><img
+                                src="IMAGES/arrow-down-case.svg"></button>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-5 col-12">
+                            <div class="studyContent text-md-start text-center pb-md-5">
+                                <h1 class="text-light fWeight-800 colorchanging">Case</h1>
+                                <h1 class=" fWeight-800 colorchanging">Studies</h1>
+                                <p class="text-light fWeight-500 servicesP border-top border-white fs-1vw">We believe
+                                    that
+                                    sharing
+                                    our success stories helps potential clients understand our expertise and experience
+                                    in
+                                    providing top-notch software solutions.
+                                </p>
+                                <a href="#contact" class="text-decoration-none">
+                                    <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact fs-16">Contact
+                                        Us</button></a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-12">
+                            <div class="slider caseStyudy-slider">
+                                <div class="m-2 position-relative sliderImgDiv">
+                                    <img class="w-100 " src="IMAGES/Component16.svg">
+                                    <div class="position-absolute px-3 slider-text">
+                                        <p class="m-0">How True Visual App made a great impact on business</p>
+                                    </div>
+                                </div>
+                                <div class="m-2 position-relative sliderImgDiv">
+                                    <img class="w-100 " src="IMAGES/Component16.svg">
+                                    <div class="position-absolute px-3 slider-text">
+                                        <p class="m-0">How True Visual App made a great impact on business</p>
+                                    </div>
+                                </div>
+                                <div class="m-2 position-relative sliderImgDiv">
+                                    <img class="w-100 " src="IMAGES/Component16.svg">
+                                    <div class="position-absolute px-3 slider-text">
+                                        <p class="m-0">How True Visual App made a great impact on business</p>
+                                    </div>
+                                </div>
+                                <div class="m-2 position-relative sliderImgDiv">
+                                    <img class="w-100 " src="IMAGES/Component16.svg">
+                                    <div class="position-absolute px-3 slider-text">
+                                        <p class="m-0">How True Visual App made a great impact on business</p>
+                                    </div>
+                                </div>
+
+
+                                <!-- <div class="slider slider-nav">
+                                <div class="bg-primary"><h3>1</h3></div>
+                                <div class="bg-primary"><h3>2</h3></div>
+                                <div class="bg-primary"><h3>3</h3></div>
+                                <div class="bg-primary"><h3>4</h3></div>
+                                <div class="bg-primary"><h3>5</h3></div>
+                              </div> -->
+
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-12">
+            </section>
+            <!-- ########################################## clients ####################### -->
+            <section id="technology" class="py-5">
+                <div class="container-fluid">
+                    <div class="technoContent px-sm-5 px-3 pb-md-5 pb-3">
+                        <div class="technoText d-flex align-items-center">
+                            <img src="IMAGES/Union.svg" width="3%" class="technoUnion">
+                            <p class="fWeight-700 fs-4vw m-0">Technologies & Tools</p>
+                        </div>
+                        <div class="techno-2 mb-sm-0 mb-4">
+                            <span class="fWeight-400 fs-2vw border-bottom border-2 specialize border-dark pb-2 ">we specialize
+                                in</span>
+                        </div>
+                    </div>
+                    <div class="technoimg px-5 d-sm-block d-none">
+                        <img src="IMAGES/java.svg" class="px-2" width="10%">
+                        <img src="IMAGES/mysql.svg" class="px-2" width="10%">
+                        <img src="IMAGES/pwc.svg" class="px-2" width="10%">
+                        <img src="IMAGES/tableu.svg" class="px-2" width="10%">
+                        <img src="IMAGES/aws.svg" class="px-2" width="10%">
+                        <img src="IMAGES/oracle.svg" class="px-2" width="10%">
+                        <img src="IMAGES/flutter.svg" class="px-2" width="10%">
+                        <img src="IMAGES/figma.svg" class="px-2" width="10%">
+                        <img src="IMAGES/php.svg" class="px-2" width="10%">
+                    </div>
+                    <div class="technoimg d-sm-none d-block">
                         <div class="d-flex">
-                            <div class="studyBgImg mx-3">
-                                <h3 class="text-light ">How True Visual App made a great impact on business</h3>
-                            </div>
-                            <div class="studyBgImg-2">
-                                <h3 class="text-light ">Story Of King of Cards</h3>
-                            </div>
-                            
+                            <img src="IMAGES/java.svg" class="px-3 pb-3" width="33%">
+                            <img src="IMAGES/mysql.svg" class="px-3 pb-3" width="33%">
+                            <img src="IMAGES/pwc.svg" class="px-3 pb-3" width="33%">
                         </div>
-
+                        <div class="d-flex">
+                            <img src="IMAGES/tableu.svg" class="px-3 pb-3" width="33%">
+                            <img src="IMAGES/aws.svg" class="px-3 pb-3" width="33%">
+                            <img src="IMAGES/oracle.svg" class="px-3 pb-3" width="33%">
+                        </div>
+                        <div class="d-flex">
+                            <img src="IMAGES/flutter.svg" class="px-3 pb-3" width="33%">
+                            <img src="IMAGES/figma.svg" class="px-3 pb-3" width="33%">
+                            <img src="IMAGES/php.svg" class="px-3 pb-3" width="33%">
+                        </div>
                     </div>
-                </div>
-            </div>
 
+                </div>
+            </section>
             <!-- ########################################## whatClientsSay ####################### -->
-            <h1 class="my-md-5 my-3  text-center fWeight-700 colorGrey what">What Clients Say About Us</h1>
-            <div class="whatClientsSay bg-main position-relative">
-                <div class="row  align-items-center  px-md-5 px-0 py-5 ">
-                    <div class="col-md-9 col-12 ">
-                        <div class=" rounded pt-2 px-2">
-                            <img src="IMAGES/Vector.svg" class="position-absolute clientVector">
-                            <div class="py-md-5 py-5 px-md-5 px-5">
-                                <p class=" fWeight-500 text-light text-justify clientAns pt-4 fs-2vw">
-                                    Their team of experts provided us with an innovative solution that exceeded our
-                                    expectations. They were incredibly responsive throughout the project and delivered
-                                    it within the timeline and budget we agreed upon. What impressed me the most was
-                                    their attention to detail and commitment to quality.
-                                </p>
+            <!-- <section id="whatClientsSay">
+                <h1 class="my-md-5 my-4 text-center fWeight-700 colorGrey what">What Clients Say About Us</h1>
+                <div class="whatClientsSay bg-main rounded position-relative container">
+                    <div class="row  align-items-center py-5">
+                        <div class="col-md-9 col-12 ">
+                            <div class=" rounded pt-2 px-2">
+                                <img src="IMAGES/Vector.svg" class="position-absolute clientVector">
+                                <div class="py-5 px-5">
+                                    <p
+                                        class=" fWeight-500 text-light clientAns pt-md-4 pt-5 ps-md-4 ps-0 fs-2vw">
+                                        Their team of experts provided us with an innovative solution that exceeded our
+                                        expectations. They were incredibly responsive throughout the project and
+                                        delivered
+                                        it within the timeline and budget we agreed upon. What impressed me the most was
+                                        their attention to detail and commitment to quality.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-12 pt-md-5 pt-0">
-                        <div class="d-flex flex-column align-items-center px-md-0 px-4">
-                            <img src="IMAGES/clientImg.svg" class="w-75">
-                            <div>
-                                <p class="text-light fWeight-700 mb-0 text-center pt-3 fs-1vw">Vikesh Kumar</p>
-                                <p class="text-center fWeight-600 mb-0 text-light">Senior Director, Finance Department,
-                                    Strides
-                                </p>
+                        <div class="col-md-3 col-12 pt-md-5 pt-0">
+                            <div class="d-flex flex-column align-items-center px-md-0 px-4">
+                                <img src="IMAGES/clientImg.svg" class="w-75">
+                                <div>
+                                    <p class="text-light fWeight-700 mb-0 vikesh text-center pt-3 fs-1vw">Vikesh Kumar
+                                    </p>
+                                    <p class="text-center fWeight-600 mb-0 director fs-16 text-light">Senior Director,
+                                        Finance
+                                        Department,
+                                        Strides
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="text-md-end text-center pb-md-0 pb-4">
-                    <button class="btn btn-light rounded-circle">← </button>
-                    <button class="btn btn-light rounded-circle">→ </button>
-                </div>
+                    </div> -->
+            <!-- <div class="text-md-end text-center pb-md-0 pb-4">
+                        <button class="btn btn-light rounded-circle px-2 py-2"><img
+                                src="IMAGES/arrow-down.svg"></button>
+                        <button class="btn btn-light rounded-circle px-2 py-2"><img src="IMAGES/arrow-up.svg"></button>
+                    </div> -->
             </div>
-
+            </section>
             <!-- ########################################## find ####################### -->
-            <div class="find my-5  px-md-5 px-0 py-md-5 py-0">
-                <div class="row align-items-center">
-                    <div class="col-md-8 col-12">
-                        <div class="px-4 px-md-0 py-4 py-md-0">
-                            <p class="text-dark fWeight-400 findP-1 mb-0 fs-3vw">Join Us</p>
-                            <div class="d-flex flex-column">
-                                <h1 class="text-dark fWeight-800 mb-0 findh">Find your </h1>
-                                <h1 class=" text-dark fWeight-800 mb-0 findh">purpose</h1>
+            <section id="find">
+                <div class="find my-5 container rounded px-md-5 pb-md-5 pb-0">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-8 col-12">
+                            <div class="px-4 px-md-0 py-4 py-md-0">
+                                <p class="text-dark fWeight-400 findP-1 mb-0 fs-3vw">Join Us</p>
+                                <div class="d-flex flex-column">
+                                    <h1 class="text-dark fWeight-800 mb-0 findh">Find your </h1>
+                                    <h1 class=" text-dark fWeight-800 mb-0 findh">purpose</h1>
+                                </div>
+                                <p class="text-dark fWeight-400 border-top border-dark findP-2 mt-4 py-3 fs-1vw">
+                                    Join the team of passion,
+                                    commitment, a bit geeky, Together we create magic
+                                </p>
+                                <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact fs-16">Join
+                                    Us</button>
                             </div>
-                            <p class="text-dark fWeight-400 border-top border-dark findP-2 mt-md-5 mt-4 py-3 fs-1vw">
-                                Join the team of passion,
-                                commitment, a bit geeky, Together we create magic
-                            </p>
-                            <button class="btn btn-warning fWeight-700 px-4 rounded-0">Join Us</button>
+                        </div>
+                        <div class="col-md-4 col-12 py-md-0 py-4 d-flex justify-content-center">
+                            <img src="IMAGES/four.svg" class="pt-md-5 four pt-0" width="100%">
                         </div>
                     </div>
-                    <div class="col-md-4 col-12 py-md-0 py-4 d-flex justify-content-center">
-                        <img src="IMAGES/four.svg" width="85%">
-                    </div>
                 </div>
-            </div>
+            </section>
 
             <!-- ########################################## clients ####################### -->
-            <div class="clients">
-                <h1 class=" text-center py-4 colorGrey fWeight-700">Clients</h1>
-                <div class="row row-cols-3 row-cols-md-5 align-items-center mb-md-5 mb-3">
-                    <div class="col-md col-4 text-center">
-                        <img src="IMAGES/download-(3).svg" class="w-100 py-2 px-2 ">
+            <section id="clients">
+                <div class="clients container">
+                    <h1 class=" text-center py-4 colorGrey fWeight-700">Clients</h1>
+                    <div class="row row-cols-3 row-cols-md-5 align-items-center mb-md-5 mb-3">
+                        <div class="col-md col-4 text-center">
+                            <img src="IMAGES/download-(3).svg" class="w-75 py-2 px-2">
+                        </div>
+                        <div class="col-md col-4 text-center">
+                            <img src="IMAGES/download.svg" class="w-75 py-2 px-2">
+                        </div>
+                        <div class="col-md col-4 text-center">
+                            <img src="IMAGES/download-(2).svg" class="w-75 py-2 px-2">
+                        </div>
+                        <div class="col-md col-6 text-center">
+                            <img src="IMAGES/download-(1).svg" class="w-75 py-4 px-2">
+                        </div>
+                        <div class="col-md col-6 text-center">
+                            <img src="IMAGES/download-(5).svg" class="w-75 py-4 px-2">
+                        </div>
                     </div>
-                    <div class="col-md col-4 text-center">
-                        <img src="IMAGES/download.svg" class="w-100 py-2 px-2 ">
-                    </div>
-                    <div class="col-md col-4 text-center">
-                        <img src="IMAGES/download-(2).svg" class="w-100 py-2 px-2 ">
-                    </div>
-                    <div class="col-md col-6 text-center">
-                        <img src="IMAGES/download-(1).svg" class="w-100 py-4 px-2 ">
-                    </div>
-                    <div class="col-md col-6 text-center">
-                        <img src="IMAGES/download-(5).svg" class="w-100 py-4 px-2 ">
-                    </div>
-
                 </div>
-            </div>
-
-            <!-- ########################################## footer ####################### -->
-            <div class="footer bg-main px-4">
-                <div class="footerLogo text-center py-4">
-                    <img src="IMAGES/footerLogo.svg">
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-12">
-                        <div class="d-flex flex-column px-md-5 px-0 text-md-start ">
-                            <div class="d-flex mb-2">
-                                <i class="me-4 fa-sharp footerIcon fs-2vw fa-solid fa-location-dot text-warning"></i>
-                                <div class="text-light d-flex flex-column">
-                                    <p class="fs-1vw"> Techno Boost Services</p>
-                                    <p class="fs-1vw">2nd floor #23, Infiniminds Towers, </p>
-                                    <p class="fs-1vw">KPTCL Road, Kasavanahalli,</p>
-                                    <p class="fs-1vw">Sarjapura Road,</p>
-                                    <p class="fs-1vw">Bangalore 560035</p>
+            </section>
+            <!-- ########################################## contact ####################### -->
+            <section id="contact">
+                <div class="contactDiv pb-5 container d-sm-block d-none">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class=" contactBg d-flex flex-column justify-content-end align-items-center pb-5">
+                                <p class="fWeight-400 fs-2-7vw text-light fst-italic text-center px-5">We would love to
+                                    hear from you</p>
+                                <div class="d-flex  align-items-center">
+                                    <img src="IMAGES/sms.svg" class="me-2">
+                                    <a href="mailto:contactus@technoboost.in" class=" fs-1vw fWeight-400 text-warning">
+                                        contactus@technoboost.in
+                                    </a>
                                 </div>
                             </div>
-                            <div class="d-flex mb-3">
-                                <i class="me-4 footerIcon fs-2vw fa-solid fa-phone text-warning"></i>
-                                <p class=" fs-1vw text-light"> +91 9632968050</p>
-                            </div>
-                            <div class="d-flex ">
-                                <i class="me-4 h3 footerIcon fs-2vw fa-solid fa-envelope text-warning"></i>
-                                <p class=" fs-1vw text-warning"> contactus@technoboost.in</p>
+                        </div>
+                        <div class="col-7">
+                            <p class=" fs-4vw fWeight-700 ps-3">Contact Us</p>
+                            <div class="px-5 position-relative">
+                                <div class="d-flex flex-column">
+                                    <div class="d-flex">
+                                        <input type="text" class="px-3 py-2 my-3 me-5" placeholder="First Name">
+                                        <input type="text" class="px-3 py-2 my-3" placeholder="Last Name">
+                                    </div>
+                                    <input type="text" class="px-3 py-2 my-3" placeholder="Email Address">
+                                    <textarea class="px-3 py-2 my-3" placeholder="Enter Message" id="message" cols="30"
+                                        rows="5"></textarea>
+                                </div>
+                                <div class="d-flex justify-content-end pt-5">
+                                    <button class="btn btn-warning fWeight-600 px-4 rounded-0  fs-16">Send
+                                        Message</button>
+                                </div>
+                                <img src="IMAGES/UnionBg.svg" class="position-absolute contactUnion">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 col-12 pt-5 pt-md-0">
+                </div>
+
+                <!-- ########################################## Mobile contact ####################### -->
+                <div class="contactMobileDiv py-5 position-relative d-sm-none d-block">
+                    <img src="IMAGES/UnionBg.svg" class="position-absolute contactMobileUnion">
+                    <div class="d-flex flex-column px-3 justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="IMAGES/Union.svg" width="10%">
+                            <p class=" fs-40 fWeight-700 ps-1 m-0">Contact Us</p>
+                        </div>
+
+                        <input type="text" class="px-3 py-2 my-3" placeholder="First Name">
+                        <input type="text" class="px-3 py-2 my-3" placeholder="Last Name">
+                        <input type="text" class="px-3 py-2 my-3" placeholder="Email Address">
+                        <textarea class="px-3 py-2 my-3" placeholder="Enter Message" id="message" cols="30"
+                            rows="5"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center pt-3">
+                        <button class="btn btn-warning fWeight-600 px-4 rounded-0 fs-13">Send
+                            Message</button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- ########################################## footer ####################### -->
+        <footer class=" bg-main px-md-0 px-3">
+            <div class="footer container-fluid">
+                <div class="row pt-5">
+                    <div class="col-md-5 col-12">
+                        <div class="d-flex flex-column px-md-5 px-0 text-md-start ">
+                            <div class="d-flex mb-2">
+                                <!-- <i class="fa-sharp footerIcon fs-1vw fa-solid fa-location-dot text-warning"></i> -->
+                                <img src="IMAGES/location.svg" class="me-4">
+                                <div class="text-light d-flex flex-column">
+                                    <p class="fs-16 fWeight-400 m-0"> Techno Boost Services</p>
+                                    <p class="fs-16 fWeight-400 m-0">2nd floor #23, Infiniminds Towers, </p>
+                                    <p class="fs-16 fWeight-400 m-0">KPTCL Road, Kasavanahalli,</p>
+                                    <p class="fs-16 fWeight-400 m-0">Sarjapura Road,</p>
+                                    <p class="fs-16 fWeight-400 m-0">Bangalore 560035</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3 align-items-center">
+                                <!-- <i class="me-4 footerIcon fs-1vw fa-solid fa-phone text-warning"></i> -->
+                                <img src="IMAGES/call.svg" class="me-4">
+                                <a href="tel:+91-7019506095" class="text-decoration-none fs-16 fWeight-400 text-light">
+                                    +91 9632968050
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <!-- <i class="me-4 h3 footerIcon fs-1vw fa-solid fa-envelope text-warning"></i> -->
+                                <img src="IMAGES/sms.svg" class="me-4">
+                                <a href="mailto:contactus@technoboost.in" class=" fs-16 fWeight-400 text-warning">
+                                    contactus@technoboost.in
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-12 pt-5 pt-md-0 footerLink">
                         <div class="row">
                             <div class="col-4 text-start">
-                                <h5 class="text-light fWeight-700">Company</h5>
-                                <ul class="ps-0 pt-md-3">
-                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
-                                            class="text-decoration-none fs-1vw text-light ">About</a></li>
-                                    <!-- <li class="fWeight-400  list-unstyled py-2"><a href="#"
-                                            class="text-decoration-none fs-1vw text-light ">Careers</a></li> -->
-                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
-                                            class="text-decoration-none fs-1vw text-light ">Services</a></li>
+                                <h5 class="text-light fWeight-700 fs-1vw">Company</h5>
+                                <ul class="ps-0">
+                                    <li class="fWeight-400  list-unstyled py-1"><a href="aboutUs.html"
+                                            class="text-decoration-none  text-light fs-16 fWeight-400">About</a></li>
+                                    <!-- <li class="fWeight-400  list-unstyled py-1"><a href="#"
+                                            class="text-decoration-none  text-light fs-16 fWeight-400">Careers</a></li> -->
+                                    <li class="fWeight-400  list-unstyled py-1"><a href="#"
+                                            class="text-decoration-none  text-light fs-16 fWeight-400">Services</a></li>
                                 </ul>
                             </div>
                             <div class="col-4 text-start">
-                                <h5 class="text-light fWeight-700">Legal</h5>
-                                <ul class="ps-0 pt-md-3">
-                                    <li class="fWeight-400  list-unstyled py-2"><a href="cookies.html"
-                                            class="text-decoration-none fs-1vw text-light ">Cookies Policy</a></li>
-                                    <li class="fWeight-400  list-unstyled py-2"><a href="terms.html"
-                                            class="text-decoration-none fs-1vw text-light ">Terms of Service</a></li>
-                                    <li class="fWeight-400  list-unstyled py-2"><a href="policy.html"
-                                            class="text-decoration-none fs-1vw text-light ">Privacy Policy</a></li>
+                                <h5 class="text-light fWeight-700 fs-1vw">Legal</h5>
+                                <ul class="ps-0">
+                                    <li class="fWeight-400  list-unstyled py-1"><a href="cookies.html"
+                                            class="text-decoration-none  text-light fs-16 fWeight-400">Cookies
+                                            Policy</a></li>
+                                    <li class="fWeight-400  list-unstyled py-1"><a href="terms.html"
+                                            class="text-decoration-none  text-light fs-16 fWeight-400">Terms of
+                                            Service</a></li>
+                                    <li class="fWeight-400  list-unstyled py-1"><a href="policy.html"
+                                            class="text-decoration-none  text-light fs-16 fWeight-400">Privacy
+                                            Policy</a></li>
                                 </ul>
                             </div>
                             <div class="col-4 text-start">
-                                <h5 class="text-light fWeight-700">Social</h5>
-                                <ul class="ps-0 pt-md-3">
-                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
-                                            class="text-decoration-none fs-1vw text-light ">LinkedIn</a></li>
-                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
-                                            class="text-decoration-none fs-1vw text-light ">Instagram</a></li>
-                                    <li class="fWeight-400  list-unstyled py-2"><a href="#"
-                                            class="text-decoration-none fs-1vw text-light ">Facebook</a></li>
+                                <h5 class="text-light fWeight-700 fs-1vw">Social</h5>
+                                <ul class="ps-0">
+                                    <li class="fWeight-400  list-unstyled py-1">
+                                        <img src="IMAGES/linkedIn.svg"> <a
+                                            href="https://www.linkedin.com/company/technoboost/about/"
+                                            class="text-decoration-none  text-light fs-16 fWeight-400">LinkedIn</a>
+                                    </li>
                                 </ul>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col py-4">
-                        <p class="mb-0 text-light text-center">Copyright © 2023 . Technoboost . all rights reserved</p>
+                <div class="footerLogo row d-flex flex-column-reverse flex-md-row align-items-center">
+                    <div class="col-md-8 col-12 d-flex justify-content-md-end justify-content-center"><img
+                            src="IMAGES/footerLogo.svg"></div>
+                    <div class="col-md-4 col-12">
+                        <p class="mb-0 text-light Copyright text-md-end text-center">Copyright © 2023 . Technoboost
+                            .
+                            all rights
+                            reserved
+                        </p>
                     </div>
+
                 </div>
             </div>
-        </div>
+        </footer>
+        <script>
+            $('.caseStyudy-slider').slick({
+                nextArrow: '.nextBtn',
+                prevArrow: '.previousBtn',
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: true,
+                //   autoplay: true,
+                //   autoplaySpeed: 2000,
+                // arrows: false,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            infinite: true,
+                            arrows: false,
+
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+
+
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+
+        </script>
     </body>
 
 </html>
