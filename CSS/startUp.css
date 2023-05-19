@@ -131,8 +131,8 @@
 
 .contactBg {
     background-image: url("../IMAGES/contactBg.svg");
-    height: 650px;
-    background-repeat: no-repeat;
+    height: 100%;
+    border-bottom-left-radius: 30px;    background-repeat: no-repeat;
 }
 
 .address {
