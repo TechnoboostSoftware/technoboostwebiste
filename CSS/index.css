@@ -116,7 +116,12 @@
     line-height: 19vh;
 }
 
-/* .color {} */
+.color {
+    background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 
 .business {
     font-size: 4.5vw;
@@ -529,7 +534,8 @@
         top: 100px;
         width: 100%;
     }
-    .textIndex{
+
+    .textIndex {
         z-index: 1;
     }
 
