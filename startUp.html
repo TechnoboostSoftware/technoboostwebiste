@@ -211,8 +211,10 @@
                         Startup
                         Services and how we can help you take your business to the next level.
                     </p>
-                    <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact fs-1vw my-4">Contact
-                        Us</button>
+                    <button class="btn btn-warning fWeight-700 px-4 rounded-0 d-sm-inline d-none contact fs-1vw"
+                        data-bs-toggle="modal" data-bs-target="#extraLargeModal">Contact Us</button>
+                    <button class="btn btn-warning fWeight-700 px-4 mb-4 rounded-0 d-sm-none d-inline contact fs-16"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
 
                 </div>
             </section>
@@ -267,9 +269,11 @@
                                         <div class="px-4 position-relative">
                                             <div class="d-flex flex-column">
                                                 <div class="d-flex gap-4">
-                                        <input type="text" class="px-3 py-2 my-3 w-50" placeholder="First Name">
-                                        <input type="text" class="px-3 py-2 my-3 w-50" placeholder="Last Name">
-                                    </div>
+                                                    <input type="text" class="px-3 py-2 my-3 w-50"
+                                                        placeholder="First Name">
+                                                    <input type="text" class="px-3 py-2 my-3 w-50"
+                                                        placeholder="Last Name">
+                                                </div>
                                                 <input type="text" class="px-3 py-2 my-3" placeholder="Email Address">
                                                 <textarea class="px-3 py-2 my-3" placeholder="Enter Message"
                                                     id="message" cols="30" rows="5"></textarea>
@@ -307,8 +311,8 @@
                                 <input type="text" class="px-3 py-2 my-3 textIndex" placeholder="First Name">
                                 <input type="text" class="px-3 py-2 my-3 textIndex" placeholder="Last Name">
                                 <input type="text" class="px-3 py-2 my-3 textIndex" placeholder="Email Address">
-                                <textarea class="px-3 py-2 my-3 textIndex" placeholder="Enter Message" id="message" cols="30"
-                                    rows="5"></textarea>
+                                <textarea class="px-3 py-2 my-3 textIndex" placeholder="Enter Message" id="message"
+                                    cols="30" rows="5"></textarea>
                             </div>
                             <div class="d-flex justify-content-center pt-3">
                                 <button class="btn btn-warning fWeight-600 px-4 rounded-0 fs-13">Send
@@ -326,27 +330,23 @@
                     <div class="col-md-5 col-12">
                         <div class="d-flex flex-column px-md-5 px-0 text-md-start ">
                             <div class="d-flex mb-2">
-                                <!-- <i class="fa-sharp footerIcon fs-1vw fa-solid fa-location-dot text-warning"></i> -->
-                                <img src="IMAGES/location.svg" class="me-4">
-                                <div class="text-light d-flex flex-column">
+                                <img src="IMAGES/location.svg" class="me-4 footerContactImg">
+                                <div class="text-light d-flex flex-column footerLine">
                                     <p class="fs-16 fWeight-400 m-0"> Techno Boost Services</p>
                                     <p class="fs-16 fWeight-400 m-0">KPTCL Road, Kasavanahalli,</p>
                                     <p class="fs-16 fWeight-400 m-0">Sarjapura Road,</p>
                                     <p class="fs-16 fWeight-400 m-0">Bangalore 560035</p>
                                 </div>
                             </div>
-                            <div class="d-flex mb-3">
-                                <!-- <i class="me-4 footerIcon fs-1vw fa-solid fa-phone text-warning"></i> -->
-                                <img src="IMAGES/call.svg" class="me-4">
+                            <div class="d-flex mb-2 align-items-center">
+                                <img src="IMAGES/call.svg" class="me-4 footerContactImg">
                                 <a href="tel:+91-7019506095" class="text-decoration-none fs-16 fWeight-400 text-light">
                                     +91 9632968050
                                 </a>
                             </div>
-                            <div class="d-flex ">
-                                <!-- <i class="me-4 h3 footerIcon fs-1vw fa-solid fa-envelope text-warning"></i> -->
-                                <img src="IMAGES/sms.svg" class="me-4">
-                                <a href="mailto:contactus@technoboost.in"
-                                    class="text-decoration-none fs-16 fWeight-400 text-warning">
+                            <div class="d-flex align-items-center">
+                                <img src="IMAGES/sms.svg" class="me-4 footerContactImg">
+                                <a href="mailto:contactus@technoboost.in" class=" fs-16 fWeight-400 text-warning">
                                     contactus@technoboost.in
                                 </a>
                             </div>
@@ -383,9 +383,9 @@
                                 <h5 class="text-light fWeight-700 fs-1vw">Social</h5>
                                 <ul class="ps-0">
                                     <li class="fWeight-400  list-unstyled py-1">
-                                        <img src="IMAGES/linkedIn.svg"> <a
-                                            href="https://www.linkedin.com/company/technoboost/about/"
-                                            class="text-decoration-none  text-light fs-16 fWeight-400">LinkedIn</a>
+                                        <a href="https://www.linkedin.com/company/technoboost-services/"
+                                            class="text-decoration-none  text-light fs-16 fWeight-400"><img
+                                                src="IMAGES/linkedIn.svg"> LinkedIn</a>
                                     </li>
                                 </ul>
                             </div>
@@ -393,7 +393,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="footerLogo row d-flex flex-column-reverse flex-md-row align-items-center">
+                <div class="footerLogo row d-flex flex-column-reverse flex-md-row align-items-center pb-2">
                     <div class="col-md-8 col-12 d-flex justify-content-md-end justify-content-center"><img
                             src="IMAGES/footerLogo.svg"></div>
                     <div class="col-md-4 col-12">

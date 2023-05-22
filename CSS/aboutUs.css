@@ -173,7 +173,14 @@
     font-size: 1vw;
 }
 
-/*  ############################# TAB ########################### */
+.footerLine{
+    line-height: 20px;
+}
+.footerContactImg{
+    width: 25px;
+}
+
+/*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
     .landingDiv p {
         font-size: 3vw;
@@ -345,5 +352,8 @@
 
     .Copyright {
         font-size: 12px;
+    }
+    .resume{
+        font-size: 3.5vw;
     }
 }

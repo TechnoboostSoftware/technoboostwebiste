@@ -127,7 +127,14 @@ p.resume {
 .address {
     font-size: 1.3vw;
 }
-/*  ############################# TAB ########################### */
+.footerLine{
+    line-height: 20px;
+}
+.footerContactImg{
+    width: 25px;
+}
+
+/*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
     .footerLogo img {
         width: 100%;

@@ -287,7 +287,12 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
+.footerLine{
+    line-height: 20px;
+}
+.footerContactImg{
+    width: 25px;
+}
 
 
 /*  #############################  TAB ########################### */
@@ -549,5 +554,8 @@
 
     .Copyright {
         font-size: 12px;
+    }
+    .resume{
+        font-size: 3.5vw;
     }
 }

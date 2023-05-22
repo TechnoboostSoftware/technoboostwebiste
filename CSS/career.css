@@ -160,7 +160,14 @@
     font-size: 1vw;
 }
 
-/*  ############################# TAB ########################### */
+.footerLine{
+    line-height: 20px;
+}
+.footerContactImg{
+    width: 25px;
+}
+
+/*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
     .landingPage h1 {
         font-size: 7vw;
