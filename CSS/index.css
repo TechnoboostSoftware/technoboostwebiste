@@ -418,32 +418,20 @@
     }
 
     .clients h1 {
-        font-size: 11vw;
+        font-size: 9vw;
         line-height: 50px;
-    }
-
-    .footerLogo img {
-        width: 100%;
     }
 
     .footer h5 {
         font-size: 4vw;
     }
 
-    .footer p {
-        font-size: 3.7vw;
-    }
-
     .footerLink a {
-        font-size: 15px;
-    }
-
-    .footer i {
-        font-size: 7vw;
+        font-size: 16px;
     }
 
     .footer .Copyright {
-        font-size: 2.5vw;
+        font-size:16px;
     }
 }
 
@@ -545,15 +533,14 @@
     }
 
     .footerLogo img {
-        width: 70%;
+        width: 50% !important;
     }
 
-    .footer a {
-        font-size: 12px;
+    .footer .Copyright {
+        font-size: 16px;
     }
-
-    .Copyright {
-        font-size: 12px;
+    .footerLink a {
+        font-size: 13px;
     }
     .resume{
         font-size: 3.5vw;

@@ -162,17 +162,6 @@
     font-size: 1.3vw;
 }
 
-.footerIcon {
-    font-size: 1.8vw;
-}
-
-.footer i {
-    font-size: 2.2vw;
-}
-
-.Copyright {
-    font-size: 1vw;
-}
 
 .footerLine{
     line-height: 20px;
@@ -258,13 +247,11 @@
     }
 
     .clients h1 {
-        font-size: 11vw;
+        font-size: 9vw;
         line-height: 50px;
     }
 
-    .footerLogo img {
-        width: 100%;
-    }
+
 
 
     .footer h5 {
@@ -280,7 +267,7 @@
     }
 
     .footer .Copyright {
-        font-size: 2.5vw;
+        font-size:16px;
     }
 
 }
@@ -351,7 +338,7 @@
         width: 70%;
     }
 
-    .Copyright {
+    .footer .Copyright {
         font-size: 12px;
     }
     .resume{

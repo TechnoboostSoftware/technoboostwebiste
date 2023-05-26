@@ -40,7 +40,6 @@
     font-size: 2.7vw;
     line-height: 53px;
 }
-}
 
 .fs-40 {
     font-size: 40px;
@@ -147,17 +146,6 @@
     font-size: 1.3vw;
 }
 
-.footerIcon {
-    font-size: 1.8vw;
-}
-
-.footer i {
-    font-size: 2.2vw;
-}
-
-.Copyright {
-    font-size: 1vw;
-}
 
 .footerLine{
     line-height: 20px;
@@ -199,13 +187,11 @@
     }
 
     .clients h1 {
-        font-size: 11vw;
+        font-size: 9vw;
         line-height: 50px;
     }
 
-    .footerLogo img {
-        width: 100%;
-    }
+
 
     .footer h5 {
         font-size: 4vw;
@@ -217,12 +203,10 @@
         font-size: 15px;
     }
 
-    .footer i {
-        font-size: 7vw;
-    }
+
 
     .footer .Copyright {
-        font-size: 2.5vw;
+        font-size:16px;
     }
 }
 
@@ -266,12 +250,19 @@
     }
 
     .footerLogo img {
-        width: 70%;
+        width: 50% !important;
+    }
+
+    .footer .Copyright {
+        font-size: 16px;
+    }
+    .footerLink a {
+        font-size: 13px;
     }
 
 
 
-    .Copyright {
+    .footer .Copyright {
         font-size: 12px;
     }
 }

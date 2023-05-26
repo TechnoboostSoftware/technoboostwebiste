@@ -360,7 +360,7 @@
             </div>
         </main>
         <!-- ########################################## footer ####################### -->
-        <footer class=" bg-main px-md-0 px-3">
+        <footer class=" bg-main px-md-0 px-3  pb-3">
             <div class="footer container-fluid">
                 <div class="row pt-5">
                     <div class="col-md-5 col-12">
@@ -421,7 +421,7 @@
                                     <li class="fWeight-400  list-unstyled py-1">
                                         <a href="https://www.linkedin.com/company/technoboost-services/" target="_blank" 
                                             class="text-decoration-none  text-light fs-16 fWeight-400"><img
-                                                src="IMAGES/linkedIn.svg"> LinkedIn</a>
+                                               src="IMAGES/linkedIn.svg" class="me-2"> LinkedIn</a>
                                     </li>
                                 </ul>
                             </div>
@@ -429,17 +429,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="footerLogo row d-flex flex-column-reverse flex-md-row align-items-center pb-2">
-                    <div class="col-md-8 col-12 d-flex justify-content-md-end justify-content-center"><img
-                            src="IMAGES/footerLogo.svg"></div>
-                    <div class="col-md-4 col-12">
-                        <p class="mb-0 text-light Copyright text-md-end text-center">Copyright © 2023 . Technoboost
+<div
+                    class="footerLogo row d-lg-none d-flex flex-column-reverse align-items-center justify-content-center text-center pt-md-4 pt-2">
+                    <img src="IMAGES/footerLogo.svg" class="w-25">
+                    <p class="mb-0 text-light Copyright">Copyright © 2023 . Technoboost
+                        .
+                        all rights
+                        reserved
+                    </p>
+                </div>
+                <div class="footerLogo d-none d-lg-block position-relative">
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        <img src="IMAGES/footerLogo.svg" >
+                    </div>
+                    <div class="text-end">
+                        <p class=" m-0 text-light Copyright">Copyright © 2023 . Technoboost
                             .
                             all rights
                             reserved
                         </p>
                     </div>
-
+                </div>
                 </div>
             </div>
         </footer>
