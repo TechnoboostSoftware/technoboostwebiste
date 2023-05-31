@@ -87,6 +87,10 @@
     background: rgba(255, 255, 255, 0.21);
     backdrop-filter: blur(75px);
 }
+.navHover:hover {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
+}
 
 .colorGrey {
     color: #3D3D3D;
@@ -119,8 +123,8 @@
 .innerStartupBox {
     background: #ffff;
     border-radius: 15px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
 }
 
 .clients h1 {
