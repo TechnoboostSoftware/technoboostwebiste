@@ -29,6 +29,10 @@
     font-size: 1.5vw;
 }
 
+.fs-2-5vw {
+    font-size: 2.5vw;
+}
+
 .fs-30 {
     font-size: 30px;
 }
@@ -87,9 +91,18 @@
     width: 60%;
 }
 
+.bg-nav {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
+}
+.navHover:hover {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
+}
 .colorGrey {
     color: #3D3D3D;
 }
+
 
 .colorchanging {
     background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
@@ -132,9 +145,9 @@
 }
 
 .goal {
-    font-size: 1.7vw;
+    font-size: 1.6vw;
     border-top: 2px solid #FFCD00;
-    line-height: 5vh;
+    line-height: 5.5vh;
 }
 
 /* .contact {
@@ -144,11 +157,6 @@
 .greyBox {
     background: rgba(8, 26, 63, 0.04);
     backdrop-filter: blur(10.5px);
-}
-
-
-.purposeText {
-    text-align: justify;
 }
 
 /* 
@@ -168,7 +176,7 @@
 }
 
 .technology {
-    font-size: 4vw;
+    font-size: 3.2vw;
 }
 
 .caseStudyImg {
@@ -207,7 +215,7 @@
 
 .bg-services p {
     border: none;
-    line-height: 25px;
+    line-height: 33px;
 }
 
 .innerServiceBox {
@@ -287,10 +295,12 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.footerLine{
+
+.footerLine {
     line-height: 20px;
 }
-.footerContactImg{
+
+.footerContactImg {
     width: 25px;
 }
 
@@ -431,7 +441,11 @@
     }
 
     .footer .Copyright {
-        font-size:16px;
+        font-size: 16px;
+    }
+
+    .resume {
+        font-size: 3vw;
     }
 }
 
@@ -472,18 +486,22 @@
     }
 
     .harness p {
-        font-size: 7vw;
+        font-size: 5.5vw;
         line-height: 6vh;
     }
 
     .power {
-        font-size: 10vw;
+        font-size: 7vw;
         line-height: 5vh;
     }
 
     .technology {
-        font-size: 8vw;
-        line-height: 5vh;
+        font-size: 5.5vw;
+        line-height: 4.5vh;
+    }
+
+    .technology-2 {
+        font-size: 5vw;
     }
 
     .technoUnion {
@@ -539,10 +557,12 @@
     .footer .Copyright {
         font-size: 16px;
     }
+
     .footerLink a {
         font-size: 13px;
     }
-    .resume{
+
+    .resume {
         font-size: 3.5vw;
     }
 }

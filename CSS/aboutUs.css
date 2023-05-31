@@ -78,9 +78,15 @@
     font-weight: 800;
 }
 
+.bg-nav {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
+}
+
 .colorGrey {
     color: #3D3D3D;
 }
+
 
 .colorchanging {
     background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
@@ -102,7 +108,9 @@
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
     box-shadow: 0px 18px 20px rgba(0, 0, 0, 0.25);
 }
-
+.purposeText {
+    text-align: justify;
+}
 .UnionBox {
     width: 5%;
 }
