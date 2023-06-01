@@ -36,6 +36,7 @@
 .fs-2vw {
     font-size: 1.8vw;
 }
+
 .fs-2-7vw {
     font-size: 2.7vw;
     line-height: 53px;
@@ -82,6 +83,7 @@
     background: rgba(255, 255, 255, 0.21);
     backdrop-filter: blur(75px);
 }
+
 .navHover:hover {
     background: rgba(255, 255, 255, 0.21);
     backdrop-filter: blur(75px);
@@ -112,9 +114,11 @@
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
     box-shadow: 0px 18px 20px rgba(0, 0, 0, 0.25);
 }
+
 .purposeText {
     text-align: justify;
 }
+
 .UnionBox {
     width: 5%;
 }
@@ -167,7 +171,8 @@
 .contactBg {
     background-image: url("../IMAGES/contactBg.svg");
     height: 100%;
-    border-bottom-left-radius: 30px;    background-repeat: no-repeat;
+    border-bottom-left-radius: 30px;
+    background-repeat: no-repeat;
 }
 
 .address {
@@ -175,10 +180,11 @@
 }
 
 
-.footerLine{
+.footerLine {
     line-height: 20px;
 }
-.footerContactImg{
+
+.footerContactImg {
     width: 25px;
 }
 
@@ -197,6 +203,19 @@
     }
 
     .teamContent p {
+        font-size: 2.5vw;
+    }
+
+    .purposeImg {
+        width: 60%;
+        text-align: center;
+    }
+
+    .purposeText {
+        font-size: 4vw;
+    }
+
+    .ceo {
         font-size: 2.5vw;
     }
 
@@ -263,9 +282,6 @@
         line-height: 50px;
     }
 
-
-
-
     .footer h5 {
         font-size: 4vw;
     }
@@ -279,7 +295,7 @@
     }
 
     .footer .Copyright {
-        font-size:16px;
+        font-size: 16px;
     }
 
 }
@@ -317,6 +333,14 @@
         width: 20px;
     }
 
+    .purposeText {
+        font-size: 5vw;
+    }
+
+    .purposeText {
+        font-size: 5vw;
+    }
+
     .whoText {
         font-size: 4vw;
         text-align: justify;
@@ -342,7 +366,8 @@
         top: 100px;
         width: 100%;
     }
-    .textIndex{
+
+    .textIndex {
         z-index: 1;
     }
 
@@ -353,7 +378,8 @@
     .footer .Copyright {
         font-size: 12px;
     }
-    .resume{
+
+    .resume {
         font-size: 3.5vw;
     }
 }

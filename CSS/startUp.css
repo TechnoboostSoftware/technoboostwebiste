@@ -213,7 +213,10 @@
     .passionate {
         font-size: 4vw;
     }
-
+    .innerStartupBox {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
     .content p {
         font-size: 3.5vw;
     }

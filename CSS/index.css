@@ -95,13 +95,16 @@
     background: rgba(255, 255, 255, 0.21);
     backdrop-filter: blur(75px);
 }
+
 .navHover:hover {
     background: rgba(255, 255, 255, 0.21);
     backdrop-filter: blur(75px);
 }
-.servicesBtn{
+
+.servicesBtn {
     background: rgba(255, 255, 255, 0.2);
 }
+
 .colorGrey {
     color: #3D3D3D;
 }
@@ -332,18 +335,8 @@
         font-size: 4vw;
     }
 
-    .purposeImg {
-        width: 60%;
-        text-align: center;
-    }
 
-    .purposeText {
-        font-size: 4vw;
-    }
 
-    .ceo {
-        font-size: 2.5vw;
-    }
 
     .our {
         font-size: 9vw;
@@ -467,9 +460,6 @@
         line-height: 30px;
     }
 
-    .purposeText {
-        font-size: 5vw;
-    }
 
     .ceo {
         font-size: 3.5vw;
