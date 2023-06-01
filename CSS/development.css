@@ -166,6 +166,9 @@
 
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
+    .developmentPage{
+        width: 50%;
+    }
     .passionate {
         font-size: 4vw;
     }

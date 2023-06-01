@@ -99,6 +99,9 @@
     background: rgba(255, 255, 255, 0.21);
     backdrop-filter: blur(75px);
 }
+.servicesBtn{
+    background: rgba(255, 255, 255, 0.2);
+}
 .colorGrey {
     color: #3D3D3D;
 }
