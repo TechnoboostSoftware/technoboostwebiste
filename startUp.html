@@ -27,7 +27,7 @@
 
     <body>
         <!-- ############################# NAVBAR #############################-->
-        <nav class="navbar navbar-expand-md bg-light py-0">
+        <nav class="navbar navbar-expand-md bg-light py-0" style="position: sticky;top: 0px;z-index: 100">
             <div class=" container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="IMAGES/logo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,27 +49,27 @@
                         </li> -->
 
 
-                        <li class="nav-item me-3  dropdown">
-                            <a class="px-4 fs-18 fWeight-500 nav-link dropdown-toggle text-dark" href="#"
+                        <li class="nav-item me-5  dropdown">
+                            <a class="p-0 pb-1 fs-18 fWeight-500 nav-link dropdown-toggle text-dark" href="#"
                                 id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu bg-nav" aria-labelledby="navbarDropdown">
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item"
+                            <ul class="dropdown-menu bg-nav rounded-0 border-0 px-2 py-3 m-0" aria-labelledby="navbarDropdown">
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
                                         href="startUp.html"> Startup
-                                        Support <img src="IMAGES/navArrow.svg"></a></li>
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item"
-                                        href="development.html"> Custom
-                                        Development <img src="IMAGES/navArrow.svg"></a></li>
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item"
-                                        href="ux.html"> UX Designing <img src="IMAGES/navArrow.svg"></a></li>
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item"
+                                        Support <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="development.html"> Software Engineering
+                                        <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="ux.html"> UX Designing <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
                                         href="dataAnalytics.html"> Data
-                                        Analytics & Reporting <img src="IMAGES/navArrow.svg"></a></li>
+                                        Analytics & Reporting <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
                             </ul>
                         </li>
-                        <li class="nav-item me-3 ">
-                            <a class="px-4 fs-18 fWeight-500 nav-link text-dark" href="aboutUs.html">Company</a>
+                        <li class="nav-item me-4 ">
+                            <a class="p-0 fs-18 fWeight-500 nav-link text-dark" href="aboutUs.html">Company</a>
                         </li>
                         <li class="nav-item me-3 px-4">
                             <a href="#contact" class="text-decoration-none">
@@ -98,7 +98,7 @@
                     <div class="col-md-3 col-12 d-flex justify-content-md-start justify-content-center">
                         <img src="IMAGES/women.svg" width="100%" class="women">
                     </div>
-                    <div class="col-md-9 col-12 pt-5 pt-md-0">
+                    <div class="col-md-9 col-12 pt-5 pt-md-0 ps-md-5">
                         <p class="fWeight-400 fs-25 passionate text-jusify">We are passionate about helping startups
                             turn
                             their
@@ -118,8 +118,8 @@
                 <div class="container">
                     <div class="content">
                         <div>
-                            <h1 class="fWeight-800 mb-5">Our Startup Services Include</h1>
-                            <p class="fWeight-400 fs-1vw">At Technoboost, we offer a comprehensive range of services
+                            <h1 class="fWeight-700 mb-5">Our Startup Services Include</h1>
+                            <p class="fWeight-400 fs-25">At Technoboost, we offer a comprehensive range of services
                                 tailored specifically for
                                 startups. Whether you are in the early stages of ideation or already have a prototype
                                 ready to go, our team is here to provide you with the support you need to turn your
@@ -191,7 +191,7 @@
                 <img src="IMAGES/UnionStartUp.svg"
                     class="position-absolute bottom-0 end-0 mb-md-3 me-md-3 mb-0 me-0 d-md-block d-none">
                 <div class="bg-mainBox container py-md-5 py-0 text-center text-light fs-2vw ">
-                    <p class="py-3 fs-25">At Technoboost, we are committed to providing high-quality
+                    <p class="py-3 fs-30">At Technoboost, we are committed to providing high-quality
                         services
                         that meet the unique needs of
                         each startup we work with. We understand that every business is different, and we tailor
@@ -201,7 +201,7 @@
                         Startup
                         Services and how we can help you take your business to the next level.
                     </p>
-                    <button class="btn btn-warning fWeight-700 px-4 rounded-0 d-sm-inline d-none contact fs-1vw"
+                    <button class="btn btn-warning fWeight-700 px-4 rounded-0 d-sm-inline d-none contact"
                         data-bs-toggle="modal" data-bs-target="#extraLargeModal">Contact Us</button>
                     <button class="btn btn-warning fWeight-700 px-4 mb-4 rounded-0 d-sm-none d-inline contact fs-16"
                         data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>

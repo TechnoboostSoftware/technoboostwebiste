@@ -97,14 +97,17 @@
 }
 
 .navHover:hover {
-    background: rgba(255, 255, 255, 0.21);
-    backdrop-filter: blur(75px);
+    background: transparent;
+    /* backdrop-filter: blur(75px); */
 }
 
 .servicesBtn {
     background: rgba(255, 255, 255, 0.2);
 }
-
+.servicesBtn:hover{
+    background: rgba(255, 255, 255, 0.2)!important;
+    border-color:rgba(255, 255, 255, 0.2)!important;
+}
 .colorGrey {
     color: #3D3D3D;
 }
@@ -308,6 +311,12 @@
 
 .footerContactImg {
     width: 25px;
+}
+
+.dropdown a.show{
+    border-bottom: 5px solid #FFC107;
+    border-color: #FFC107;
+    
 }
 
 

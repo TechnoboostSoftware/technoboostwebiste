@@ -81,8 +81,8 @@
     backdrop-filter: blur(75px);
 }
 .navHover:hover {
-    background: rgba(255, 255, 255, 0.21);
     backdrop-filter: blur(75px);
+
 }
 
 .colorGrey {
@@ -141,6 +141,11 @@ p.resume {
 }
 .footerContactImg{
     width: 25px;
+}
+.dropdown a.show{
+    border-bottom: 5px solid #FFC107;
+    border-color: #FFC107;
+    
 }
 
 /*  #############################  TAB ########################### */

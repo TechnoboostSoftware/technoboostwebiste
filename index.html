@@ -49,7 +49,7 @@
 
     <body>
         <!-- ############################# NAVBAR ##############################-->
-        <nav class="navbar navbar-expand-md bg-light py-0">
+        <nav class="navbar navbar-expand-md bg-light py-0" style="position: sticky;top: 0px;z-index: 100;">
             <div class=" container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="IMAGES/logo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -71,27 +71,27 @@
                         </li> -->
 
 
-                        <li class="nav-item me-3  dropdown">
-                            <a class="px-4 fs-18 fWeight-500 nav-link dropdown-toggle text-dark" href="#"
+                        <li class="nav-item me-5  dropdown">
+                            <a class="p-0 pb-1 fs-18 fWeight-500 nav-link dropdown-toggle text-dark" href="#"
                                 id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu bg-nav" aria-labelledby="navbarDropdown">
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item"
+                            <ul class="dropdown-menu bg-nav rounded-0 border-0 px-2 py-3 m-0" aria-labelledby="navbarDropdown">
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
                                         href="startUp.html"> Startup
-                                        Support <img src="IMAGES/navArrow.svg"></a></li>
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item"
-                                        href="development.html"> Custom
-                                        Development <img src="IMAGES/navArrow.svg"></a></li>
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item"
-                                        href="ux.html"> UX Designing <img src="IMAGES/navArrow.svg"></a></li>
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item"
+                                        Support <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="development.html"> Software Engineering
+                                        <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="ux.html"> UX Designing <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
                                         href="dataAnalytics.html"> Data
-                                        Analytics & Reporting <img src="IMAGES/navArrow.svg"></a></li>
+                                        Analytics & Reporting <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
                             </ul>
                         </li>
-                        <li class="nav-item me-3 ">
-                            <a class="px-4 fs-18 fWeight-500 nav-link text-dark" href="aboutUs.html">Company</a>
+                        <li class="nav-item me-4 ">
+                            <a class="p-0 fs-18 fWeight-500 nav-link text-dark" href="aboutUs.html">Company</a>
                         </li>
                         <li class="nav-item me-3 px-4">
                             <a href="#contact" class="text-decoration-none">
@@ -121,11 +121,11 @@
                                 <div class="d-flex align-items-center">
                                     <a href="#contact" class="text-decoration-none">
                                         <button
-                                            class="btn btn-warning fWeight-700 px-4 rounded-0 contact fs-1vw">Contact
+                                            class="btn btn-warning fWeight-700 px-4 rounded-0 contact">Contact
                                             Us</button></a>
                                     <a href="#services" class="text-decoration-none mx-3">
                                         <button
-                                            class="btn text-light servicesBtn fWeight-600 px-3 rounded-0 contact fs-1vw">Our
+                                            class="btn text-light servicesBtn fWeight-600 px-3 rounded-0 contact">Our
                                             Services</button></a>
 
                                 </div>
@@ -274,7 +274,7 @@
                                 <h2 class="colorGrey fWeight-500 technology technology-2 mb-4">maximize business value”
                                 </h2>
                                 <a href="#contact" class="text-decoration-none">
-                                    <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact fs-1vw">Contact
+                                    <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact">Contact
                                         Us</button></a>
                             </div>
                         </div>
@@ -641,6 +641,11 @@
             </div>
         </footer>
         <script>
+
+        window.addEventListener('scroll', (event) => {
+            // handle the scroll event 
+            console.log(event)
+        });
             $('.caseStyudy-slider').slick({
                 nextArrow: '.nextBtn',
                 prevArrow: '.previousBtn',
