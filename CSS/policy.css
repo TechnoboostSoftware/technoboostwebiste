@@ -152,6 +152,9 @@ p.resume {
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
 
+    .dropdown-menu{
+        background-color: #908c8c;
+    }
     .footer h5 {
         font-size: 4vw;
     }
