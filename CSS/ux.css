@@ -36,6 +36,7 @@
 .fs-2vw {
     font-size: 1.8vw;
 }
+
 .fs-2-7vw {
     font-size: 2.7vw;
     line-height: 53px;
@@ -76,15 +77,19 @@
 .fWeight-800 {
     font-weight: 800;
 }
+
 .text-jusify {
     text-align: justify;
 }
 
 .bg-nav {
-    background: #1E1E1E;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
 }
+
 .navHover:hover {
-    background: #1E1E1E;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(75px);
 }
 
 .colorGrey {
@@ -102,6 +107,7 @@
 .bg-main {
     background: #13113A;
 }
+
 .bg-mainFooter {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
@@ -150,7 +156,8 @@
 .contactBg {
     background-image: url("../IMAGES/contactBg.svg");
     height: 100%;
-    border-bottom-left-radius: 30px;    background-repeat: no-repeat;
+    border-bottom-left-radius: 30px;
+    background-repeat: no-repeat;
 }
 
 .address {
@@ -158,23 +165,26 @@
 }
 
 
-.footerLine{
+.footerLine {
     line-height: 20px;
 }
-.footerContactImg{
+
+.footerContactImg {
     width: 25px;
 }
-.dropdown a.show{
+
+.dropdown a.show {
     border-bottom: 5px solid #FFC107;
-    border-color: #FFC107; 
+    border-color: #FFC107;
 }
 
 
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
-    .uxPage{
+    .uxPage {
         width: 50%;
     }
+
     .passionate {
         font-size: 4vw;
     }
@@ -221,14 +231,15 @@
 
 
     .footer .Copyright {
-        font-size:16px;
+        font-size: 16px;
     }
 }
 
 @media only screen and (max-width: 576px) {
-    .servicesHeading{
+    .servicesHeading {
         width: 15%;
     }
+
     .passionate {
         font-size: 4vw;
     }
@@ -237,6 +248,7 @@
         border-top-left-radius: 40px;
         border-top-right-radius: 40px;
     }
+
     .content p {
         font-size: 3.5vw;
     }
@@ -264,7 +276,8 @@
         top: 100px;
         width: 100%;
     }
-    .textIndex{
+
+    .textIndex {
         z-index: 1;
     }
 
@@ -275,6 +288,7 @@
     .footer .Copyright {
         font-size: 16px;
     }
+
     .footerLink a {
         font-size: 13px;
     }

@@ -77,10 +77,12 @@
     font-weight: 800;
 }
 .bg-nav {
-    background: #1E1E1E;
+    background: rgba(255, 255, 255, 0.21);
+backdrop-filter: blur(75px);
 }
 .navHover:hover {
-    background: #1E1E1E;
+    background: rgba(255, 255, 255, 0.21);
+backdrop-filter: blur(75px);
 }
 
 .colorGrey {
