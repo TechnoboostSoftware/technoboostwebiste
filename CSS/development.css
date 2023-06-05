@@ -81,8 +81,7 @@
 }
 
 .bg-nav {
-    background: rgba(255, 255, 255, 0.21);
-backdrop-filter: blur(75px);
+    background: #13113A;
 }
 .navHover:hover {
     background: rgba(255, 255, 255, 0.21);
