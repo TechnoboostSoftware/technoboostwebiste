@@ -47,12 +47,10 @@
 }
 
 .bg-nav {
-    background: rgba(255, 255, 255, 0.21);
-    backdrop-filter: blur(75px);
+    background: #1E1E1E;
 }
 .navHover:hover {
-    background: rgba(255, 255, 255, 0.21);
-    backdrop-filter: blur(75px);
+    background: #1E1E1E;
 }
 
 .colorGrey {
@@ -68,5 +66,8 @@
 }
 
 .bg-main {
+    background: #13113A;
+}
+.bg-mainFooter {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
