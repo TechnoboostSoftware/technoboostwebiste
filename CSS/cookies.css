@@ -81,7 +81,7 @@
 }
 .navHover:hover {
     background: #1E1E1E;
-}
+} 
 
 .colorGrey {
     color: #3D3D3D;
@@ -143,10 +143,19 @@ p.resume {
 .footerContactImg{
     width: 25px;
 }
+.dropdown a.show{
+    border-bottom: 5px solid #FFC107;
+    border-color: #FFC107;
+    
+}
 
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
 
+    .dropdown-menu{
+        background-color: #908c8c;
+    }
+    
     .footer h5 {
         font-size: 4vw;
     }

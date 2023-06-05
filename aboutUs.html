@@ -27,7 +27,7 @@
 
     <body>
         <!-- ############################# NAVBAR ##############################-->
-        <nav class="navbar navbar-expand-md bg-light py-0">
+        <nav class="navbar navbar-expand-md bg-light py-0" style="position: sticky;top: 0px;z-index: 100;">
             <div class=" container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="IMAGES/logo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,25 +49,28 @@
                         </li> -->
 
 
-                        <li class="nav-item me-3  dropdown">
-                            <a class="px-4 fs-18 fWeight-500 nav-link dropdown-toggle text-dark" href="#"
+                        <li class="nav-item me-5  dropdown">
+                            <a class="p-0 pb-1 fs-18 fWeight-500 nav-link dropdown-toggle text-dark" href="#"
                                 id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu bg-nav" aria-labelledby="navbarDropdown">
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item" href="startUp.html"> Startup
-                                        Support <img src="IMAGES/navArrow.svg"></a></li>
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item" href="development.html"> Custom
-                                        Development <img src="IMAGES/navArrow.svg"></a></li>
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item" href="ux.html"> UX Designing <img src="IMAGES/navArrow.svg"></a></li>
-                                <li><a class="px-4 navHover d-flex align-items-center justify-content-between fs-16 text-light fWeight-500 dropdown-item" href="dataAnalytics.html"> Data
-                                        Analytics & Reporting <img src="IMAGES/navArrow.svg"></a></li>
+                            <ul class="dropdown-menu bg-nav rounded-0 border-0 px-2 py-3 m-0" aria-labelledby="navbarDropdown">
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="startUp.html"> Startup
+                                        Support <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="development.html"> Software Engineering
+                                        <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="ux.html"> UX Designing <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
+                                        href="dataAnalytics.html"> Data Analytics & BI <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
                             </ul>
                         </li>
-                        <li class="nav-item me-3 ">
-                            <a class="px-4 fs-18 fWeight-500 nav-link text-dark" href="aboutUs.html">Company</a>
+                        <li class="nav-item me-5 ">
+                            <a class="p-0 fs-18 fWeight-500 pb-1 nav-link text-dark" href="aboutUs.html">Company</a>
                         </li>
-                        <li class="nav-item me-3 px-4">
+                        <li class="nav-item me-3  mt-md-0 mt-3">
                             <a href="#contact" class="text-decoration-none">
                                 <button class="btn btn-warning fWeight-600 px-4 rounded-0 contact fs-16">Contact
                                     Us</button></a>
@@ -77,12 +80,13 @@
             </div>
         </nav>
 
+
         <!-- ########################################## Landing page####################### -->
         <main id="main">
             <section id="hero" class="bg-main">
-                <div class="togehter container py-4">
-                    <div class="d-flex">
-                        <img src="IMAGES/export.svg">
+                <div class="togehter container py-5">
+                    <div class="d-flex align-items-start">
+                        <img class="mt-1" src="IMAGES/export.svg">
                         <p class="text-white fWeight-400 fs-2vw m-0 px-4">We are an IT consulting and Services company
                             driving value to our clients with custom software solutions.</p>
                     </div>
@@ -92,8 +96,8 @@
                         </div>
                         <div class="col-md-6 col-12 ">
                             <div class="imgContent d-flex landingDiv">
-                                <img src="IMAGES/CallWhite.svg" class="me-3 CallWhite mt-3">
-                                <p class="text-white fWeight-400 fs-1vw">We believe that technology is a vital tool for
+                                <img src="IMAGES/CallWhite.svg" class="me-3">
+                                <p class="text-white fWeight-400 fs-25 mb-0" style="line-height: 30px;">We believe that technology is a vital tool for
                                     any
                                     modern
                                     business, and we are passionate about helping our clients unlock its full potential.
@@ -104,18 +108,18 @@
 
                     <div class="row">
                         <div class="col-md-8 col-12">
-                            <div class="logoBox py-5">
+                            <div class="logoBox pb-5">
                                 <!-- <img src="IMAGES/footerLogo.svg" class="w-100"> -->
-                                <div class="landingBox px-3 py-4">
+                                <div class="landingBox px-4 py-5">
                                     <div class="ps-0 pe-0">
                                         <div class="d-flex pb-3">
                                             <img src="IMAGES/Union.svg" class="UnionBox ms-3 ps-2">
                                             <p class="text-warning fWeight-800 mb-0 fst-italic fs-3vw values">VALUES</p>
                                         </div>
-                                        <div class="togetherNoBox  py-4 d-flex align-items-center">
+                                        <div class="togetherNoBox  py-4 d-flex align-items-start mb-4">
                                             <img src="IMAGES/1.svg">
                                             <div class="ms-md-4 ms-2">
-                                                <h1 class="text-white fWeight-700 fs-30">Innovation</h1>
+                                                <h1 class="text-white fWeight-700 fs-30 mb-3">Innovation</h1>
                                                 <p class="text-white fWeight-400 togetherNoBox-p fs-20">We constantly
                                                     explore
                                                     new
@@ -125,10 +129,10 @@
                                             </div>
                                         </div>
 
-                                        <div class="togetherNoBox  py-4 d-flex align-items-center">
+                                        <div class="togetherNoBox  py-4 d-flex align-items-start mb-4">
                                             <img src="IMAGES/2.svg">
                                             <div class="ms-md-4 ms-2">
-                                                <h1 class="text-white fWeight-700 fs-30">Accountability</h1>
+                                                <h1 class="text-white fWeight-700 fs-30 mb-3">Accountability</h1>
                                                 <p class="text-white fWeight-400 togetherNoBox-p fs-20 ">We take
                                                     ownership of
                                                     our
@@ -138,10 +142,10 @@
                                             </div>
                                         </div>
 
-                                        <div class="togetherNoBox  py-4 d-flex align-items-center">
+                                        <div class="togetherNoBox  py-4 d-flex align-items-start mb-4">
                                             <img src="IMAGES/3.svg">
                                             <div class="ms-md-4 ms-2">
-                                                <h1 class="text-white fWeight-700 fs-30">Ethics and Integrity</h1>
+                                                <h1 class="text-white fWeight-700 fs-30 mb-3">Ethics and Integrity</h1>
                                                 <p class="text-white fWeight-400 togetherNoBox-p fs-20">We operate with
                                                     the
                                                     highest ethical
@@ -164,24 +168,16 @@
                 <div class="purpose my-5 container">
                     <div class="row align-items-center">
                         <div class="col-md-4 col-12 d-flex justify-content-center justify-content-md-start">
-                            <img src="IMAGES/purpose.svg" class=" purposeImg pb-md-0 pb-4" width="90%">
+                            <img src="IMAGES/ourMission.svg" class=" purposeImg pb-md-0 pb-4" width="90%">
                         </div>
                         <div class="col-md-8 col-12">
                             <div class="greyBox position-relative rounded pt-2 px-2">
                                 <img src="IMAGES/Vector.svg" class="position-absolute">
-                                <div class="pt-5 px-md-5 px-4">
-                                    <p class=" fWeight-500 purposeText fs-1vw colorGrey pt-4">
-                                        Our mission is to provide you with innovative and reliable software services
-                                        that
-                                        will
-                                        enable you to unlock your full potential and stay ahead of the competition.
-                                        Thank
-                                        you for
-                                        entrusting us with your business, we are committed to delivering excellence
-                                        every
-                                        step of the way.
+                                <div class="pt-5 ps-md-5 ps-4">
+                                    <p class=" fWeight-400 purposeText fs-30 colorGrey pt-4">
+                                        Our mission is to help businesses reach their potential by providing innovative,  reliable and custom technology solutions. We are committed to delivering excellence at every step of the way.
                                     </p>
-                                    <p class="ceo colorGrey text-end fs-1vw py-4 m-0">Puneet Parakh, Founder / CEO,
+                                    <p class="ceo colorGrey text-end fs-20 pb-4 m-0">Puneet Parakh, Founder / CEO,
                                         Technoboost
                                     </p>
                                 </div>

@@ -97,13 +97,17 @@
 
 
 .navHover:hover {
+
     background: #1E1E1E;
 }
 
 .servicesBtn {
     background: rgba(255, 255, 255, 0.2);
 }
-
+.servicesBtn:hover{
+    background: rgba(255, 255, 255, 0.2)!important;
+    border-color:rgba(255, 255, 255, 0.2)!important;
+}
 .colorGrey {
     color: #3D3D3D;
 }
@@ -312,9 +316,21 @@
     width: 25px;
 }
 
+.dropdown a.show{
+    border-bottom: 5px solid #FFC107;
+    border-color: #FFC107;
+    
+}
+.navbar-brand img{
+    width: 200px;
+}
+
 
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
+    .dropdown-menu{
+        background-color: #908c8c;
+    }
     .grow {
         font-size: 19vw;
         line-height: 14vh;
