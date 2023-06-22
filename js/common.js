@@ -41,13 +41,15 @@ function sendMessage(){
                 "emailBodyContent": emailBodyContent
             }
     
-
+            $("#sendMessageBtn").attr("disabled",true)
             $.ajax({
                 type: "POST",
                 url: "https://es.technoboost.in/api/v1/mail-send",
                 data: JSON.stringify(jsondata),
                 contentType: "application/json; charset=utf-8",
                 success: function(result){
+                $("#sendMessageBtn").attr("disabled",false)
+
                     $(".alert").toggle('alert')
                     $(".alert").addClass('show')
                     if(result.hasOwnProperty('status') && result.status=='NOT_FOUND' ){
@@ -64,6 +66,7 @@ function sendMessage(){
                     }
                 },
                 error:function(err){
+                $("#sendMessageBtn").attr("disabled",false)
                     $(".alert").toggle('alert')
                     $(".alert").removeClass('alert-success')
                     $(".alert").addClass('alert-danger')
