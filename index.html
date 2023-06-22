@@ -28,8 +28,8 @@
             href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
         <script type="text/javascript"
             src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-            <script src="js/common.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/common.js"></script>
     </head>
     <style>
         .slick-dots li.slick-active button:before {
@@ -77,7 +77,8 @@
                                 id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu bg-nav rounded-0 border-0 py-3 m-0" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu bg-nav rounded-0 border-0 py-3 m-0"
+                                aria-labelledby="navbarDropdown">
                                 <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
                                         href="startUp.html"> Startup
                                         Support <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
@@ -85,9 +86,11 @@
                                         href="development.html"> Software Engineering
                                         <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
                                 <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
-                                        href="ux.html"> UX Designing <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                        href="ux.html"> UX Designing <img class="ms-4" src="IMAGES/navArrow.svg"></a>
+                                </li>
                                 <li><a class="px-4 py-2 navHover d-flex align-items-center justify-content-between fs-20 text-light fWeight-400 dropdown-item"
-                                        href="dataAnalytics.html"> Data Analytics & BI <img class="ms-4" src="IMAGES/navArrow.svg"></a></li>
+                                        href="dataAnalytics.html"> Data Analytics & BI <img class="ms-4"
+                                            src="IMAGES/navArrow.svg"></a></li>
                             </ul>
                         </li>
                         <li class="nav-item me-5 ">
@@ -120,8 +123,7 @@
                                 </div>
                                 <div class="d-flex align-items-center">
                                     <a href="#contact" class="text-decoration-none">
-                                        <button
-                                            class="btn btn-warning fWeight-700 px-4 rounded-0 contact">Contact
+                                        <button class="btn btn-warning fWeight-700 px-4 rounded-0 contact">Contact
                                             Us</button></a>
                                     <a href="#services" class="text-decoration-none mx-3">
                                         <button
@@ -447,7 +449,8 @@
                                     <h1 class="text-dark fWeight-800 mb-0 findh">Find your </h1>
                                     <h1 class=" text-dark fWeight-800 mb-0 findh">purpose</h1>
                                 </div> -->
-                                <p class="text-dark fWeight-400 border-top border-dark findP-2 mt-3 py-3 mb-0 fs-1vw pe-2">
+                                <p
+                                    class="text-dark fWeight-400 border-top border-dark findP-2 mt-3 py-3 mb-0 fs-1vw pe-2">
                                     Join the team of passionate , committed and a bit geeky engineers.
                                 </p>
                                 <p class="text-dark fWeight-700 resume fs-1vw mb-2">Mail your resume to</p>
@@ -489,7 +492,7 @@
             <section id="contact">
                 <div class="contactDiv pb-5 container">
                     <div class="row">
-                        <div class="col-sm-12 col-md-5 d-none d-sm-block" >
+                        <div class="col-sm-12 col-md-5 d-none d-sm-block">
                             <div class=" contactBg d-flex flex-column justify-content-end align-items-center pb-5">
                                 <p class="fWeight-400 fs-2-7vw text-light fst-italic text-center px-5">We would love to
                                     hear from you</p>
@@ -503,28 +506,38 @@
                         </div>
                         <div class="col-sm-12 col-md-7">
                             <p class=" fs-4vw fWeight-700 ps-3 d-none d-sm-block mt-md-0 mt-sm-4">Contact Us</p>
-                           
+
                             <div class="d-flex justify-content-center align-items-center d-block d-sm-none">
                                 <img src="IMAGES/Union.svg" width="10%">
                                 <p class=" fs-40 fWeight-700 ps-1 m-0">Contact Us</p>
                             </div>
 
                             <div class="px-sm-0 px-md-5 position-relative">
-                                <div class="alert alert-success alert-dismissible fade" style="display: none;" role="alert">
-                                    <span id="alertMessage"> <strong>Thankyou for contacting us!  </strong> Our team will get back to you.</span>
-                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                <div class="alert alert-success alert-dismissible fade" style="display: none;"
+                                    role="alert">
+                                    <span id="alertMessage"> <strong>Thankyou for contacting us! </strong> Our team will
+                                        get back to you.</span>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="d-flex flex-column">
                                     <div class="d-flex gap-4">
-                                        <input type="text" class="px-3 py-2 my-3 w-50 contactInput form-control" onclick="removeErrorBorder('#firstName')"  id="firstName" placeholder="First Name">
-                                        <input type="text" class="px-3 py-2 my-3 w-50 contactInput form-control" onclick="removeErrorBorder('#lastName')"   id="lastName" placeholder="Last Name">
+                                        <input type="text" class="px-3 py-2 my-3 w-50 contactInput form-control"
+                                            onclick="removeErrorBorder('#firstName')" id="firstName"
+                                            placeholder="First Name">
+                                        <input type="text" class="px-3 py-2 my-3 w-50 contactInput form-control"
+                                            onclick="removeErrorBorder('#lastName')" id="lastName"
+                                            placeholder="Last Name">
                                     </div>
-                                    <input type="text" class="px-3 py-2 my-3 contactInput form-control" onclick="removeErrorBorder('#email')"  id="email" placeholder="Email Address">
-                                    <textarea class="px-3 py-2 my-3 contactInput form-control" onclick="removeErrorBorder('#message')"  id="message" placeholder="Enter Message" id="message" cols="30"
-                                        rows="5"></textarea>
+                                    <input type="text" class="px-3 py-2 my-3 contactInput form-control"
+                                        onclick="removeErrorBorder('#email')" id="email" placeholder="Email Address">
+                                    <textarea class="px-3 py-2 my-3 contactInput form-control"
+                                        onclick="removeErrorBorder('#message')" id="message" placeholder="Enter Message"
+                                        id="message" cols="30" rows="5"></textarea>
                                 </div>
                                 <div class="d-flex justify-content-end pt-5">
-                                    <button class="btn btn-warning fWeight-600 px-4 rounded-0  fs-16 contactInput" id="sendMessageBtn" onclick="sendMessage()">Send
+                                    <button class="btn btn-warning fWeight-600 px-4 rounded-0  fs-16 contactInput"
+                                        id="sendMessageBtn" onclick="sendMessage()">Send
                                         Message</button>
                                 </div>
                                 <img src="IMAGES/UnionBg.svg" class="position-absolute contactUnion">
@@ -630,10 +643,10 @@
         </footer>
         <script>
 
-        window.addEventListener('scroll', (event) => {
-            // handle the scroll event 
-            console.log(event)
-        });
+            window.addEventListener('scroll', (event) => {
+                // handle the scroll event 
+                console.log(event)
+            });
             $('.caseStyudy-slider').slick({
                 nextArrow: '.nextBtn',
                 prevArrow: '.previousBtn',
@@ -671,7 +684,7 @@
 
                         }
                     }
-                    
+
                 ]
             });
 

@@ -85,7 +85,7 @@
 
 .navHover:hover {
     background: rgba(255, 255, 255, 0.21);
-backdrop-filter: blur(75px);
+    backdrop-filter: blur(75px);
 }
 
 .colorGrey {
@@ -103,6 +103,7 @@ backdrop-filter: blur(75px);
 .bg-main {
     background: #13113A;
 }
+
 .bg-mainFooter {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
@@ -189,17 +190,19 @@ backdrop-filter: blur(75px);
 .footerContactImg {
     width: 25px;
 }
-.dropdown a.show{
+
+.dropdown a.show {
     border-bottom: 5px solid #FFC107;
     border-color: #FFC107;
-    
+
 }
+
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
-    .dropdown-menu{
+    .dropdown-menu {
         background-color: #908c8c;
     }
-    
+
     .landingDiv p {
         font-size: 3vw;
     }
@@ -314,6 +317,10 @@ backdrop-filter: blur(75px);
 @media only screen and (max-width: 576px) {
     .landingDiv p {
         font-size: 4vw;
+    }
+
+    .consulting {
+        font-size: 13px;
     }
 
     .teamContent h4 {
