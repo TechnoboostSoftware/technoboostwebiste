@@ -36,6 +36,7 @@
 .fs-2vw {
     font-size: 1.8vw;
 }
+
 .fs-2-7vw {
     font-size: 2.7vw;
     line-height: 53px;
@@ -76,21 +77,28 @@
 .fWeight-800 {
     font-weight: 800;
 }
+
+.navbar-toggler-icon{
+    background-image: url("../IMAGES/navToggle.svg") !important;
+}
 .bg-nav {
     background: #13113A;
+    box-shadow: -7px 10px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 .navHover:hover {
     background: rgba(255, 255, 255, 0.21);
-backdrop-filter: blur(75px);
+    backdrop-filter: blur(75px);
 }
 
 .colorGrey {
     color: #3D3D3D;
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
 }
+
 .colorchanging {
     background: linear-gradient(85.79deg, #FED631 6.44%, #2AB7CA 99.9%);
     -webkit-background-clip: text;
@@ -101,6 +109,7 @@ backdrop-filter: blur(75px);
 .bg-main {
     background: #13113A;
 }
+
 .bg-mainFooter {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
@@ -120,7 +129,8 @@ backdrop-filter: blur(75px);
 .contactBg {
     background-image: url("../IMAGES/contactBg.svg");
     height: 100%;
-    border-bottom-left-radius: 30px;    background-repeat: no-repeat;
+    border-bottom-left-radius: 30px;
+    background-repeat: no-repeat;
 }
 
 .address {
@@ -128,20 +138,19 @@ backdrop-filter: blur(75px);
 }
 
 
-.footerLine{
+.footerLine {
     line-height: 20px;
 }
-.footerContactImg{
+
+.footerContactImg {
     width: 25px;
 }
 
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
 
-    .dropdown-menu{
-        background-color: #908c8c;
-    }
-    
+
+
     .footer h5 {
         font-size: 4vw;
     }
@@ -153,7 +162,7 @@ backdrop-filter: blur(75px);
 
 
     .footer .Copyright {
-        font-size:16px;
+        font-size: 16px;
     }
 }
 
@@ -167,7 +176,8 @@ backdrop-filter: blur(75px);
         top: 100px;
         width: 100%;
     }
-    .textIndex{
+
+    .textIndex {
         z-index: 1;
     }
 
@@ -178,6 +188,7 @@ backdrop-filter: blur(75px);
     .footer .Copyright {
         font-size: 16px;
     }
+
     .footerLink a {
         font-size: 13px;
     }

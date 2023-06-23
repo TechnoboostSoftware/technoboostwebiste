@@ -51,6 +51,7 @@
     font-size: 40px;
 }
 
+
 .fs-50 {
     font-size: 50px;
 }
@@ -91,9 +92,17 @@
     width: 60%;
 }
 
+.navbar-toggler-icon{
+    background-image: url("../IMAGES/navToggle.svg") !important;
+}
+.navbar-toggler-icon{
+    background-image: url("../IMAGES/navToggle.svg") !important;
+}
 .bg-nav {
     background: #13113A;
+    box-shadow: -7px 10px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 .navHover:hover {
     background: rgba(255, 255, 255, 0.21);
     backdrop-filter: blur(75px);
@@ -158,7 +167,6 @@
 }
 
 .goal {
-    font-size: 1.6vw;
     border-top: 2px solid #FFCD00;
     line-height: 5.5vh;
 }
@@ -330,9 +338,7 @@
 
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
-    .dropdown-menu {
-        background-color: #908c8c;
-    }
+
 
     .grow {
         font-size: 19vw;

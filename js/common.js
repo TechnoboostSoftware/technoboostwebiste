@@ -2,9 +2,9 @@
 
 function sendMessage(){
 
+
+    
     var inputList=['#firstName','#lastName','#email','#message']
-
-
     var firstName=$("#firstName").val();
     var lastName=$("#lastName").val();
     var email=$("#email").val();
@@ -68,6 +68,7 @@ function sendMessage(){
                 error:function(err){
                 $("#sendMessageBtn").attr("disabled",false)
                     $(".alert").toggle('alert')
+                    $(".alert").addClass('show')
                     $(".alert").removeClass('alert-success')
                     $(".alert").addClass('alert-danger')
                     

@@ -36,6 +36,7 @@
 .fs-2vw {
     font-size: 1.8vw;
 }
+
 .fs-2-7vw {
     font-size: 2.7vw;
     line-height: 53px;
@@ -76,13 +77,19 @@
 .fWeight-800 {
     font-weight: 800;
 }
+
+.navbar-toggler-icon{
+    background-image: url("../IMAGES/navToggle.svg") !important;
+}
 .bg-nav {
     background: #13113A;
+    box-shadow: -7px 10px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 .navHover:hover {
     background: rgba(255, 255, 255, 0.21);
-backdrop-filter: blur(75px);
-} 
+    backdrop-filter: blur(75px);
+}
 
 .colorGrey {
     color: #3D3D3D;
@@ -99,6 +106,7 @@ backdrop-filter: blur(75px);
 .bg-main {
     background: #13113A;
 }
+
 .bg-mainFooter {
     background: linear-gradient(73.86deg, #393021 0%, #082542 17.8%, #07133C 56.67%, #170F38 100%);
 }
@@ -119,9 +127,11 @@ p.resume {
 .footer i {
     font-size: 2.2vw;
 }
+
 .Copyright {
     font-size: 1vw;
 }
+
 .contactUnion {
     top: 133px;
     right: 0px;
@@ -132,34 +142,37 @@ p.resume {
 .contactBg {
     background-image: url("../IMAGES/contactBg.svg");
     height: 100%;
-    border-bottom-left-radius: 30px;    background-repeat: no-repeat;
+    border-bottom-left-radius: 30px;
+    background-repeat: no-repeat;
 }
 
 .address {
     font-size: 1.3vw;
 }
-.footerLine{
+
+.footerLine {
     line-height: 20px;
 }
-.footerContactImg{
+
+.footerContactImg {
     width: 25px;
 }
-.dropdown a.show{
+
+.dropdown a.show {
     border-bottom: 5px solid #FFC107;
     border-color: #FFC107;
-    
+
 }
 
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
 
-    .dropdown-menu{
-        background-color: #908c8c;
-    }
-    
+
+
     .footer h5 {
         font-size: 4vw;
     }
+
     .footer h5 {
         font-size: 4vw;
     }
@@ -172,7 +185,7 @@ p.resume {
 
 
     .footer .Copyright {
-        font-size:16px;
+        font-size: 16px;
     }
 }
 
@@ -182,7 +195,8 @@ p.resume {
         top: 100px;
         width: 100%;
     }
-    .textIndex{
+
+    .textIndex {
         z-index: 1;
     }
 
@@ -193,6 +207,7 @@ p.resume {
     .footer .Copyright {
         font-size: 16px;
     }
+
     .footerLink a {
         font-size: 13px;
     }

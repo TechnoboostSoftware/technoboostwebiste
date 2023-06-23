@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://kit.fontawesome.com/6c2754f92f.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="js/common.js"></script>
     </head>
 
@@ -90,12 +91,12 @@
         <!-- ############################# landingPage #############################-->
         <main id="main">
             <section id="hero" class="bg-main">
-                <div class="ui container py-md-4 p-0">
-                    <div class="d-flex justify-content-between">
-                        <div class="pt-md-5 pt-0">
+                <div class="ui container-fluid py-md-4 py-0">
+                    <div class="position-relative d-flex">
+                        <img src="IMAGES/Union.svg" class="position-absolute top-0 end-0" width="10%">
+                        <div class="pt-md-5 pt-0 ps-md-5 ps-1">
                             <h1 class="fWeight-800 text-light pt-4">Cookies Policy</h1>
                         </div>
-                        <img src="IMAGES/Union.svg" class="" width="10%" style="z-index: 0;">
                     </div>
                 </div>
             </section>
@@ -160,7 +161,9 @@
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <div class="contactDiv pb-5 container">
+                            <div class="contactDiv pb-5 container position-relative">
+                                <img src="IMAGES/closeContact.svg" class="position-absolute top-0 end-0"
+                                    data-bs-dismiss="modal" aria-label="Close">
                                 <div class="row">
                                     <div class="col-sm-12 col-md-5 d-none d-sm-block">
                                         <div

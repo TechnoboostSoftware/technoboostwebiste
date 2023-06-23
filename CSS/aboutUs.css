@@ -79,8 +79,12 @@
     font-weight: 800;
 }
 
+.navbar-toggler-icon{
+    background-image: url("../IMAGES/navToggle.svg") !important;
+}
 .bg-nav {
     background: #13113A;
+    box-shadow: -7px 10px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .navHover:hover {
@@ -123,7 +127,7 @@
 }
 
 .UnionBox {
-    width: 5%;
+    width: 7%;
 }
 
 .teamContent h4 {
@@ -182,7 +186,6 @@
     font-size: 1.3vw;
 }
 
-
 .footerLine {
     line-height: 20px;
 }
@@ -199,9 +202,6 @@
 
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
-    .dropdown-menu {
-        background-color: #908c8c;
-    }
 
     .landingDiv p {
         font-size: 3vw;
@@ -213,6 +213,10 @@
 
     .values {
         font-size: 9vw;
+    }
+
+    .UnionBox {
+        width: 12%;
     }
 
     .teamContent p {
@@ -230,6 +234,10 @@
 
     .ceo {
         font-size: 16px;
+    }
+
+    .whoImg {
+        width: 75% !important;
     }
 
     .who-P {
@@ -343,7 +351,7 @@
     }
 
     .UnionBox {
-        width: 8%;
+        width: 12%;
     }
 
     .values {
@@ -357,9 +365,11 @@
     .purposeText {
         font-size: 5vw;
     }
+
     .ceo {
-        font-size: 13px;
+        font-size: 15px;
     }
+
     .whoText {
         font-size: 4vw;
         text-align: justify;

@@ -46,8 +46,12 @@
     font-weight: 800;
 }
 
+.navbar-toggler-icon{
+    background-image: url("../IMAGES/navToggle.svg") !important;
+}
 .bg-nav {
     background: #13113A;
+    box-shadow: -7px 10px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .navHover:hover {
     background: rgba(255, 255, 255, 0.21);

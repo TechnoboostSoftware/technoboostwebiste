@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://kit.fontawesome.com/6c2754f92f.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="js/common.js"></script>
     </head>
 
@@ -89,7 +90,7 @@
         <main id="main">
             <section id="hero" class="bg-main">
                 <div class="togehter container py-5">
-                    <div class="d-flex align-items-start">
+                    <div class="d-flex align-items-start pb-3">
                         <img class="mt-1" src="IMAGES/export.svg">
                         <p class="text-white fWeight-400 fs-25 m-0 px-4 consulting">We are an IT consulting and Services company
                             driving value to our clients with custom software solutions.</p>
@@ -99,7 +100,7 @@
                             <img src="IMAGES/together.svg" class="w-75">
                         </div>
                         <div class="col-md-6 col-12 ">
-                            <div class="imgContent d-flex landingDiv">
+                            <div class="imgContent d-flex landingDiv pb-md-3 pb-5">
                                 <img src="IMAGES/CallWhite.svg" class="me-3">
                                 <p class="text-white fWeight-400 fs-25 mb-0" style="line-height: 30px;">We believe that
                                     technology is a vital tool for
@@ -337,7 +338,7 @@
                 <div class="who my-5 container">
                     <div class="row align-items-center">
                         <div class="col-md-4 col-12 d-flex justify-content-center">
-                            <img src="IMAGES/who.svg" class="w-75 pt-md-0 pt-3">
+                            <img src="IMAGES/who.svg" class="w-100 whoImg pt-md-0 pt-3">
                         </div>
                         <div class="col-md-8 col-12">
                             <div class="text-white py-4 px-md-0 px-3 fs-1vw">
@@ -414,7 +415,7 @@
             <!-- ########################################## clients ####################### -->
             <section id="clients">
                 <div class="clients container">
-                    <h1 class=" text-center pt-5 pb-3 colorGrey fWeight-700 m-0">Clients</h1>
+                    <h1 class=" text-center pt-md-5 pt-3 pb-3 colorGrey fWeight-700 m-0">Clients</h1>
                     <div class="row row-cols-3 row-cols-md-5 align-items-center mb-md-5 mb-3">
                         <div class="col-md col-4 text-center">
                             <img src="IMAGES/download-(3).svg" class="w-75 py-2 px-2">
@@ -435,13 +436,13 @@
                 </div>
             </section>
 
-
             <!-- ########################################## Contact ####################### -->
             <div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <div class="contactDiv pb-5 container">
+                            <div class="contactDiv pb-5 container position-relative">
+                                <img src="IMAGES/closeContact.svg" class="position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close">
                                 <div class="row">
                                     <div class="col-sm-12 col-md-5 d-none d-sm-block">
                                         <div
@@ -507,8 +508,6 @@
                     </div>
                 </div>
             </div>
-
-
 
         </main>
         <!-- ########################################## footer ####################### -->

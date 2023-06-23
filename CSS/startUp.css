@@ -83,8 +83,13 @@
     text-align: justify;
 }
 
+.navbar-toggler-icon {
+    background-image: url("../IMAGES/navToggle.svg") !important;
+}
+
 .bg-nav {
     background: #13113A;
+    box-shadow: -7px 10px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .navHover:hover {
@@ -172,8 +177,8 @@
 /*  #############################  TAB ########################### */
 @media only screen and (max-width: 767px) {
 
-    .dropdown-menu {
-        background-color: #908c8c;
+    .servicesHeading {
+        width: 18%;
     }
 
     .women {
@@ -185,7 +190,11 @@
     }
 
     .content p {
-        font-size: 3vw;
+        font-size: 19px;
+    }
+
+    P.contentHeading {
+        font-size: 23px;
     }
 
     .content .first {
@@ -222,7 +231,7 @@
 
 @media only screen and (max-width: 576px) {
     .servicesHeading {
-        width: 15%;
+        width: 23%;
     }
 
     .passionate {
@@ -235,9 +244,11 @@
     }
 
     .content p {
-        font-size: 3.5vw;
+        font-size: 16px;
     }
-
+    P.contentHeading {
+        font-size: 23px;
+    }
     .bg-mainBox p {
         font-size: 4vw;
     }
