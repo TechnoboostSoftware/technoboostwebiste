@@ -1,8 +1,6 @@
 
 
 function sendMessage(){
-
-
     
     var inputList=['#firstName','#lastName','#email','#message']
     var firstName=$("#firstName").val();
@@ -49,11 +47,9 @@ function sendMessage(){
                 contentType: "application/json; charset=utf-8",
                 success: function(result){
                 $("#sendMessageBtn").attr("disabled",false)
-
                     $(".alert").toggle('alert')
                     $(".alert").addClass('show')
-                    if(result.hasOwnProperty('status') && result.status=='NOT_FOUND' ){
-                      
+                    if(result.hasOwnProperty('status') && result.status=='NOT_FOUND'){
                         $(".alert").removeClass('alert-success')
                         $(".alert").addClass('alert-danger')
 
@@ -62,7 +58,7 @@ function sendMessage(){
                         $(".alert").addClass('alert-success')
                         $(".alert").removeClass('alert-danger')
                         $("#alertMessage").html(' <strong>Thankyou for contacting us!  </strong> Our team will get back to you.')
-
+                        $(".contactInput").val('')
                     }
                 },
                 error:function(err){
@@ -71,7 +67,6 @@ function sendMessage(){
                     $(".alert").addClass('show')
                     $(".alert").removeClass('alert-success')
                     $(".alert").addClass('alert-danger')
-                    
                     $("#alertMessage").html('<strong> Someting went wrong try again </b>')
                 }
         });
