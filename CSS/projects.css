@@ -109,9 +109,16 @@
     border-color: #FFC107;
 
 }
-
+.logoWidth{
+    width: 120px;
+}
 .activeBtn {
     background: rgba(39, 162, 184, 1);
+    color: white;
+}
+.activeBtn:hover{
+    background: rgba(39, 162, 184, 1);
+    color: white;
 }
 
 .projectsDesigns-1 {

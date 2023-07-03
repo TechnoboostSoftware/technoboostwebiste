@@ -24,6 +24,14 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://kit.fontawesome.com/6c2754f92f.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <!-- ##################### slick ############# -->
+        <!-- <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="js/common.js"></script>
     </head>
 
@@ -94,28 +102,23 @@
                 </div>
             </section>
             <section class="designs container pt-4">
-                <div class="">
-                    <span class="fWeight-500 fs-25 m-0 position-relative ">Take a look at the some of the designs we
-                        made !</span>
-                    <img src="IMAGES/yellowCircle.svg" class="position-absolute">
-                </div>
-                <div class="d-flex gap-3 py-5 overflow-auto">
-                    <button class="btn activeBtn text-light px-5 py-2 designBtn border">All Projects</button>
-                    <button class="btn bg-light px-5 py-2 designBtn border">Mobile Application</button>
-                    <button class="btn bg-light px-5 py-2 designBtn border">Web Application</button>
-                    <button class="btn bg-light px-5 py-2 designBtn border">UI/UX Design</button>
-                    <button class="btn bg-light px-5 py-2 designBtn border">Branding</button>
+                <p class="fWeight-500 fs-25 m-0">Take a look at the some of the designs we
+                    made !</p>
+                <div class="d-flex gap-3 py-3 pt-md-4 pb-md-3 overflow-auto">
+                    <button class="btn activeBtn  px-5 py-2 designBtn border" id="allPages" onclick="allProject()">All Projects</button>
+                    <button class="btn px-5 py-2 designBtn border" id="mobileProject" onclick="mobileProject()">Mobile Application</button>
+                    <button class="btn px-5 py-2 designBtn border" id="webProject" onclick="webProject()">Web Application</button>
                 </div>
             </section>
 
 
             <!-- ############################# projectsDesigns #############################-->
 
-            <section id="projectsDesigns" class="container py-4">
+            <section id="projectsDesigns" class="container pb-4">
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-1 pt-4 my-4">
+                <div class="websiteDisplay projectsDesigns-1 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-1.svg" class="px-5 w-100">
@@ -123,10 +126,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-1.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">Parent Maestro Website </p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">Parent Maestro Website </p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -135,7 +139,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-2 pt-4 my-4">
+                <div class="mobileDisplay projectsDesigns-2 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-2.svg" class="px-md-5 px-2 w-100">
@@ -143,10 +147,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0 pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-2.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">Family Tree </p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">Family Tree </p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-2"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -155,7 +160,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-3 pt-4 my-4">
+                <div class="websiteDisplay projectsDesigns-3 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-3.svg" class="px-md-5 px-2 w-100">
@@ -163,10 +168,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-3.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">King of cards Website</p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">King of cards Website</p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-3"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -175,7 +181,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-4 pt-4 my-4">
+                <div class="websiteDisplay projectsDesigns-4 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-4.svg" class="px-md-5 px-2 w-100">
@@ -183,10 +189,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-4.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">Brand lookbook</p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">Brand lookbook</p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-4"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -195,7 +202,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-5 pt-4 my-4">
+                <div class="websiteDisplay projectsDesigns-5 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-5.svg" class="px-md-5 px-2 w-100">
@@ -203,10 +210,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-5.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">ditos</p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">ditos</p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-5"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -215,7 +223,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-6 pt-4 my-4">
+                <div class="websiteDisplay projectsDesigns-6 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-6.svg" class="px-md-5 px-2 w-100">
@@ -223,10 +231,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-6.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">All About Veg</p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">All About Veg</p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-6"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -235,7 +244,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-7 pt-4 my-4">
+                <div class="websiteDisplay projectsDesigns-7 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-7.svg" class="px-md-5 px-2 w-100">
@@ -243,10 +252,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-7.svg" class="logoWidth">
-                                <p class="fWeight-500 pt-4">Remo homes website</p>
-                                <p class="fWeight-400">Website: <span class="fWeight-500">www.parentmaestro.com</span>
-                                </p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="fWeight-500 pt-4">Remo fs-20 homes website</p>
+                                <p class="fWeight-400  fs-16">Website: <span
+                                        class="fWeight-500">www.parentmaestro.com</span> </p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-7"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -255,7 +265,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-8 pt-4 my-4">
+                <div class="websiteDisplay projectsDesigns-8 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-8.svg" class="px-md-5 px-2 w-100">
@@ -263,10 +273,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-8.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">True Visual</p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">True Visual</p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-8"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -276,7 +287,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-9 pt-4 my-4">
+                <div class="websiteDisplay projectsDesigns-9 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-9.svg" class="px-md-5 px-2 w-100">
@@ -284,10 +295,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-9.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">Tripful</p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">Tripful</p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-9"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -297,7 +309,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-10 pt-4 my-4">
+                <div class="websiteDisplay projectsDesigns-10 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-10.svg" class="px-md-5 px-2 w-100">
@@ -305,10 +317,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-10.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">Ametek</p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">Ametek</p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-10"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -318,7 +331,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-11 pt-4 my-4">
+                <div class="websiteDisplay projectsDesigns-11 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-11.svg" class="px-md-5 px-2 w-100">
@@ -326,10 +339,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-8.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">CA Application</p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">CA Application</p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-11"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -339,7 +353,7 @@
 
                 <!-- ############################# projectsDesigns #############################-->
 
-                <div class="projectsDesigns-12 pt-4 my-4">
+                <div class="mobileDisplay projectsDesigns-12 pt-4 my-4">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-12 d-flex align-items-center justify-content-center">
                             <img src="IMAGES/projectsDesignsImg-12.svg" class="px-md-5 px-2 w-100">
@@ -347,10 +361,11 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-8.svg" class="logoWidth">
-                                <p class="text-light fWeight-500 pt-4">PG App</p>
-                                <p class="text-light fWeight-400">Website: <span
-                                        class="fWeight-500">www.parentmaestro.com</span></p>
-                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"> View
+                                <p class="text-light fWeight-500 fs-20 pt-4">PG App</p>
+                                <p class="text-light fWeight-400 fs-16">Website: <span
+                                        class="fWeight-600">www.parentmaestro.com</span></p>
+                                <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-12"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -532,6 +547,275 @@
                 </div>
             </div>
 
+
+            <!-- ########################################## Modal ####################### -->
+            <div class="modal fade " id="projectPopUp-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content ">
+                        <div class="modal-body projectsDesigns-1 position-relative px-5 py-5">
+                            <img src="IMAGES/projectPopClose.svg" class="position-absolute top-0 end-0 p-3"
+                                data-bs-dismiss="modal">
+                            <div class="row py-4">
+                                <div class="col-1 d-flex justify-content-start">
+                                    <img src="IMAGES/leftBtn.svg" class="w-100 previousBtn" role="button">
+                                </div>
+                                <div class="col-10">
+                                    <div class="slider">
+                                        <div class=""><img src="IMAGES/parent-1.svg"></div>
+                                        <div class=""><img src="IMAGES/parent-2.svg" class=""></div>
+                                        <div class=""><img src="IMAGES/parent-3.svg" class=""></div>
+                                    </div>
+
+                                </div>
+                                <div class="col-1 d-flex justify-content-end">
+                                    <img src="IMAGES/rightBtn.svg" class="w-100 nextBtn" role="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## Modal ####################### -->
+            <div class="modal fade " id="projectPopUp-2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content ">
+                        <div class="modal-body projectsDesigns-3 position-relative px-5 py-5">
+                            <img src="IMAGES/projectPopClose.svg" class="position-absolute top-0 end-0 p-3"
+                                data-bs-dismiss="modal">
+                            <div class="row py-4">
+                                <div class="col-1 d-flex justify-content-start">
+                                    <img src="IMAGES/leftBtn.svg" class="w-100 previousBtn" role="button">
+                                </div>
+                                <div class="col-10">
+                                    <div class="slider">
+                                        <div class=""><img src=""></div>
+                                    </div>
+
+                                </div>
+                                <div class="col-1 d-flex justify-content-end">
+                                    <img src="IMAGES/rightBtn.svg" class="w-100 nextBtn" role="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## Modal ####################### -->
+            <div class="modal fade " id="projectPopUp-3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content ">
+                        <div class="modal-body projectsDesigns-3 position-relative px-5 py-5">
+                            <img src="IMAGES/projectPopClose.svg" class="position-absolute top-0 end-0 p-3"
+                                data-bs-dismiss="modal">
+                            <div class="row py-4">
+                                <div class="col-1 d-flex justify-content-start">
+                                    <img src="IMAGES/leftBtn.svg" class="w-100 previousBtn" role="button">
+                                </div>
+                                <div class="col-10">
+                                    <div class="slider">
+                                        <div class=""><img src="IMAGES/cards-1.svg"></div>
+                                        <div class=""><img src="IMAGES/cards-2.svg" class=""></div>
+                                        <div class=""><img src="IMAGES/cards-3.svg" class=""></div>
+                                    </div>
+
+                                </div>
+                                <div class="col-1 d-flex justify-content-end">
+                                    <img src="IMAGES/rightBtn.svg" class="w-100 nextBtn" role="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## Modal ####################### -->
+            <div class="modal fade " id="projectPopUp-4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content ">
+                        <div class="modal-body projectsDesigns-4 position-relative px-5 py-5">
+                            <img src="IMAGES/projectPopClose.svg" class="position-absolute top-0 end-0 p-3"
+                                data-bs-dismiss="modal">
+                            <div class="row py-4">
+                                <div class="col-1 d-flex justify-content-start">
+                                    <img src="IMAGES/leftBtn.svg" class="w-100 previousBtn" role="button">
+                                </div>
+                                <div class="col-10">
+                                    <div class="slider">
+                                        <div class=""><img src="IMAGES/brand-1.svg"></div>
+                                        <div class=""><img src="IMAGES/brand-2.svg" class=""></div>
+                                    </div>
+
+                                </div>
+                                <div class="col-1 d-flex justify-content-end">
+                                    <img src="IMAGES/rightBtn.svg" class="w-100 nextBtn" role="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## Modal ####################### -->
+            <div class="modal fade " id="projectPopUp-5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content ">
+                        <div class="modal-body projectsDesigns-5 position-relative px-5 py-5">
+                            <img src="IMAGES/projectPopClose.svg" class="position-absolute top-0 end-0 p-3"
+                                data-bs-dismiss="modal">
+                            <div class="row py-4">
+                                <div class="col-1 d-flex justify-content-start">
+                                    <img src="IMAGES/leftBtn.svg" class="w-100 previousBtn" role="button">
+                                </div>
+                                <div class="col-10">
+                                    <div class="slider">
+                                        <div class=""><img src="IMAGES/dit-1.svg"></div>
+                                        <div class=""><img src="IMAGES/dit-2.svg"></div>
+                                    </div>
+
+                                </div>
+                                <div class="col-1 d-flex justify-content-end">
+                                    <img src="IMAGES/rightBtn.svg" class="w-100 nextBtn" role="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## Modal ####################### -->
+            <div class="modal fade " id="projectPopUp-6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content ">
+                        <div class="modal-body projectsDesigns-6 position-relative px-5 py-5">
+                            <img src="IMAGES/projectPopClose.svg" class="position-absolute top-0 end-0 p-3"
+                                data-bs-dismiss="modal">
+                            <div class="row py-4">
+                                <div class="col-1 d-flex justify-content-start">
+                                    <img src="IMAGES/leftBtn.svg" class="w-100 previousBtn" role="button">
+                                </div>
+                                <div class="col-10">
+                                    <div class="slider">
+                                        <div class=""><img src="IMAGES/all-1.svg"></div>
+                                        <div class=""><img src="IMAGES/all-2.svg" class=""></div>
+                                        <div class=""><img src="IMAGES/all-3.svg" class=""></div>
+                                    </div>
+
+                                </div>
+                                <div class="col-1 d-flex justify-content-end">
+                                    <img src="IMAGES/rightBtn.svg" class="w-100 nextBtn" role="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## Modal ####################### -->
+            <div class="modal fade " id="projectPopUp-7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content ">
+                        <div class="modal-body projectsDesigns-7 position-relative px-5 py-5">
+                            <img src="IMAGES/projectPopClose.svg" class="position-absolute top-0 end-0 p-3"
+                                data-bs-dismiss="modal">
+                            <div class="row py-4">
+                                <div class="col-1 d-flex justify-content-start">
+                                    <img src="IMAGES/leftBtn.svg" class="w-100 previousBtn" role="button">
+                                </div>
+                                <div class="col-10">
+                                    <div class="slider">
+                                        <div class=""><img src="IMAGES/remo-1.svg"></div>
+                                        <div class=""><img src="IMAGES/remo-2.svg" class=""></div>
+                                        <div class=""><img src="IMAGES/remo-3.svg" class=""></div>
+                                    </div>
+
+                                </div>
+                                <div class="col-1 d-flex justify-content-end">
+                                    <img src="IMAGES/rightBtn.svg" class="w-100 nextBtn" role="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## Modal ####################### -->
+            <div class="modal fade " id="projectPopUp-8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content ">
+                        <div class="modal-body projectsDesigns-8 position-relative px-5 py-5">
+                            <img src="IMAGES/projectPopClose.svg" class="position-absolute top-0 end-0 p-3"
+                                data-bs-dismiss="modal">
+                            <div class="row py-4">
+                                <div class="col-1 d-flex justify-content-start">
+                                    <img src="IMAGES/leftBtn.svg" class="w-100 previousBtn" role="button">
+                                </div>
+                                <div class="col-10">
+                                    <div class="slider">
+                                        <div class=""><img src="IMAGES/true-1.svg"></div>
+                                        <div class=""><img src="IMAGES/true-2.svg" class=""></div>
+                                        <div class=""><img src="IMAGES/true-3.svg" class=""></div>
+                                    </div>
+
+                                </div>
+                                <div class="col-1 d-flex justify-content-end">
+                                    <img src="IMAGES/rightBtn.svg" class="w-100 nextBtn" role="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################## Modal ####################### -->
+            <div class="modal fade " id="projectPopUp-9" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content ">
+                        <div class="modal-body projectsDesigns-9 position-relative px-5 py-5">
+                            <img src="IMAGES/projectPopClose.svg" class="position-absolute top-0 end-0 p-3"
+                                data-bs-dismiss="modal">
+                            <div class="row py-4">
+                                <div class="col-1 d-flex justify-content-start">
+                                    <img src="IMAGES/leftBtn.svg" class="w-100 previousBtn" role="button">
+                                </div>
+                                <div class="col-10">
+                                    <div class="slider">
+                                        <div class=""><img src="IMAGES/trip-1.svg"></div>
+                                        <div class=""><img src="IMAGES/trip-2.svg" class=""></div>
+                                        <div class=""><img src="IMAGES/trip-3.svg" class=""></div>
+                                    </div>
+
+                                </div>
+                                <div class="col-1 d-flex justify-content-end">
+                                    <img src="IMAGES/rightBtn.svg" class="w-100 nextBtn" role="button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+        <!-- <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.slider').slick({
+                    nextArrow: '.nextBtn',
+                    prevArrow: '.previousBtn',
+                    dots: true,
+                    infinite: true,
+                    speed: 500,
+                    fade: true,
+                    cssEase: 'linear'
+                });
+            });
+        </script>
 
     </body>
 
