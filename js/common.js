@@ -97,7 +97,7 @@ function mobileProject(){
     $(".websiteDisplay").addClass("d-none")
     $(".mobileDisplay").removeClass("d-none")
     $("#allPages").removeClass("activeBtn")
-    $(".websiteDisplay").removeClass("activeBtn")
+    $("#webProject").removeClass("activeBtn")
     $("#mobileProject").addClass("activeBtn")
 }
 function webProject(){
