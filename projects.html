@@ -33,6 +33,15 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="js/common.js"></script>
+        <style>
+            .slick-slide img {
+                width: 100% !important;
+            }
+
+            /* .slick-slide{
+                width: 580px !important;
+            } */
+        </style>
     </head>
 
     <body>
@@ -105,9 +114,12 @@
                 <p class="fWeight-500 fs-25 m-0">Take a look at the some of the designs we
                     made !</p>
                 <div class="d-flex gap-3 py-3 pt-md-4 pb-md-3 overflow-auto">
-                    <button class="btn activeBtn  px-5 py-2 designBtn border" id="allPages" onclick="allProject()">All Projects</button>
-                    <button class="btn px-5 py-2 designBtn border" id="mobileProject" onclick="mobileProject()">Mobile Application</button>
-                    <button class="btn px-5 py-2 designBtn border" id="webProject" onclick="webProject()">Web Application</button>
+                    <button class="btn activeBtn  px-5 py-2 designBtn border" id="allPages" onclick="allProject()">All
+                        Projects</button>
+                    <button class="btn px-5 py-2 designBtn border" id="mobileProject" onclick="mobileProject()">Mobile
+                        Application</button>
+                    <button class="btn px-5 py-2 designBtn border" id="webProject" onclick="webProject()">Web
+                        Application</button>
                 </div>
             </section>
 
@@ -127,10 +139,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-1.svg" class="logoWidth">
                                 <p class="text-light fWeight-500 fs-20 pt-4">Parent Maestro Website </p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span
-                                        class="fWeight-600">https://parentmaestro.com</span></p>
+                                <p class="text-light fWeight-400 fs-16">Website: <a href="https://parentmaestro.com" target="_blank"
+                                        class="fWeight-600 text-light text-decoration-none">https://parentmaestro.com</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1" onclick="viewScreenShort('parentMaestro')"> View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('parentMaestro')"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -148,10 +161,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0 pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-2.svg" class="logoWidth">
                                 <p class="text-light fWeight-500 fs-20 pt-4">Family Tree </p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span
-                                        class="fWeight-600">NA</span></p>
+                                <p class="text-light fWeight-400 fs-16">Website: <a href="#" target="_blank"
+                                    class="fWeight-600 text-light text-decoration-none">NA</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"  onclick="viewScreenShort('familyTree')"> View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('familyTree')"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -169,10 +183,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-3.svg" class="logoWidth">
                                 <p class="text-light fWeight-500 fs-20 pt-4">King of cards</p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span
-                                        class="fWeight-600">https://kingofcards.in/</span></p>
+                                <p class="text-light fWeight-400 fs-16">Website: <a href="https://kingofcards.in/" target="_blank"
+                                    class="fWeight-600 text-light text-decoration-none">https://kingofcards.in/</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"  onclick="viewScreenShort('kingsOfCards')"> View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('kingsOfCards')"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -190,10 +205,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-4.svg" class="logoWidth">
                                 <p class="text-light fWeight-500 fs-20 pt-4">Brand lookbook</p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span
-                                        class="fWeight-600">https://www.thebrandlookbook.com/</span></p>
+                                <p class="text-light fWeight-400 fs-16 text-center text-md-start">Website: <a href="https://www.thebrandlookbook.com/" target="_blank"
+                                    class="fWeight-600 text-light text-decoration-none">https://www.thebrandlookbook.com/</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1" onclick="viewScreenShort('brandLookBook')"> View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('brandLookBook')"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -211,10 +227,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-5.svg" class="logoWidth">
                                 <p class="text-light fWeight-500 fs-20 pt-4">ditos</p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span
-                                        class="fWeight-600">NA</span></p>
+                                <p class="text-light fWeight-400 fs-16">Website: <a href="#" target="_blank"
+                                    class="fWeight-600 text-light text-decoration-none">NA</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1" onclick="viewScreenShort('ditos')"> View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('ditos')"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -232,10 +249,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-6.svg" class="logoWidth">
                                 <p class="text-light fWeight-500 fs-20 pt-4">All About Veg</p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span
-                                        class="fWeight-600">http://allaboutveg.in/</span></p>
+                                <p class="text-light fWeight-400 fs-16">Website: <a href="http://allaboutveg.in/" target="_blank"
+                                    class="fWeight-600 text-light text-decoration-none">http://allaboutveg.in/</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1" onclick="viewScreenShort('allAboutVeg')"> View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('allAboutVeg')"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -252,11 +270,12 @@
                         <div class="col-md-4 col-12">
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-7.svg" class="logoWidth">
-                                <p class="fWeight-500 pt-4">Remo fs-20 homes website</p>
-                                <p class="fWeight-400  fs-16">Website: <span
-                                        class="fWeight-500">https://remo.homes/</span> </p>
+                                <p class="fWeight-500 pt-4">Remo homes website</p>
+                                <p class="fWeight-400  fs-16">Website: <a href="https://remo.homes/" target="_blank"
+                                    class="fWeight-600 text-dark text-decoration-none">https://remo.homes/</span> </p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1" onclick="viewScreenShort('remoHomes')"> View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('remoHomes')"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -274,9 +293,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-8.svg" class="logoWidth">
                                 <p class="text-light fWeight-500 fs-20 pt-4">True Visual</p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span class="fWeight-600">https://truevisual.io</span></p>
+                                <p class="text-light fWeight-400 fs-16">Website: <a href="https://truevisual.io" target="_blank"
+                                    class="fWeight-600 text-light text-decoration-none">https://truevisual.io</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1" onclick="viewScreenShort('trueVisual')">View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('trueVisual')">View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -295,10 +316,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-9.svg" class="logoWidth">
                                 <p class="text-light fWeight-500 fs-20 pt-4">Tripful</p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span
-                                        class="fWeight-600">NA</span></p>
+                                <p class="text-light fWeight-400 fs-16">Website: <a href="#" target="_blank"
+                                    class="fWeight-600 text-light text-decoration-none">NA</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1" onclick="viewScreenShort('tripFul')">View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('tripFul')">View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -317,10 +339,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <img src="IMAGES/projectLogo-10.svg" class="logoWidth">
                                 <p class="text-light fWeight-500 fs-20 pt-4">Ametek</p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span
-                                        class="fWeight-600">NA</span></p>
+                                <p class="text-light fWeight-400 fs-16">Website: <a href="#" target="_blank"
+                                    class="fWeight-600 text-light text-decoration-none">NA</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1" onclick="viewScreenShort('amtek')"> View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('amtek')"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -339,10 +362,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <!-- <img src="IMAGES/projectLogo-8.svg" class="logoWidth"> -->
                                 <p class="text-light fWeight-500 fs-20 pt-4">CA Services</p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span
-                                        class="fWeight-600">NA</span></p>
+                                <p class="text-light fWeight-400 fs-16">Website: <a href="#" target="_blank"
+                                    class="fWeight-600 text-light text-decoration-none">NA</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1" onclick="viewScreenShort('csServices')"> View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('csServices')"> View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -361,10 +385,11 @@
                             <div class="d-flex flex-column align-items-md-start align-items-center py-md-0  pt-5 pb-3">
                                 <!-- <img src="IMAGES/projectLogo-8.svg" class="logoWidth"> -->
                                 <p class="text-light fWeight-500 fs-20 pt-4">PG App</p>
-                                <p class="text-light fWeight-400 fs-16">Website: <span
-                                        class="fWeight-600">NA</span></p>
+                                <p class="text-light fWeight-400 fs-16">Website: <a href="#" target="_blank"
+                                    class="fWeight-600 text-light text-decoration-none">NA</a></p>
                                 <button class="btn bg-light fWeight-600 fs-18 px-4 py-2 rounded-0"
-                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1" onclick="viewScreenShort('pgAdmin')">View
+                                    data-bs-toggle="modal" data-bs-target="#projectPopUp-1"
+                                    onclick="viewScreenShort('pgAdmin')">View
                                     Screenshots</button>
                             </div>
                         </div>
@@ -584,71 +609,71 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
         <script type="text/javascript">
 
-            var sliderImagesList={
-                "parentMaestro":{
-                    bgColor:"#5D3DE9",
-                    images:['parent-1.svg','parent-2.svg','parent-3.svg']
+            var sliderImagesList = {
+                "parentMaestro": {
+                    bgColor: "#5D3DE9",
+                    images: ['parent-1.png', 'parent-2.png', 'parent-3.png']
                 },
-                "kingsOfCards":{
-                    bgColor:"#D8B56A",
-                    images:['cards-1.svg', 'cards-2.svg', 'cards-3.svg']
+                "kingsOfCards": {
+                    bgColor: "#D8B56A",
+                    images: ['cards-1.png', 'cards-2.png', 'cards-3.png']
                 },
-                "brandLookBook":{
-                    bgColor:"#F64965",
-                    images:['brand-1.svg','brand-2.svg']
+                "brandLookBook": {
+                    bgColor: "#F64965",
+                    images: ['brand-1.png', 'brand-2.png']
                 },
-                "ditos":{
-                    bgColor:"#0079E9",
-                    images:['dit-1.svg','dit-2.svg']
+                "ditos": {
+                    bgColor: "#0079E9",
+                    images: ['dit-1.png', 'dit-2.png']
                 },
-                "allAboutVeg":{
-                    bgColor:"#01B762",
-                    images:['all-1.svg','all-2.svg','all-3.svg']
+                "allAboutVeg": {
+                    bgColor: "#01B762",
+                    images: ['all-1.png', 'all-2.png', 'all-3.png']
                 },
-                "remoHomes":{
-                    bgColor:"#ECECEC",
-                    images:['remo-1.svg','remo-2.svg','remo-3.svg']
+                "remoHomes": {
+                    bgColor: "#ECECEC",
+                    images: ['remo-1.svg', 'remo-2.svg', 'remo-3.svg']
                 },
-                "trueVisual":{
-                    bgColor:"#0E508F",
-                    images:['true-1.svg','true-2.svg','true-3.svg']
+                "trueVisual": {
+                    bgColor: "#0E508F",
+                    images: ['true-1.svg', 'true-2.svg', 'true-3.svg']
                 },
-                "tripFul":{
-                    bgColor:"#F4A261",
-                    images:['trip-1.svg','trip-2.svg','trip-3.svg']
+                "tripFul": {
+                    bgColor: "#F4A261",
+                    images: ['trip-1.svg', 'trip-2.svg', 'trip-3.svg']
                 },
-                "pgAdmin":{
-                    bgColor:"#514BDC",
-                    images:[]
+                "pgAdmin": {
+                    bgColor: "#514BDC",
+                    images: []
                 },
-                "amtek":{
-                    bgColor:"#D9171D",
-                    images:[]
+                "amtek": {
+                    bgColor: "#D9171D",
+                    images: []
                 },
-                "familyTree":{
-                    bgColor:"#3ED455",
-                    images:[]
+                "familyTree": {
+                    bgColor: "#3ED455",
+                    images: []
                 }
             }
 
-            function viewScreenShort(key){
+            function viewScreenShort(key) {
 
-                $(".projectsDesigns-1").css("background",sliderImagesList[key].bgColor)
+                $(".projectsDesigns-1").css("background", sliderImagesList[key].bgColor)
                 var slider = $('.slider');
-                if(slider.hasClass('slick-initialized')){
+                if (slider.hasClass('slick-initialized')) {
                     $('.slider').slick('unslick');
-                   
+
                 }
 
-                if(sliderImagesList[key].images.length ==0){
-                    html='<div><h2 class="text-center">NO Screentshot Available</h2></div>'
+                if (sliderImagesList[key].images.length == 0) {
+                    html = '<div><h2 class="text-center">NO Screentshot Available</h2></div>'
                     $(".slider").html(html)
                     return false
                 }
-               
-                html=''
+
+                html = ''
                 sliderImagesList[key].images.forEach(image => {
-                    html+='<div><img src="IMAGES/'+image+'"></div>'
+                    html += '<div><img src="IMAGES/' + image + '"></div>'
                 });
                 $(".slider").html(html)
                 $('.slider').slick({
