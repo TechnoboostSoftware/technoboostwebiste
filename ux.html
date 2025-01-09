@@ -382,9 +382,9 @@
                                 <img src="IMAGES/location.svg" class="me-4 footerContactImg">
                                 <div class="text-light d-flex flex-column footerLine">
                                     <p class="fs-16 fWeight-400 m-0"> Techno Boost Services</p>
-                                    <p class="fs-16 fWeight-400 m-0">KPTCL Road, Kasavanahalli,</p>
-                                    <p class="fs-16 fWeight-400 m-0">Sarjapura Road,</p>
-                                    <p class="fs-16 fWeight-400 m-0">Bangalore 560035</p>
+                                    <p class="fs-16 fWeight-400 m-0">24, 2nd Floor, Shree Durga Arcade 1st Cross Rd</p>
+                                    <p class="fs-16 fWeight-400 m-0"> Opp. Nosh House, Kasavanahalli, Bangalore </p>
+                                    <p class="fs-16 fWeight-400 m-0">Karnataka  560035</p>
                                 </div>
                             </div>
                             <div class="d-flex mb-2 align-items-center">
@@ -445,10 +445,8 @@
                 <div
                     class="footerLogo row d-lg-none d-flex flex-column-reverse align-items-center justify-content-center text-center pt-md-4 pt-2">
                     <img src="IMAGES/footerLogo.svg" class="w-25 pt-3">
-                    <p class="mb-0 text-light Copyright">Copyright © 2023 . Technoboost
-                        .
-                        all rights
-                        reserved
+                    <p class="mb-0 text-light Copyright">
+                        Copyright © <span id="yearSmall"></span>. Technoboost. All rights reserved.
                     </p>
                 </div>
                 <div class="footerLogo d-none d-lg-block position-relative">
@@ -456,15 +454,21 @@
                         <img src="IMAGES/footerLogo.svg">
                     </div>
                     <div class="text-end">
-                        <p class=" m-0 text-light Copyright">Copyright © 2023 . Technoboost
-                            .
-                            all rights
-                            reserved
+                        <p class=" m-0 text-light Copyright">
+                            Copyright © <span id="yearLarge"></span>. Technoboost. All rights reserved.
                         </p>
                     </div>
                 </div>
             </div>
         </footer>
+        <script>
+            // Dynamically set the current year in both footer sections
+            document.addEventListener("DOMContentLoaded", function () {
+                const currentYear = new Date().getFullYear();
+                document.getElementById("yearSmall").textContent = currentYear;
+                document.getElementById("yearLarge").textContent = currentYear;
+            });
+        </script>
     </body>
 
 </html>
